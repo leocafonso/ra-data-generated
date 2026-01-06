@@ -1,0 +1,2884 @@
+{
+  "name": "R7FA6M3AH2CLK",
+  "family": "R7FA6M3",
+  "core": "Cortex-M4",
+  "interrupt_count": 96,
+  "memory": [
+    {
+      "name": "RAM",
+      "kind": "RAM",
+      "address": 536739840,
+      "size": 655360
+    },
+    {
+      "name": "FLASH",
+      "kind": "ROM",
+      "address": 0,
+      "size": 2097152
+    },
+    {
+      "name": "DATA_FLASH",
+      "kind": "ROM",
+      "address": 1074790400,
+      "size": 65536
+    },
+    {
+      "name": "QSPI_FLASH",
+      "kind": "ROM",
+      "address": 1610612736,
+      "size": 67108864
+    },
+    {
+      "name": "SDRAM",
+      "kind": "RAM",
+      "address": 2415919104,
+      "size": 134217728
+    },
+    {
+      "name": "OPTION_SETTING_OFS0",
+      "kind": "ROM",
+      "address": 1024,
+      "size": 4
+    },
+    {
+      "name": "OPTION_SETTING_OFS1",
+      "kind": "ROM",
+      "address": 1028,
+      "size": 4
+    },
+    {
+      "name": "OPTION_SETTING_SECMPU",
+      "kind": "ROM",
+      "address": 1032,
+      "size": 52
+    },
+    {
+      "name": "OPTION_SETTING_OSIS",
+      "kind": "ROM",
+      "address": 16818512,
+      "size": 16
+    }
+  ],
+  "peripherals": [
+    {
+      "name": "GPT0",
+      "address": 1074233344,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "GPT1",
+      "address": 1074233600,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "GPT2",
+      "address": 1074233856,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "GPT3",
+      "address": 1074234112,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "GPT4",
+      "address": 1074234368,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": 32
+    },
+    {
+      "name": "GPT5",
+      "address": 1074234624,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": 32
+    },
+    {
+      "name": "GPT6",
+      "address": 1074234880,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": 32
+    },
+    {
+      "name": "GPT7",
+      "address": 1074235136,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": 32
+    },
+    {
+      "name": "GPT8",
+      "address": 1074235392,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": 32
+    },
+    {
+      "name": "GPT9",
+      "address": 1074235648,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": 32
+    },
+    {
+      "name": "GPT10",
+      "address": 1074235904,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": 32
+    },
+    {
+      "name": "GPT11",
+      "address": 1074236160,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": 32
+    },
+    {
+      "name": "GPT12",
+      "address": 1074236416,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": 32
+    },
+    {
+      "name": "GPT13",
+      "address": 1074236672,
+      "type": "timer",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": 32
+    },
+    {
+      "name": "ICU",
+      "address": 1073766400,
+      "type": "icu",
+      "version": "v3",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "MSTP",
+      "address": 1074032640,
+      "type": "mstp",
+      "version": "v2",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "PORT0",
+      "address": 1074003968,
+      "type": "gpio",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "PORT1",
+      "address": 1074004000,
+      "type": "gpio",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "PORT2",
+      "address": 1074004032,
+      "type": "gpio",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "PORT3",
+      "address": 1074004064,
+      "type": "gpio",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "PORT4",
+      "address": 1074004096,
+      "type": "gpio",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "PORT5",
+      "address": 1074004128,
+      "type": "gpio",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "PORT6",
+      "address": 1074004160,
+      "type": "gpio",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "PORT7",
+      "address": 1074004192,
+      "type": "gpio",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "PORT8",
+      "address": 1074004224,
+      "type": "gpio",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "RTC",
+      "address": 1074020352,
+      "type": "rtc",
+      "version": "v1",
+      "mstp": null,
+      "bit_width": null
+    },
+    {
+      "name": "SYSTEM",
+      "address": 1073864704,
+      "type": "system",
+      "version": "v2",
+      "mstp": null,
+      "bit_width": null
+    }
+  ],
+  "interrupts": [
+    {
+      "name": "ICU_IRQ0",
+      "value": 1,
+      "description": "External pin interrupt 0"
+    },
+    {
+      "name": "ICU_IRQ1",
+      "value": 2,
+      "description": "External pin interrupt 1"
+    },
+    {
+      "name": "ICU_IRQ2",
+      "value": 3,
+      "description": "External pin interrupt 2"
+    },
+    {
+      "name": "ICU_IRQ3",
+      "value": 4,
+      "description": "External pin interrupt 3"
+    },
+    {
+      "name": "ICU_IRQ4",
+      "value": 5,
+      "description": "External pin interrupt 4"
+    },
+    {
+      "name": "ICU_IRQ5",
+      "value": 6,
+      "description": "External pin interrupt 5"
+    },
+    {
+      "name": "ICU_IRQ6",
+      "value": 7,
+      "description": "External pin interrupt 6"
+    },
+    {
+      "name": "ICU_IRQ7",
+      "value": 8,
+      "description": "External pin interrupt 7"
+    },
+    {
+      "name": "ICU_IRQ8",
+      "value": 9,
+      "description": "External pin interrupt 8"
+    },
+    {
+      "name": "ICU_IRQ9",
+      "value": 10,
+      "description": "External pin interrupt 9"
+    },
+    {
+      "name": "ICU_IRQ10",
+      "value": 11,
+      "description": "External pin interrupt 10"
+    },
+    {
+      "name": "ICU_IRQ11",
+      "value": 12,
+      "description": "External pin interrupt 11"
+    },
+    {
+      "name": "ICU_IRQ12",
+      "value": 13,
+      "description": "External pin interrupt 12"
+    },
+    {
+      "name": "ICU_IRQ13",
+      "value": 14,
+      "description": "External pin interrupt 13"
+    },
+    {
+      "name": "ICU_IRQ14",
+      "value": 15,
+      "description": "External pin interrupt 14"
+    },
+    {
+      "name": "ICU_IRQ15",
+      "value": 16,
+      "description": "External pin interrupt 15"
+    },
+    {
+      "name": "DMAC0_INT",
+      "value": 32,
+      "description": "DMAC0 transfer end"
+    },
+    {
+      "name": "DMAC1_INT",
+      "value": 33,
+      "description": "DMAC1 transfer end"
+    },
+    {
+      "name": "DMAC2_INT",
+      "value": 34,
+      "description": "DMAC2 transfer end"
+    },
+    {
+      "name": "DMAC3_INT",
+      "value": 35,
+      "description": "DMAC3 transfer end"
+    },
+    {
+      "name": "DMAC4_INT",
+      "value": 36,
+      "description": "DMAC4 transfer end"
+    },
+    {
+      "name": "DMAC5_INT",
+      "value": 37,
+      "description": "DMAC5 transfer end"
+    },
+    {
+      "name": "DMAC6_INT",
+      "value": 38,
+      "description": "DMAC6 transfer end"
+    },
+    {
+      "name": "DMAC7_INT",
+      "value": 39,
+      "description": "DMAC7 transfer end"
+    },
+    {
+      "name": "DTC_COMPLETE",
+      "value": 41,
+      "description": "DTC transfer complete"
+    },
+    {
+      "name": "DTC_END",
+      "value": 42,
+      "description": "DTC transfer end"
+    },
+    {
+      "name": "ICU_SNOOZE_CANCEL",
+      "value": 45,
+      "description": "Canceling from Snooze mode"
+    },
+    {
+      "name": "FCU_FIFERR",
+      "value": 48,
+      "description": "Flash access error interrupt"
+    },
+    {
+      "name": "FCU_FRDYI",
+      "value": 49,
+      "description": "Flash ready interrupt"
+    },
+    {
+      "name": "LVD_LVD1",
+      "value": 56,
+      "description": "Voltage monitor 1 interrupt"
+    },
+    {
+      "name": "LVD_LVD2",
+      "value": 57,
+      "description": "Voltage monitor 2 interrupt"
+    },
+    {
+      "name": "CGC_MOSC_STOP",
+      "value": 59,
+      "description": "Main Clock oscillation stop"
+    },
+    {
+      "name": "LPM_SNOOZE_REQUEST",
+      "value": 60,
+      "description": "Snooze entry"
+    },
+    {
+      "name": "AGT0_INT",
+      "value": 64,
+      "description": "AGT interrupt"
+    },
+    {
+      "name": "AGT0_COMPARE_A",
+      "value": 65,
+      "description": "Compare match A"
+    },
+    {
+      "name": "AGT0_COMPARE_B",
+      "value": 66,
+      "description": "Compare match B"
+    },
+    {
+      "name": "AGT1_INT",
+      "value": 67,
+      "description": "AGT interrupt"
+    },
+    {
+      "name": "AGT1_COMPARE_A",
+      "value": 68,
+      "description": "Compare match A"
+    },
+    {
+      "name": "AGT1_COMPARE_B",
+      "value": 69,
+      "description": "Compare match B"
+    },
+    {
+      "name": "IWDT_UNDERFLOW",
+      "value": 70,
+      "description": "IWDT underflow"
+    },
+    {
+      "name": "WDT_UNDERFLOW",
+      "value": 71,
+      "description": "WDT underflow"
+    },
+    {
+      "name": "RTC_ALARM",
+      "value": 72,
+      "description": "Alarm interrupt"
+    },
+    {
+      "name": "RTC_PERIOD",
+      "value": 73,
+      "description": "Periodic interrupt"
+    },
+    {
+      "name": "RTC_CARRY",
+      "value": 74,
+      "description": "Carry interrupt"
+    },
+    {
+      "name": "ADC0_SCAN_END",
+      "value": 75,
+      "description": "End of A/D scanning operation"
+    },
+    {
+      "name": "ADC0_SCAN_END_B",
+      "value": 76,
+      "description": "A/D scan end interrupt for group B"
+    },
+    {
+      "name": "ADC0_WINDOW_A",
+      "value": 77,
+      "description": "Window A Compare match interrupt"
+    },
+    {
+      "name": "ADC0_WINDOW_B",
+      "value": 78,
+      "description": "Window B Compare match interrupt"
+    },
+    {
+      "name": "ADC0_COMPARE_MATCH",
+      "value": 79,
+      "description": "Compare match"
+    },
+    {
+      "name": "ADC0_COMPARE_MISMATCH",
+      "value": 80,
+      "description": "Compare mismatch"
+    },
+    {
+      "name": "ADC1_SCAN_END",
+      "value": 81,
+      "description": "End of A/D scanning operation"
+    },
+    {
+      "name": "ADC1_SCAN_END_B",
+      "value": 82,
+      "description": "A/D scan end interrupt for group B"
+    },
+    {
+      "name": "ADC1_WINDOW_A",
+      "value": 83,
+      "description": "Window A Compare match interrupt"
+    },
+    {
+      "name": "ADC1_WINDOW_B",
+      "value": 84,
+      "description": "Window B Compare match interrupt"
+    },
+    {
+      "name": "ADC1_COMPARE_MATCH",
+      "value": 85,
+      "description": "Compare match"
+    },
+    {
+      "name": "ADC1_COMPARE_MISMATCH",
+      "value": 86,
+      "description": "Compare mismatch"
+    },
+    {
+      "name": "ACMPHS0_INT",
+      "value": 87,
+      "description": "High Speed Comparator channel 0 interrupt"
+    },
+    {
+      "name": "ACMPHS1_INT",
+      "value": 88,
+      "description": "High Speed Comparator channel 1 interrupt"
+    },
+    {
+      "name": "ACMPHS2_INT",
+      "value": 89,
+      "description": "High Speed Comparator channel 2 interrupt"
+    },
+    {
+      "name": "ACMPHS3_INT",
+      "value": 90,
+      "description": "High Speed Comparator channel 3 interrupt"
+    },
+    {
+      "name": "ACMPHS4_INT",
+      "value": 91,
+      "description": "High Speed Comparator channel 4 interrupt"
+    },
+    {
+      "name": "ACMPHS5_INT",
+      "value": 92,
+      "description": "High Speed Comparator channel 5 interrupt"
+    },
+    {
+      "name": "USBFS_FIFO_0",
+      "value": 95,
+      "description": "DMA/DTC transfer request 0"
+    },
+    {
+      "name": "USBFS_FIFO_1",
+      "value": 96,
+      "description": "DMA/DTC transfer request 1"
+    },
+    {
+      "name": "USBFS_INT",
+      "value": 97,
+      "description": "USBFS interrupt"
+    },
+    {
+      "name": "USBFS_RESUME",
+      "value": 98,
+      "description": "USBFS resume interrupt"
+    },
+    {
+      "name": "IIC0_RXI",
+      "value": 99,
+      "description": "Receive data full"
+    },
+    {
+      "name": "IIC0_TXI",
+      "value": 100,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "IIC0_TEI",
+      "value": 101,
+      "description": "Transmit end"
+    },
+    {
+      "name": "IIC0_ERI",
+      "value": 102,
+      "description": "Transfer error"
+    },
+    {
+      "name": "IIC0_WUI",
+      "value": 103,
+      "description": "Wakeup interrupt"
+    },
+    {
+      "name": "IIC1_RXI",
+      "value": 104,
+      "description": "Receive data full"
+    },
+    {
+      "name": "IIC1_TXI",
+      "value": 105,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "IIC1_TEI",
+      "value": 106,
+      "description": "Transmit end"
+    },
+    {
+      "name": "IIC1_ERI",
+      "value": 107,
+      "description": "Transfer error"
+    },
+    {
+      "name": "IIC2_RXI",
+      "value": 109,
+      "description": "Receive data full"
+    },
+    {
+      "name": "IIC2_TXI",
+      "value": 110,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "IIC2_TEI",
+      "value": 111,
+      "description": "Transmit end"
+    },
+    {
+      "name": "IIC2_ERI",
+      "value": 112,
+      "description": "Transfer error"
+    },
+    {
+      "name": "SSI0_TXI",
+      "value": 114,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "SSI0_RXI",
+      "value": 115,
+      "description": "Receive data full"
+    },
+    {
+      "name": "SSI0_INT",
+      "value": 117,
+      "description": "Error interrupt"
+    },
+    {
+      "name": "SSI1_TXI",
+      "value": 120,
+      "description": "Receive data full/Transmit data empty"
+    },
+    {
+      "name": "SSI1_RXI",
+      "value": 120,
+      "description": "Receive data full/Transmit data empty"
+    },
+    {
+      "name": "SSI1_INT",
+      "value": 121,
+      "description": "Error interrupt"
+    },
+    {
+      "name": "SRC_INPUT_FIFO_EMPTY",
+      "value": 122,
+      "description": "Input FIFO empty"
+    },
+    {
+      "name": "SRC_OUTPUT_FIFO_FULL",
+      "value": 123,
+      "description": "Output FIFO full"
+    },
+    {
+      "name": "SRC_OUTPUT_FIFO_OVERFLOW",
+      "value": 124,
+      "description": "Output FIFO overflow"
+    },
+    {
+      "name": "SRC_OUTPUT_FIFO_UNDERFLOW",
+      "value": 125,
+      "description": "Output FIFO underflow"
+    },
+    {
+      "name": "SRC_CONVERSION_END",
+      "value": 126,
+      "description": "Conversion end"
+    },
+    {
+      "name": "PDC_RECEIVE_DATA_READY",
+      "value": 127,
+      "description": "Receive data ready interrupt"
+    },
+    {
+      "name": "PDC_FRAME_END",
+      "value": 128,
+      "description": "Frame end interrupt"
+    },
+    {
+      "name": "PDC_INT",
+      "value": 129,
+      "description": "Error interrupt"
+    },
+    {
+      "name": "CTSU_WRITE",
+      "value": 130,
+      "description": "Write request interrupt"
+    },
+    {
+      "name": "CTSU_READ",
+      "value": 131,
+      "description": "Measurement data transfer request interrupt"
+    },
+    {
+      "name": "CTSU_END",
+      "value": 132,
+      "description": "Measurement end interrupt"
+    },
+    {
+      "name": "KEY_INT",
+      "value": 133,
+      "description": "Key interrupt"
+    },
+    {
+      "name": "DOC_INT",
+      "value": 134,
+      "description": "Data operation circuit interrupt"
+    },
+    {
+      "name": "CAC_FREQUENCY_ERROR",
+      "value": 135,
+      "description": "Frequency error interrupt"
+    },
+    {
+      "name": "CAC_MEASUREMENT_END",
+      "value": 136,
+      "description": "Measurement end interrupt"
+    },
+    {
+      "name": "CAC_OVERFLOW",
+      "value": 137,
+      "description": "Overflow interrupt"
+    },
+    {
+      "name": "CAN0_ERROR",
+      "value": 138,
+      "description": "Error interrupt"
+    },
+    {
+      "name": "CAN0_FIFO_RX",
+      "value": 139,
+      "description": "Receive FIFO interrupt"
+    },
+    {
+      "name": "CAN0_FIFO_TX",
+      "value": 140,
+      "description": "Transmit FIFO interrupt"
+    },
+    {
+      "name": "CAN0_MAILBOX_RX",
+      "value": 141,
+      "description": "Reception complete interrupt"
+    },
+    {
+      "name": "CAN0_MAILBOX_TX",
+      "value": 142,
+      "description": "Transmission complete interrupt"
+    },
+    {
+      "name": "CAN1_ERROR",
+      "value": 143,
+      "description": "Error interrupt"
+    },
+    {
+      "name": "CAN1_FIFO_RX",
+      "value": 144,
+      "description": "Receive FIFO interrupt"
+    },
+    {
+      "name": "CAN1_FIFO_TX",
+      "value": 145,
+      "description": "Transmit FIFO interrupt"
+    },
+    {
+      "name": "CAN1_MAILBOX_RX",
+      "value": 146,
+      "description": "Reception complete interrupt"
+    },
+    {
+      "name": "CAN1_MAILBOX_TX",
+      "value": 147,
+      "description": "Transmission complete interrupt"
+    },
+    {
+      "name": "IOPORT_EVENT_1",
+      "value": 148,
+      "description": "Port 1 event"
+    },
+    {
+      "name": "IOPORT_EVENT_2",
+      "value": 149,
+      "description": "Port 2 event"
+    },
+    {
+      "name": "IOPORT_EVENT_3",
+      "value": 150,
+      "description": "Port 3 event"
+    },
+    {
+      "name": "IOPORT_EVENT_4",
+      "value": 151,
+      "description": "Port 4 event"
+    },
+    {
+      "name": "ELC_SOFTWARE_EVENT_0",
+      "value": 152,
+      "description": "Software event 0"
+    },
+    {
+      "name": "ELC_SOFTWARE_EVENT_1",
+      "value": 153,
+      "description": "Software event 1"
+    },
+    {
+      "name": "POEG0_EVENT",
+      "value": 154,
+      "description": "Port Output disable 0 interrupt"
+    },
+    {
+      "name": "POEG1_EVENT",
+      "value": 155,
+      "description": "Port Output disable 1 interrupt"
+    },
+    {
+      "name": "POEG2_EVENT",
+      "value": 156,
+      "description": "Port Output disable 2 interrupt"
+    },
+    {
+      "name": "POEG3_EVENT",
+      "value": 157,
+      "description": "Port Output disable 3 interrupt"
+    },
+    {
+      "name": "GPT0_CAPTURE_COMPARE_A",
+      "value": 176,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT0_CAPTURE_COMPARE_B",
+      "value": 177,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT0_COMPARE_C",
+      "value": 178,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT0_COMPARE_D",
+      "value": 179,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT0_COMPARE_E",
+      "value": 180,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT0_COMPARE_F",
+      "value": 181,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT0_COUNTER_OVERFLOW",
+      "value": 182,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT0_COUNTER_UNDERFLOW",
+      "value": 183,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT0_AD_TRIG_A",
+      "value": 184,
+      "description": "A/D converter start request A"
+    },
+    {
+      "name": "GPT0_AD_TRIG_B",
+      "value": 185,
+      "description": "A/D converter start request B"
+    },
+    {
+      "name": "GPT1_CAPTURE_COMPARE_A",
+      "value": 186,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT1_CAPTURE_COMPARE_B",
+      "value": 187,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT1_COMPARE_C",
+      "value": 188,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT1_COMPARE_D",
+      "value": 189,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT1_COMPARE_E",
+      "value": 190,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT1_COMPARE_F",
+      "value": 191,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT1_COUNTER_OVERFLOW",
+      "value": 192,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT1_COUNTER_UNDERFLOW",
+      "value": 193,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT1_AD_TRIG_A",
+      "value": 194,
+      "description": "A/D converter start request A"
+    },
+    {
+      "name": "GPT1_AD_TRIG_B",
+      "value": 195,
+      "description": "A/D converter start request B"
+    },
+    {
+      "name": "GPT2_CAPTURE_COMPARE_A",
+      "value": 196,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT2_CAPTURE_COMPARE_B",
+      "value": 197,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT2_COMPARE_C",
+      "value": 198,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT2_COMPARE_D",
+      "value": 199,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT2_COMPARE_E",
+      "value": 200,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT2_COMPARE_F",
+      "value": 201,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT2_COUNTER_OVERFLOW",
+      "value": 202,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT2_COUNTER_UNDERFLOW",
+      "value": 203,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT2_AD_TRIG_A",
+      "value": 204,
+      "description": "A/D converter start request A"
+    },
+    {
+      "name": "GPT2_AD_TRIG_B",
+      "value": 205,
+      "description": "A/D converter start request B"
+    },
+    {
+      "name": "GPT3_CAPTURE_COMPARE_A",
+      "value": 206,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT3_CAPTURE_COMPARE_B",
+      "value": 207,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT3_COMPARE_C",
+      "value": 208,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT3_COMPARE_D",
+      "value": 209,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT3_COMPARE_E",
+      "value": 210,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT3_COMPARE_F",
+      "value": 211,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT3_COUNTER_OVERFLOW",
+      "value": 212,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT3_COUNTER_UNDERFLOW",
+      "value": 213,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT3_AD_TRIG_A",
+      "value": 214,
+      "description": "A/D converter start request A"
+    },
+    {
+      "name": "GPT3_AD_TRIG_B",
+      "value": 215,
+      "description": "A/D converter start request B"
+    },
+    {
+      "name": "GPT4_CAPTURE_COMPARE_A",
+      "value": 216,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT4_CAPTURE_COMPARE_B",
+      "value": 217,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT4_COMPARE_C",
+      "value": 218,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT4_COMPARE_D",
+      "value": 219,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT4_COMPARE_E",
+      "value": 220,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT4_COMPARE_F",
+      "value": 221,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT4_COUNTER_OVERFLOW",
+      "value": 222,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT4_COUNTER_UNDERFLOW",
+      "value": 223,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT4_AD_TRIG_A",
+      "value": 224,
+      "description": "A/D converter start request A"
+    },
+    {
+      "name": "GPT4_AD_TRIG_B",
+      "value": 225,
+      "description": "A/D converter start request B"
+    },
+    {
+      "name": "GPT5_CAPTURE_COMPARE_A",
+      "value": 226,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT5_CAPTURE_COMPARE_B",
+      "value": 227,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT5_COMPARE_C",
+      "value": 228,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT5_COMPARE_D",
+      "value": 229,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT5_COMPARE_E",
+      "value": 230,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT5_COMPARE_F",
+      "value": 231,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT5_COUNTER_OVERFLOW",
+      "value": 232,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT5_COUNTER_UNDERFLOW",
+      "value": 233,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT5_AD_TRIG_A",
+      "value": 234,
+      "description": "A/D converter start request A"
+    },
+    {
+      "name": "GPT5_AD_TRIG_B",
+      "value": 235,
+      "description": "A/D converter start request B"
+    },
+    {
+      "name": "GPT6_CAPTURE_COMPARE_A",
+      "value": 236,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT6_CAPTURE_COMPARE_B",
+      "value": 237,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT6_COMPARE_C",
+      "value": 238,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT6_COMPARE_D",
+      "value": 239,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT6_COMPARE_E",
+      "value": 240,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT6_COMPARE_F",
+      "value": 241,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT6_COUNTER_OVERFLOW",
+      "value": 242,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT6_COUNTER_UNDERFLOW",
+      "value": 243,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT6_AD_TRIG_A",
+      "value": 244,
+      "description": "A/D converter start request A"
+    },
+    {
+      "name": "GPT6_AD_TRIG_B",
+      "value": 245,
+      "description": "A/D converter start request B"
+    },
+    {
+      "name": "GPT7_CAPTURE_COMPARE_A",
+      "value": 246,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT7_CAPTURE_COMPARE_B",
+      "value": 247,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT7_COMPARE_C",
+      "value": 248,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT7_COMPARE_D",
+      "value": 249,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT7_COMPARE_E",
+      "value": 250,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT7_COMPARE_F",
+      "value": 251,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT7_COUNTER_OVERFLOW",
+      "value": 252,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT7_COUNTER_UNDERFLOW",
+      "value": 253,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT7_AD_TRIG_A",
+      "value": 254,
+      "description": "A/D converter start request A"
+    },
+    {
+      "name": "GPT7_AD_TRIG_B",
+      "value": 255,
+      "description": "A/D converter start request B"
+    },
+    {
+      "name": "GPT8_CAPTURE_COMPARE_A",
+      "value": 256,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT8_CAPTURE_COMPARE_B",
+      "value": 257,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT8_COMPARE_C",
+      "value": 258,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT8_COMPARE_D",
+      "value": 259,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT8_COMPARE_E",
+      "value": 260,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT8_COMPARE_F",
+      "value": 261,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT8_COUNTER_OVERFLOW",
+      "value": 262,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT8_COUNTER_UNDERFLOW",
+      "value": 263,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT9_CAPTURE_COMPARE_A",
+      "value": 266,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT9_CAPTURE_COMPARE_B",
+      "value": 267,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT9_COMPARE_C",
+      "value": 268,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT9_COMPARE_D",
+      "value": 269,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT9_COMPARE_E",
+      "value": 270,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT9_COMPARE_F",
+      "value": 271,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT9_COUNTER_OVERFLOW",
+      "value": 272,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT9_COUNTER_UNDERFLOW",
+      "value": 273,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT10_CAPTURE_COMPARE_A",
+      "value": 276,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT10_CAPTURE_COMPARE_B",
+      "value": 277,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT10_COMPARE_C",
+      "value": 278,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT10_COMPARE_D",
+      "value": 279,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT10_COMPARE_E",
+      "value": 280,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT10_COMPARE_F",
+      "value": 281,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT10_COUNTER_OVERFLOW",
+      "value": 282,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT10_COUNTER_UNDERFLOW",
+      "value": 283,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT11_CAPTURE_COMPARE_A",
+      "value": 286,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT11_CAPTURE_COMPARE_B",
+      "value": 287,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT11_COMPARE_C",
+      "value": 288,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT11_COMPARE_D",
+      "value": 289,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT11_COMPARE_E",
+      "value": 290,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT11_COMPARE_F",
+      "value": 291,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT11_COUNTER_OVERFLOW",
+      "value": 292,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT11_COUNTER_UNDERFLOW",
+      "value": 293,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT12_CAPTURE_COMPARE_A",
+      "value": 296,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT12_CAPTURE_COMPARE_B",
+      "value": 297,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT12_COMPARE_C",
+      "value": 298,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT12_COMPARE_D",
+      "value": 299,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT12_COMPARE_E",
+      "value": 300,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT12_COMPARE_F",
+      "value": 301,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT12_COUNTER_OVERFLOW",
+      "value": 302,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT12_COUNTER_UNDERFLOW",
+      "value": 303,
+      "description": "Underflow"
+    },
+    {
+      "name": "GPT13_CAPTURE_COMPARE_A",
+      "value": 306,
+      "description": "Capture/Compare match A"
+    },
+    {
+      "name": "GPT13_CAPTURE_COMPARE_B",
+      "value": 307,
+      "description": "Capture/Compare match B"
+    },
+    {
+      "name": "GPT13_COMPARE_C",
+      "value": 308,
+      "description": "Compare match C"
+    },
+    {
+      "name": "GPT13_COMPARE_D",
+      "value": 309,
+      "description": "Compare match D"
+    },
+    {
+      "name": "GPT13_COMPARE_E",
+      "value": 310,
+      "description": "Compare match E"
+    },
+    {
+      "name": "GPT13_COMPARE_F",
+      "value": 311,
+      "description": "Compare match F"
+    },
+    {
+      "name": "GPT13_COUNTER_OVERFLOW",
+      "value": 312,
+      "description": "Overflow"
+    },
+    {
+      "name": "GPT13_COUNTER_UNDERFLOW",
+      "value": 313,
+      "description": "Underflow"
+    },
+    {
+      "name": "OPS_UVW_EDGE",
+      "value": 336,
+      "description": "UVW edge event"
+    },
+    {
+      "name": "EPTPC_IPLS",
+      "value": 352,
+      "description": "STCA interrupt"
+    },
+    {
+      "name": "EPTPC_MINT",
+      "value": 353,
+      "description": "SYNFP0/1 interrupt"
+    },
+    {
+      "name": "EPTPC_PINT",
+      "value": 354,
+      "description": "PTPEDMAC interrupt"
+    },
+    {
+      "name": "EDMAC0_EINT",
+      "value": 355,
+      "description": "EDMAC 0 interrupt"
+    },
+    {
+      "name": "EPTPC_TIMER0_RISE",
+      "value": 357,
+      "description": "Pulse output timer 0 rising edge detection"
+    },
+    {
+      "name": "EPTPC_TIMER1_RISE",
+      "value": 358,
+      "description": "Pulse output timer 1 rising edge detection"
+    },
+    {
+      "name": "EPTPC_TIMER2_RISE",
+      "value": 359,
+      "description": "Pulse output timer 2 rising edge detection"
+    },
+    {
+      "name": "EPTPC_TIMER3_RISE",
+      "value": 360,
+      "description": "Pulse output timer 3 rising edge detection"
+    },
+    {
+      "name": "EPTPC_TIMER4_RISE",
+      "value": 361,
+      "description": "Pulse output timer 4 rising edge detection"
+    },
+    {
+      "name": "EPTPC_TIMER5_RISE",
+      "value": 362,
+      "description": "Pulse output timer 5 rising edge detection"
+    },
+    {
+      "name": "EPTPC_TIMER0_FALL",
+      "value": 363,
+      "description": "Pulse output timer 0 falling edge detection"
+    },
+    {
+      "name": "EPTPC_TIMER1_FALL",
+      "value": 364,
+      "description": "Pulse output timer 1 falling edge detection"
+    },
+    {
+      "name": "EPTPC_TIMER2_FALL",
+      "value": 365,
+      "description": "Pulse output timer 2 falling edge detection"
+    },
+    {
+      "name": "EPTPC_TIMER3_FALL",
+      "value": 366,
+      "description": "Pulse output timer 3 falling edge detection"
+    },
+    {
+      "name": "EPTPC_TIMER4_FALL",
+      "value": 367,
+      "description": "Pulse output timer 4 falling edge detection"
+    },
+    {
+      "name": "EPTPC_TIMER5_FALL",
+      "value": 368,
+      "description": "Pulse output timer 5 falling edge detection"
+    },
+    {
+      "name": "USBHS_FIFO_0",
+      "value": 369,
+      "description": "DMA transfer request 0"
+    },
+    {
+      "name": "USBHS_FIFO_1",
+      "value": 370,
+      "description": "DMA transfer request 1"
+    },
+    {
+      "name": "USBHS_USB_INT_RESUME",
+      "value": 371,
+      "description": "USBHS interrupt"
+    },
+    {
+      "name": "SCI0_RXI",
+      "value": 372,
+      "description": "Receive data full"
+    },
+    {
+      "name": "SCI0_TXI",
+      "value": 373,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "SCI0_TEI",
+      "value": 374,
+      "description": "Transmit end"
+    },
+    {
+      "name": "SCI0_ERI",
+      "value": 375,
+      "description": "Receive error"
+    },
+    {
+      "name": "SCI0_AM",
+      "value": 376,
+      "description": "Address match event"
+    },
+    {
+      "name": "SCI0_RXI_OR_ERI",
+      "value": 377,
+      "description": "Receive data full/Receive error"
+    },
+    {
+      "name": "SCI1_RXI",
+      "value": 378,
+      "description": "Receive data full"
+    },
+    {
+      "name": "SCI1_TXI",
+      "value": 379,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "SCI1_TEI",
+      "value": 380,
+      "description": "Transmit end"
+    },
+    {
+      "name": "SCI1_ERI",
+      "value": 381,
+      "description": "Receive error"
+    },
+    {
+      "name": "SCI1_AM",
+      "value": 382,
+      "description": "Address match event"
+    },
+    {
+      "name": "SCI2_RXI",
+      "value": 384,
+      "description": "Receive data full"
+    },
+    {
+      "name": "SCI2_TXI",
+      "value": 385,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "SCI2_TEI",
+      "value": 386,
+      "description": "Transmit end"
+    },
+    {
+      "name": "SCI2_ERI",
+      "value": 387,
+      "description": "Receive error"
+    },
+    {
+      "name": "SCI2_AM",
+      "value": 388,
+      "description": "Address match event"
+    },
+    {
+      "name": "SCI3_RXI",
+      "value": 390,
+      "description": "Receive data full"
+    },
+    {
+      "name": "SCI3_TXI",
+      "value": 391,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "SCI3_TEI",
+      "value": 392,
+      "description": "Transmit end"
+    },
+    {
+      "name": "SCI3_ERI",
+      "value": 393,
+      "description": "Receive error"
+    },
+    {
+      "name": "SCI3_AM",
+      "value": 394,
+      "description": "Address match event"
+    },
+    {
+      "name": "SCI4_RXI",
+      "value": 396,
+      "description": "Receive data full"
+    },
+    {
+      "name": "SCI4_TXI",
+      "value": 397,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "SCI4_TEI",
+      "value": 398,
+      "description": "Transmit end"
+    },
+    {
+      "name": "SCI4_ERI",
+      "value": 399,
+      "description": "Receive error"
+    },
+    {
+      "name": "SCI4_AM",
+      "value": 400,
+      "description": "Address match event"
+    },
+    {
+      "name": "SCI5_RXI",
+      "value": 402,
+      "description": "Receive data full"
+    },
+    {
+      "name": "SCI5_TXI",
+      "value": 403,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "SCI5_TEI",
+      "value": 404,
+      "description": "Transmit end"
+    },
+    {
+      "name": "SCI5_ERI",
+      "value": 405,
+      "description": "Receive error"
+    },
+    {
+      "name": "SCI5_AM",
+      "value": 406,
+      "description": "Address match event"
+    },
+    {
+      "name": "SCI6_RXI",
+      "value": 408,
+      "description": "Receive data full"
+    },
+    {
+      "name": "SCI6_TXI",
+      "value": 409,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "SCI6_TEI",
+      "value": 410,
+      "description": "Transmit end"
+    },
+    {
+      "name": "SCI6_ERI",
+      "value": 411,
+      "description": "Receive error"
+    },
+    {
+      "name": "SCI6_AM",
+      "value": 412,
+      "description": "Address match event"
+    },
+    {
+      "name": "SCI7_RXI",
+      "value": 414,
+      "description": "Receive data full"
+    },
+    {
+      "name": "SCI7_TXI",
+      "value": 415,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "SCI7_TEI",
+      "value": 416,
+      "description": "Transmit end"
+    },
+    {
+      "name": "SCI7_ERI",
+      "value": 417,
+      "description": "Receive error"
+    },
+    {
+      "name": "SCI7_AM",
+      "value": 418,
+      "description": "Address match event"
+    },
+    {
+      "name": "SCI8_RXI",
+      "value": 420,
+      "description": "Receive data full"
+    },
+    {
+      "name": "SCI8_TXI",
+      "value": 421,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "SCI8_TEI",
+      "value": 422,
+      "description": "Transmit end"
+    },
+    {
+      "name": "SCI8_ERI",
+      "value": 423,
+      "description": "Receive error"
+    },
+    {
+      "name": "SCI8_AM",
+      "value": 424,
+      "description": "Address match event"
+    },
+    {
+      "name": "SCI9_RXI",
+      "value": 426,
+      "description": "Receive data full"
+    },
+    {
+      "name": "SCI9_TXI",
+      "value": 427,
+      "description": "Transmit data empty"
+    },
+    {
+      "name": "SCI9_TEI",
+      "value": 428,
+      "description": "Transmit end"
+    },
+    {
+      "name": "SCI9_ERI",
+      "value": 429,
+      "description": "Receive error"
+    },
+    {
+      "name": "SCI9_AM",
+      "value": 430,
+      "description": "Address match event"
+    },
+    {
+      "name": "SPI0_RXI",
+      "value": 444,
+      "description": "Receive buffer full"
+    },
+    {
+      "name": "SPI0_TXI",
+      "value": 445,
+      "description": "Transmit buffer empty"
+    },
+    {
+      "name": "SPI0_IDLE",
+      "value": 446,
+      "description": "Idle"
+    },
+    {
+      "name": "SPI0_ERI",
+      "value": 447,
+      "description": "Error"
+    },
+    {
+      "name": "SPI0_TEI",
+      "value": 448,
+      "description": "Transmission complete event"
+    },
+    {
+      "name": "SPI1_RXI",
+      "value": 449,
+      "description": "Receive buffer full"
+    },
+    {
+      "name": "SPI1_TXI",
+      "value": 450,
+      "description": "Transmit buffer empty"
+    },
+    {
+      "name": "SPI1_IDLE",
+      "value": 451,
+      "description": "Idle"
+    },
+    {
+      "name": "SPI1_ERI",
+      "value": 452,
+      "description": "Error"
+    },
+    {
+      "name": "SPI1_TEI",
+      "value": 453,
+      "description": "Transmission complete event"
+    },
+    {
+      "name": "QSPI_INT",
+      "value": 454,
+      "description": "QSPI interrupt"
+    },
+    {
+      "name": "SDHIMMC0_ACCS",
+      "value": 455,
+      "description": "Card access"
+    },
+    {
+      "name": "SDHIMMC0_SDIO",
+      "value": 456,
+      "description": "SDIO access"
+    },
+    {
+      "name": "SDHIMMC0_CARD",
+      "value": 457,
+      "description": "Card detect"
+    },
+    {
+      "name": "SDHIMMC0_DMA_REQ",
+      "value": 458,
+      "description": "DMA transfer request"
+    },
+    {
+      "name": "SDHIMMC1_ACCS",
+      "value": 459,
+      "description": "Card access"
+    },
+    {
+      "name": "SDHIMMC1_SDIO",
+      "value": 460,
+      "description": "SDIO access"
+    },
+    {
+      "name": "SDHIMMC1_CARD",
+      "value": 461,
+      "description": "Card detect"
+    },
+    {
+      "name": "SDHIMMC1_DMA_REQ",
+      "value": 462,
+      "description": "DMA transfer request"
+    },
+    {
+      "name": "SCE_TADI",
+      "value": 482,
+      "description": "SCE Tamper Detection"
+    },
+    {
+      "name": "GLCDC_LINE_DETECT",
+      "value": 506,
+      "description": "Specified line"
+    },
+    {
+      "name": "GLCDC_UNDERFLOW_1",
+      "value": 507,
+      "description": "Graphic 1 underflow"
+    },
+    {
+      "name": "GLCDC_UNDERFLOW_2",
+      "value": 508,
+      "description": "Graphic 2 underflow"
+    },
+    {
+      "name": "DRW_INT",
+      "value": 509,
+      "description": "DRW interrupt"
+    },
+    {
+      "name": "JPEG_JEDI",
+      "value": 510,
+      "description": "Compression/decompression process interrupt"
+    },
+    {
+      "name": "JPEG_JDTI",
+      "value": 511,
+      "description": "Data transfer interrupt"
+    }
+  ],
+  "packages": [
+    {
+      "chip": "R7FA6M3AH2CLK",
+      "package": "145LGA",
+      "pins": [
+        {
+          "position": "N13",
+          "signals": [
+            "p400"
+          ]
+        },
+        {
+          "position": "L11",
+          "signals": [
+            "p401"
+          ]
+        },
+        {
+          "position": "M13",
+          "signals": [
+            "p402"
+          ]
+        },
+        {
+          "position": "K11",
+          "signals": [
+            "p403"
+          ]
+        },
+        {
+          "position": "L12",
+          "signals": [
+            "p404"
+          ]
+        },
+        {
+          "position": "L13",
+          "signals": [
+            "p405"
+          ]
+        },
+        {
+          "position": "J10",
+          "signals": [
+            "p406"
+          ]
+        },
+        {
+          "position": "H10",
+          "signals": [
+            "p700"
+          ]
+        },
+        {
+          "position": "K12",
+          "signals": [
+            "p701"
+          ]
+        },
+        {
+          "position": "K13",
+          "signals": [
+            "p702"
+          ]
+        },
+        {
+          "position": "J11",
+          "signals": [
+            "p703"
+          ]
+        },
+        {
+          "position": "H11",
+          "signals": [
+            "p704"
+          ]
+        },
+        {
+          "position": "G11",
+          "signals": [
+            "p705"
+          ]
+        },
+        {
+          "position": "J12",
+          "signals": [
+            "vbat"
+          ]
+        },
+        {
+          "position": "J13",
+          "signals": [
+            "vcl"
+          ]
+        },
+        {
+          "position": "H13",
+          "signals": [
+            "xcin"
+          ]
+        },
+        {
+          "position": "H12",
+          "signals": [
+            "xcout"
+          ]
+        },
+        {
+          "position": "F12",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "G12",
+          "signals": [
+            "p213"
+          ]
+        },
+        {
+          "position": "G13",
+          "signals": [
+            "p212"
+          ]
+        },
+        {
+          "position": "F13",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "G10",
+          "signals": [
+            "p713"
+          ]
+        },
+        {
+          "position": "F11",
+          "signals": [
+            "p712"
+          ]
+        },
+        {
+          "position": "E13",
+          "signals": [
+            "p711"
+          ]
+        },
+        {
+          "position": "E12",
+          "signals": [
+            "p710"
+          ]
+        },
+        {
+          "position": "F10",
+          "signals": [
+            "p709"
+          ]
+        },
+        {
+          "position": "D13",
+          "signals": [
+            "p708"
+          ]
+        },
+        {
+          "position": "E11",
+          "signals": [
+            "p415"
+          ]
+        },
+        {
+          "position": "D12",
+          "signals": [
+            "p414"
+          ]
+        },
+        {
+          "position": "E10",
+          "signals": [
+            "p413"
+          ]
+        },
+        {
+          "position": "C13",
+          "signals": [
+            "p412"
+          ]
+        },
+        {
+          "position": "D11",
+          "signals": [
+            "p411"
+          ]
+        },
+        {
+          "position": "C12",
+          "signals": [
+            "p410"
+          ]
+        },
+        {
+          "position": "B13",
+          "signals": [
+            "p409"
+          ]
+        },
+        {
+          "position": "D10",
+          "signals": [
+            "p408"
+          ]
+        },
+        {
+          "position": "A13",
+          "signals": [
+            "p407"
+          ]
+        },
+        {
+          "position": "B11",
+          "signals": [
+            "vssusb"
+          ]
+        },
+        {
+          "position": "A12",
+          "signals": [
+            "usbdm"
+          ]
+        },
+        {
+          "position": "B12",
+          "signals": [
+            "usbdp"
+          ]
+        },
+        {
+          "position": "A11",
+          "signals": [
+            "vccusb"
+          ]
+        },
+        {
+          "position": "C11",
+          "signals": [
+            "p207"
+          ]
+        },
+        {
+          "position": "B10",
+          "signals": [
+            "p206"
+          ]
+        },
+        {
+          "position": "A10",
+          "signals": [
+            "p205"
+          ]
+        },
+        {
+          "position": "C10",
+          "signals": [
+            "p204"
+          ]
+        },
+        {
+          "position": "A9",
+          "signals": [
+            "p203"
+          ]
+        },
+        {
+          "position": "C9",
+          "signals": [
+            "p202"
+          ]
+        },
+        {
+          "position": "B9",
+          "signals": [
+            "p313"
+          ]
+        },
+        {
+          "position": "D9",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "D8",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "A8",
+          "signals": [
+            "p214"
+          ]
+        },
+        {
+          "position": "B8",
+          "signals": [
+            "p211"
+          ]
+        },
+        {
+          "position": "B7",
+          "signals": [
+            "p209"
+          ]
+        },
+        {
+          "position": "A7",
+          "signals": [
+            "p210"
+          ]
+        },
+        {
+          "position": "A6",
+          "signals": [
+            "p208"
+          ]
+        },
+        {
+          "position": "C7",
+          "signals": [
+            "res"
+          ]
+        },
+        {
+          "position": "B6",
+          "signals": [
+            "p201"
+          ]
+        },
+        {
+          "position": "C8",
+          "signals": [
+            "p200"
+          ]
+        },
+        {
+          "position": "C6",
+          "signals": [
+            "p312"
+          ]
+        },
+        {
+          "position": "B5",
+          "signals": [
+            "p311"
+          ]
+        },
+        {
+          "position": "D7",
+          "signals": [
+            "p310"
+          ]
+        },
+        {
+          "position": "A5",
+          "signals": [
+            "p309"
+          ]
+        },
+        {
+          "position": "C5",
+          "signals": [
+            "p308"
+          ]
+        },
+        {
+          "position": "A4",
+          "signals": [
+            "p307"
+          ]
+        },
+        {
+          "position": "B4",
+          "signals": [
+            "p306"
+          ]
+        },
+        {
+          "position": "D6",
+          "signals": [
+            "p305"
+          ]
+        },
+        {
+          "position": "C4",
+          "signals": [
+            "p304"
+          ]
+        },
+        {
+          "position": "A3",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "B3",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "D5",
+          "signals": [
+            "p303"
+          ]
+        },
+        {
+          "position": "A2",
+          "signals": [
+            "p302"
+          ]
+        },
+        {
+          "position": "C3",
+          "signals": [
+            "p301"
+          ]
+        },
+        {
+          "position": "B2",
+          "signals": [
+            "p300"
+          ]
+        },
+        {
+          "position": "A1",
+          "signals": [
+            "p108"
+          ]
+        },
+        {
+          "position": "D4",
+          "signals": [
+            "p109"
+          ]
+        },
+        {
+          "position": "B1",
+          "signals": [
+            "p110"
+          ]
+        },
+        {
+          "position": "C2",
+          "signals": [
+            "p111"
+          ]
+        },
+        {
+          "position": "D3",
+          "signals": [
+            "p112"
+          ]
+        },
+        {
+          "position": "C1",
+          "signals": [
+            "p113"
+          ]
+        },
+        {
+          "position": "E4",
+          "signals": [
+            "p114"
+          ]
+        },
+        {
+          "position": "E3",
+          "signals": [
+            "p115"
+          ]
+        },
+        {
+          "position": "D2",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "D1",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "F4",
+          "signals": [
+            "p608"
+          ]
+        },
+        {
+          "position": "E2",
+          "signals": [
+            "p609"
+          ]
+        },
+        {
+          "position": "F3",
+          "signals": [
+            "p610"
+          ]
+        },
+        {
+          "position": "E1",
+          "signals": [
+            "p611"
+          ]
+        },
+        {
+          "position": "F2",
+          "signals": [
+            "p612"
+          ]
+        },
+        {
+          "position": "F1",
+          "signals": [
+            "p613"
+          ]
+        },
+        {
+          "position": "G3",
+          "signals": [
+            "p614"
+          ]
+        },
+        {
+          "position": "G1",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "G2",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "H1",
+          "signals": [
+            "vcl1"
+          ]
+        },
+        {
+          "position": "H2",
+          "signals": [
+            "p605"
+          ]
+        },
+        {
+          "position": "G4",
+          "signals": [
+            "p604"
+          ]
+        },
+        {
+          "position": "H3",
+          "signals": [
+            "p603"
+          ]
+        },
+        {
+          "position": "J1",
+          "signals": [
+            "p602"
+          ]
+        },
+        {
+          "position": "J2",
+          "signals": [
+            "p601"
+          ]
+        },
+        {
+          "position": "H4",
+          "signals": [
+            "p600"
+          ]
+        },
+        {
+          "position": "K2",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "K1",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "J3",
+          "signals": [
+            "p107"
+          ]
+        },
+        {
+          "position": "K3",
+          "signals": [
+            "p106"
+          ]
+        },
+        {
+          "position": "J4",
+          "signals": [
+            "p105"
+          ]
+        },
+        {
+          "position": "L3",
+          "signals": [
+            "p104"
+          ]
+        },
+        {
+          "position": "L1",
+          "signals": [
+            "p103"
+          ]
+        },
+        {
+          "position": "M1",
+          "signals": [
+            "p102"
+          ]
+        },
+        {
+          "position": "M2",
+          "signals": [
+            "p101"
+          ]
+        },
+        {
+          "position": "N1",
+          "signals": [
+            "p100"
+          ]
+        },
+        {
+          "position": "L2",
+          "signals": [
+            "p800"
+          ]
+        },
+        {
+          "position": "N2",
+          "signals": [
+            "p801"
+          ]
+        },
+        {
+          "position": "N3",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "M3",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "K4",
+          "signals": [
+            "p500"
+          ]
+        },
+        {
+          "position": "M4",
+          "signals": [
+            "p501"
+          ]
+        },
+        {
+          "position": "L4",
+          "signals": [
+            "p502"
+          ]
+        },
+        {
+          "position": "K5",
+          "signals": [
+            "p503"
+          ]
+        },
+        {
+          "position": "L5",
+          "signals": [
+            "p504"
+          ]
+        },
+        {
+          "position": "K6",
+          "signals": [
+            "p505"
+          ]
+        },
+        {
+          "position": "L6",
+          "signals": [
+            "p506"
+          ]
+        },
+        {
+          "position": "N4",
+          "signals": [
+            "p508"
+          ]
+        },
+        {
+          "position": "N5",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "M5",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "M6",
+          "signals": [
+            "p015"
+          ]
+        },
+        {
+          "position": "N6",
+          "signals": [
+            "p014"
+          ]
+        },
+        {
+          "position": "M7",
+          "signals": [
+            "vrefl"
+          ]
+        },
+        {
+          "position": "N7",
+          "signals": [
+            "vrefh"
+          ]
+        },
+        {
+          "position": "L7",
+          "signals": [
+            "avcc0"
+          ]
+        },
+        {
+          "position": "L8",
+          "signals": [
+            "avss0"
+          ]
+        },
+        {
+          "position": "M8",
+          "signals": [
+            "vrefl0"
+          ]
+        },
+        {
+          "position": "N8",
+          "signals": [
+            "vrefh0"
+          ]
+        },
+        {
+          "position": "M9",
+          "signals": [
+            "p009"
+          ]
+        },
+        {
+          "position": "N9",
+          "signals": [
+            "p008"
+          ]
+        },
+        {
+          "position": "K7",
+          "signals": [
+            "p007"
+          ]
+        },
+        {
+          "position": "L9",
+          "signals": [
+            "p006"
+          ]
+        },
+        {
+          "position": "K8",
+          "signals": [
+            "p005"
+          ]
+        },
+        {
+          "position": "K9",
+          "signals": [
+            "p004"
+          ]
+        },
+        {
+          "position": "K10",
+          "signals": [
+            "p003"
+          ]
+        },
+        {
+          "position": "M10",
+          "signals": [
+            "p002"
+          ]
+        },
+        {
+          "position": "N10",
+          "signals": [
+            "p001"
+          ]
+        },
+        {
+          "position": "L10",
+          "signals": [
+            "p000"
+          ]
+        },
+        {
+          "position": "N11",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "N12",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "M11",
+          "signals": [
+            "p512"
+          ]
+        },
+        {
+          "position": "M12",
+          "signals": [
+            "p511"
+          ]
+        }
+      ]
+    }
+  ]
+}
