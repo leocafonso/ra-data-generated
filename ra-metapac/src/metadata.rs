@@ -1,4 +1,24 @@
 #[derive(Copy, Clone)]
+pub struct Metadata {
+    pub name: &'static str,
+    pub family: &'static str,
+    pub core: &'static str,
+    pub memory: &'static [MemoryRegion],
+    pub peripherals: &'static [Peripheral],
+    pub events: &'static [Event],
+    pub packages: &'static [Package],
+    pub pins: &'static [ChipPin],
+    pub interrupt_count: usize,
+}
+
+/// A unique GPIO pin on the chip (e.g., "P100", "P104")
+#[derive(Copy, Clone)]
+pub struct ChipPin {
+    pub name: &'static str,
+}
+
+
+#[derive(Copy, Clone)]
 pub struct MemoryRegion {
     pub name: &'static str,
     pub kind: &'static str,
@@ -12,14 +32,38 @@ pub struct Peripheral {
     pub address: u64,
     pub kind: &'static str,
     pub version: &'static str,
+    /// Register block name (e.g., "GPT16E", "AGT", "ICU_RA4E2").
+    /// Identifies which register struct from ra-metapac to use for this instance.
+    pub block: &'static str,
     pub mstp: Option<Mstp>,
-    pub bit_width: Option<u32>,
+    pub interrupts: &'static [PeripheralInterrupt],
 }
+
+/// Signal name for a peripheral interrupt (e.g., "COUNTER_OVERFLOW")
+/// The full event name can be constructed as "{peripheral_name}_{signal}"
+pub type PeripheralInterrupt = &'static str;
 
 #[derive(Copy, Clone)]
 pub struct Mstp {
     pub register: &'static str,
     pub bit: u32,
+}
+
+/// Event that can be mapped to an ICU IELSR slot.
+/// For devices with grouped interrupts (RA2 family), `irq_slots` contains
+/// the allowed IELSR indices. For other devices, it's empty (any slot allowed).
+#[derive(Copy, Clone)]
+pub struct Event {
+    pub name: &'static str,
+    pub id: u16,
+    /// Allowed IELSR slot indices. Empty means any slot is allowed.
+    pub irq_slots: &'static [u8],
+    /// The peripheral this event belongs to (e.g., "GPT", "SCI", "IIC").
+    pub peripheral: Option<&'static str>,
+    /// The channel/instance number of the peripheral (e.g., 0 for GPT0).
+    pub channel: Option<u8>,
+    /// The specific event signal (e.g., "COUNTER_OVERFLOW", "RXI", "TXI").
+    pub signal: Option<&'static str>,
 }
 
 #[derive(Copy, Clone)]

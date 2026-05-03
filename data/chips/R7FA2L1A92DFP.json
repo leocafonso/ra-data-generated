@@ -49,1653 +49,2855 @@
   ],
   "peripherals": [
     {
-      "name": "GPT",
-      "address": 1074233344,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "name": "AGT0",
+      "address": 1074282496,
+      "type": "agt",
+      "version": "16bits",
+      "block": "AGT",
+      "mstp": {
+        "register": "MSTPCRD",
+        "bit": 3
+      },
+      "interrupts": [
+        "COMPARE_A",
+        "COMPARE_B",
+        "INT"
+      ]
+    },
+    {
+      "name": "AGT1",
+      "address": 1074282752,
+      "type": "agt",
+      "version": "16bits",
+      "block": "AGT",
+      "mstp": {
+        "register": "MSTPCRD",
+        "bit": 2
+      },
+      "interrupts": [
+        "COMPARE_A",
+        "COMPARE_B",
+        "INT"
+      ]
     },
     {
       "name": "GPT0",
       "address": 1074233344,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "gpt",
+      "version": "v1",
+      "block": "GPT",
+      "mstp": {
+        "register": "MSTPCRD",
+        "bit": 5
+      },
+      "interrupts": [
+        "CAPTURE_COMPARE_A",
+        "CAPTURE_COMPARE_B",
+        "COMPARE_C",
+        "COMPARE_D",
+        "COUNTER_OVERFLOW",
+        "COUNTER_UNDERFLOW"
+      ]
     },
     {
       "name": "GPT1",
       "address": 1074233600,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "gpt",
+      "version": "v1",
+      "block": "GPT",
+      "mstp": {
+        "register": "MSTPCRD",
+        "bit": 5
+      },
+      "interrupts": [
+        "CAPTURE_COMPARE_A",
+        "CAPTURE_COMPARE_B",
+        "COMPARE_C",
+        "COMPARE_D",
+        "COUNTER_OVERFLOW",
+        "COUNTER_UNDERFLOW"
+      ]
     },
     {
       "name": "GPT2",
       "address": 1074233856,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "gpt",
+      "version": "v1",
+      "block": "GPT",
+      "mstp": {
+        "register": "MSTPCRD",
+        "bit": 5
+      },
+      "interrupts": [
+        "CAPTURE_COMPARE_A",
+        "CAPTURE_COMPARE_B",
+        "COMPARE_C",
+        "COMPARE_D",
+        "COUNTER_OVERFLOW",
+        "COUNTER_UNDERFLOW"
+      ]
     },
     {
       "name": "GPT3",
       "address": 1074234112,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "gpt",
+      "version": "v1",
+      "block": "GPT",
+      "mstp": {
+        "register": "MSTPCRD",
+        "bit": 5
+      },
+      "interrupts": [
+        "CAPTURE_COMPARE_A",
+        "CAPTURE_COMPARE_B",
+        "COMPARE_C",
+        "COMPARE_D",
+        "COUNTER_OVERFLOW",
+        "COUNTER_UNDERFLOW"
+      ]
     },
     {
       "name": "GPT4",
       "address": 1074234368,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "gpt",
+      "version": "v1",
+      "block": "GPT",
+      "mstp": {
+        "register": "MSTPCRD",
+        "bit": 6
+      },
+      "interrupts": [
+        "CAPTURE_COMPARE_A",
+        "CAPTURE_COMPARE_B",
+        "COMPARE_C",
+        "COMPARE_D",
+        "COUNTER_OVERFLOW",
+        "COUNTER_UNDERFLOW"
+      ]
     },
     {
       "name": "GPT5",
       "address": 1074234624,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "gpt",
+      "version": "v1",
+      "block": "GPT",
+      "mstp": {
+        "register": "MSTPCRD",
+        "bit": 6
+      },
+      "interrupts": [
+        "CAPTURE_COMPARE_A",
+        "CAPTURE_COMPARE_B",
+        "COMPARE_C",
+        "COMPARE_D",
+        "COUNTER_OVERFLOW",
+        "COUNTER_UNDERFLOW"
+      ]
     },
     {
       "name": "GPT6",
       "address": 1074234880,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "gpt",
+      "version": "v1",
+      "block": "GPT",
+      "mstp": {
+        "register": "MSTPCRD",
+        "bit": 6
+      },
+      "interrupts": [
+        "CAPTURE_COMPARE_A",
+        "CAPTURE_COMPARE_B",
+        "COMPARE_C",
+        "COMPARE_D",
+        "COUNTER_OVERFLOW",
+        "COUNTER_UNDERFLOW"
+      ]
     },
     {
       "name": "GPT7",
       "address": 1074235136,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "gpt",
+      "version": "v1",
+      "block": "GPT",
+      "mstp": {
+        "register": "MSTPCRD",
+        "bit": 6
+      },
+      "interrupts": [
+        "CAPTURE_COMPARE_A",
+        "CAPTURE_COMPARE_B",
+        "COMPARE_C",
+        "COMPARE_D",
+        "COUNTER_OVERFLOW",
+        "COUNTER_UNDERFLOW"
+      ]
     },
     {
       "name": "GPT8",
       "address": 1074235392,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "gpt",
+      "version": "v1",
+      "block": "GPT",
+      "mstp": {
+        "register": "MSTPCRD",
+        "bit": 6
+      },
+      "interrupts": [
+        "CAPTURE_COMPARE_A",
+        "CAPTURE_COMPARE_B",
+        "COMPARE_C",
+        "COMPARE_D",
+        "COUNTER_OVERFLOW",
+        "COUNTER_UNDERFLOW"
+      ]
     },
     {
       "name": "GPT9",
       "address": 1074235648,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
-    },
-    {
-      "name": "GPT_OPS",
-      "address": 1074237424,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
-    },
-    {
-      "name": "GPT_POEG",
-      "address": 1074012160,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
-    },
-    {
-      "name": "GPT_POEG0",
-      "address": 1074012160,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
-    },
-    {
-      "name": "GPT_POEG1",
-      "address": 1074012416,
-      "type": "timer",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "gpt",
+      "version": "v1",
+      "block": "GPT",
+      "mstp": {
+        "register": "MSTPCRD",
+        "bit": 6
+      },
+      "interrupts": [
+        "CAPTURE_COMPARE_A",
+        "CAPTURE_COMPARE_B",
+        "COMPARE_C",
+        "COMPARE_D",
+        "COUNTER_OVERFLOW",
+        "COUNTER_UNDERFLOW"
+      ]
     },
     {
       "name": "ICU",
       "address": 1073766400,
       "type": "icu",
-      "version": "v2",
-      "mstp": null,
-      "bit_width": null
+      "version": "ra2l1",
+      "block": "ICU",
+      "interrupts": [
+        "SNOOZE_CANCEL"
+      ]
     },
     {
       "name": "MSTP",
       "address": 1074032640,
       "type": "mstp",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "version": "v1",
+      "block": "MSTP"
+    },
+    {
+      "name": "PFS",
+      "address": 1074006016,
+      "type": "pfs",
+      "version": "v1",
+      "block": "PFS"
     },
     {
       "name": "PORT0",
       "address": 1074003968,
-      "type": "gpio",
+      "type": "port",
       "version": "v1",
-      "mstp": null,
-      "bit_width": null
+      "block": "PORT_extended"
     },
     {
       "name": "PORT1",
       "address": 1074004000,
-      "type": "gpio",
+      "type": "port",
       "version": "v1",
-      "mstp": null,
-      "bit_width": null
+      "block": "PORT_extended"
     },
     {
       "name": "PORT2",
       "address": 1074004032,
-      "type": "gpio",
+      "type": "port",
       "version": "v1",
-      "mstp": null,
-      "bit_width": null
+      "block": "PORT_extended"
     },
     {
       "name": "PORT3",
       "address": 1074004064,
-      "type": "gpio",
+      "type": "port",
       "version": "v1",
-      "mstp": null,
-      "bit_width": null
+      "block": "PORT_extended"
     },
     {
       "name": "PORT4",
       "address": 1074004096,
-      "type": "gpio",
+      "type": "port",
       "version": "v1",
-      "mstp": null,
-      "bit_width": null
+      "block": "PORT_extended"
     },
     {
       "name": "PORT5",
       "address": 1074004128,
-      "type": "gpio",
+      "type": "port",
       "version": "v1",
-      "mstp": null,
-      "bit_width": null
+      "block": "PORT_extended"
     },
     {
       "name": "PORT6",
       "address": 1074004160,
-      "type": "gpio",
+      "type": "port",
       "version": "v1",
-      "mstp": null,
-      "bit_width": null
+      "block": "PORT_extended"
     },
     {
       "name": "PORT7",
       "address": 1074004192,
-      "type": "gpio",
+      "type": "port",
       "version": "v1",
-      "mstp": null,
-      "bit_width": null
+      "block": "PORT_extended"
     },
     {
       "name": "PORT8",
       "address": 1074004224,
-      "type": "gpio",
+      "type": "port",
       "version": "v1",
-      "mstp": null,
-      "bit_width": null
+      "block": "PORT_extended"
     },
     {
-      "name": "RTC",
-      "address": 1074020352,
-      "type": "rtc",
-      "version": "v1",
-      "mstp": null,
-      "bit_width": null
-    },
-    {
-      "name": "SYSTEM",
+      "name": "SYSC",
       "address": 1073864704,
-      "type": "system",
-      "version": "v2",
-      "mstp": null,
-      "bit_width": null
+      "type": "sysc",
+      "version": "v1",
+      "block": "SYSC"
     }
   ],
   "interrupts": [
     {
-      "name": "ICU_IRQ0",
-      "value": 1,
-      "description": "External pin interrupt 0"
-    },
-    {
-      "name": "ICU_IRQ1",
-      "value": 2,
-      "description": "External pin interrupt 1"
-    },
-    {
-      "name": "ICU_IRQ2",
-      "value": 3,
-      "description": "External pin interrupt 2"
-    },
-    {
-      "name": "ICU_IRQ3",
-      "value": 4,
-      "description": "External pin interrupt 3"
-    },
-    {
-      "name": "ICU_IRQ4",
-      "value": 5,
-      "description": "External pin interrupt 4"
-    },
-    {
-      "name": "ICU_IRQ5",
-      "value": 6,
-      "description": "External pin interrupt 5"
-    },
-    {
-      "name": "ICU_IRQ6",
-      "value": 7,
-      "description": "External pin interrupt 6"
-    },
-    {
-      "name": "ICU_IRQ7",
-      "value": 8,
-      "description": "External pin interrupt 7"
-    },
-    {
-      "name": "DTC_COMPLETE",
+      "name": "ACMPLP0_INT",
       "value": 9,
-      "description": "DTC transfer complete"
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "ACMPLP",
+      "channel": 0,
+      "signal": "INT"
     },
     {
-      "name": "DTC_END",
-      "value": 10,
-      "description": "DTC transfer end"
+      "name": "ACMPLP1_INT",
+      "value": 7,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "ACMPLP",
+      "channel": 1,
+      "signal": "INT"
     },
     {
-      "name": "ICU_SNOOZE_CANCEL",
-      "value": 11,
-      "description": "Canceling from Snooze mode"
+      "name": "ADC0_COMPARE_MATCH",
+      "value": 8,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "ADC",
+      "channel": 0,
+      "signal": "COMPARE_MATCH"
     },
     {
-      "name": "FCU_FRDYI",
-      "value": 12,
-      "description": "Flash ready interrupt"
+      "name": "ADC0_COMPARE_MISMATCH",
+      "value": 6,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "ADC",
+      "channel": 0,
+      "signal": "COMPARE_MISMATCH"
     },
     {
-      "name": "LVD_LVD1",
-      "value": 13,
-      "description": "Voltage monitor 1 interrupt"
+      "name": "ADC0_SCAN_END",
+      "value": 7,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "ADC",
+      "channel": 0,
+      "signal": "SCAN_END"
     },
     {
-      "name": "LVD_LVD2",
-      "value": 14,
-      "description": "Voltage monitor 2 interrupt"
+      "name": "ADC0_SCAN_END_B",
+      "value": 5,
+      "description": "group1 (IELSR[1, 9, 17, 25])",
+      "irq_number": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "peripheral": "ADC",
+      "channel": 0,
+      "signal": "SCAN_END_B"
     },
     {
-      "name": "CGC_MOSC_STOP",
-      "value": 15,
-      "description": "Main Clock oscillation stop"
+      "name": "ADC0_WINDOW_A",
+      "value": 5,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "ADC",
+      "channel": 0,
+      "signal": "WINDOW_A"
     },
     {
-      "name": "LPM_SNOOZE_REQUEST",
-      "value": 16,
-      "description": "Snooze entry"
+      "name": "ADC0_WINDOW_B",
+      "value": 5,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "ADC",
+      "channel": 0,
+      "signal": "WINDOW_B"
     },
     {
-      "name": "AGT0_INT",
-      "value": 17,
-      "description": "AGT interrupt"
+      "name": "AES_RDREQ",
+      "value": 18,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "AES",
+      "signal": "RDREQ"
+    },
+    {
+      "name": "AES_WRREQ",
+      "value": 21,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "AES",
+      "signal": "WRREQ"
     },
     {
       "name": "AGT0_COMPARE_A",
-      "value": 18,
-      "description": "Compare match A"
+      "value": 22,
+      "description": "group0 (IELSR[0, 8, 16, 24])",
+      "irq_number": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "peripheral": "AGT",
+      "channel": 0,
+      "signal": "COMPARE_A"
     },
     {
       "name": "AGT0_COMPARE_B",
       "value": 19,
-      "description": "Compare match B"
+      "description": "group1 (IELSR[1, 9, 17, 25])",
+      "irq_number": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "peripheral": "AGT",
+      "channel": 0,
+      "signal": "COMPARE_B"
     },
     {
-      "name": "AGT1_INT",
-      "value": 20,
-      "description": "AGT interrupt"
+      "name": "AGT0_INT",
+      "value": 17,
+      "description": "group3 (IELSR[3, 11, 19, 27])",
+      "irq_number": [
+        3,
+        11,
+        19,
+        27
+      ],
+      "peripheral": "AGT",
+      "channel": 0,
+      "signal": "INT"
     },
     {
       "name": "AGT1_COMPARE_A",
-      "value": 21,
-      "description": "Compare match A"
+      "value": 3,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "AGT",
+      "channel": 1,
+      "signal": "COMPARE_A"
     },
     {
       "name": "AGT1_COMPARE_B",
-      "value": 22,
-      "description": "Compare match B"
+      "value": 3,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "AGT",
+      "channel": 1,
+      "signal": "COMPARE_B"
     },
     {
-      "name": "IWDT_UNDERFLOW",
-      "value": 23,
-      "description": "IWDT underflow"
-    },
-    {
-      "name": "WDT_UNDERFLOW",
-      "value": 24,
-      "description": "WDT underflow"
-    },
-    {
-      "name": "RTC_ALARM",
-      "value": 25,
-      "description": "Alarm interrupt"
-    },
-    {
-      "name": "RTC_PERIOD",
-      "value": 26,
-      "description": "Periodic interrupt"
-    },
-    {
-      "name": "RTC_CARRY",
-      "value": 27,
-      "description": "Carry interrupt"
-    },
-    {
-      "name": "ADC0_SCAN_END",
-      "value": 28,
-      "description": "End of A/D scanning operation"
-    },
-    {
-      "name": "ADC0_SCAN_END_B",
-      "value": 29,
-      "description": "A/D scan end interrupt for group B"
-    },
-    {
-      "name": "ADC0_WINDOW_A",
-      "value": 30,
-      "description": "Window A Compare match interrupt"
-    },
-    {
-      "name": "ADC0_WINDOW_B",
-      "value": 31,
-      "description": "Window B Compare match interrupt"
-    },
-    {
-      "name": "ADC0_COMPARE_MATCH",
-      "value": 32,
-      "description": "Compare match"
-    },
-    {
-      "name": "ADC0_COMPARE_MISMATCH",
-      "value": 33,
-      "description": "Compare mismatch"
-    },
-    {
-      "name": "ACMPLP0_INT",
-      "value": 35,
-      "description": "Low Power Comparator channel 0 interrupt"
-    },
-    {
-      "name": "ACMPLP1_INT",
-      "value": 36,
-      "description": "Low Power Comparator channel 1 interrupt"
-    },
-    {
-      "name": "IIC0_RXI",
-      "value": 39,
-      "description": "Receive data full"
-    },
-    {
-      "name": "IIC0_TXI",
-      "value": 40,
-      "description": "Transmit data empty"
-    },
-    {
-      "name": "IIC0_TEI",
-      "value": 41,
-      "description": "Transmit end"
-    },
-    {
-      "name": "IIC0_ERI",
-      "value": 42,
-      "description": "Transfer error"
-    },
-    {
-      "name": "IIC0_WUI",
-      "value": 43,
-      "description": "Wakeup interrupt"
-    },
-    {
-      "name": "IIC1_RXI",
-      "value": 44,
-      "description": "Receive data full"
-    },
-    {
-      "name": "IIC1_TXI",
-      "value": 45,
-      "description": "Transmit data empty"
-    },
-    {
-      "name": "IIC1_TEI",
-      "value": 46,
-      "description": "Transmit end"
-    },
-    {
-      "name": "IIC1_ERI",
-      "value": 47,
-      "description": "Transfer error"
-    },
-    {
-      "name": "CTSU_WRITE",
-      "value": 48,
-      "description": "Write request interrupt"
-    },
-    {
-      "name": "CTSU_READ",
-      "value": 49,
-      "description": "Measurement data transfer request interrupt"
-    },
-    {
-      "name": "CTSU_END",
-      "value": 50,
-      "description": "Measurement end interrupt"
-    },
-    {
-      "name": "KEY_INT",
-      "value": 51,
-      "description": "Key interrupt"
-    },
-    {
-      "name": "DOC_INT",
-      "value": 52,
-      "description": "Data operation circuit interrupt"
+      "name": "AGT1_INT",
+      "value": 5,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "AGT",
+      "channel": 1,
+      "signal": "INT"
     },
     {
       "name": "CAC_FREQUENCY_ERROR",
-      "value": 53,
-      "description": "Frequency error interrupt"
+      "value": 11,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "CAC",
+      "signal": "FREQUENCY_ERROR"
     },
     {
       "name": "CAC_MEASUREMENT_END",
-      "value": 54,
-      "description": "Measurement end interrupt"
+      "value": 8,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "CAC",
+      "signal": "MEASUREMENT_END"
     },
     {
       "name": "CAC_OVERFLOW",
-      "value": 55,
-      "description": "Overflow interrupt"
+      "value": 8,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "CAC",
+      "signal": "OVERFLOW"
     },
     {
       "name": "CAN0_ERROR",
-      "value": 56,
-      "description": "Error interrupt"
+      "value": 12,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "CAN",
+      "channel": 0,
+      "signal": "ERROR"
     },
     {
       "name": "CAN0_FIFO_RX",
-      "value": 57,
-      "description": "Receive FIFO interrupt"
+      "value": 12,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "CAN",
+      "channel": 0,
+      "signal": "FIFO_RX"
     },
     {
       "name": "CAN0_FIFO_TX",
-      "value": 58,
-      "description": "Transmit FIFO interrupt"
+      "value": 9,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "CAN",
+      "channel": 0,
+      "signal": "FIFO_TX"
     },
     {
       "name": "CAN0_MAILBOX_RX",
-      "value": 59,
-      "description": "Reception complete interrupt"
+      "value": 9,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "CAN",
+      "channel": 0,
+      "signal": "MAILBOX_RX"
     },
     {
       "name": "CAN0_MAILBOX_TX",
-      "value": 60,
-      "description": "Transmission complete interrupt"
+      "value": 13,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "CAN",
+      "channel": 0,
+      "signal": "MAILBOX_TX"
     },
     {
-      "name": "IOPORT_EVENT_1",
-      "value": 61,
-      "description": "Port 1 event"
+      "name": "CGC_MOSC_STOP",
+      "value": 20,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "CGC",
+      "signal": "MOSC_STOP"
     },
     {
-      "name": "IOPORT_EVENT_2",
-      "value": 62,
-      "description": "Port 2 event"
+      "name": "CTSU_END",
+      "value": 7,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "CTSU",
+      "signal": "END"
+    },
+    {
+      "name": "CTSU_READ",
+      "value": 7,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "CTSU",
+      "signal": "READ"
+    },
+    {
+      "name": "CTSU_WRITE",
+      "value": 9,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "CTSU",
+      "signal": "WRITE"
+    },
+    {
+      "name": "DOC_INT",
+      "value": 10,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "DOC",
+      "signal": "INT"
+    },
+    {
+      "name": "DTC_COMPLETE",
+      "value": 2,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "DTC",
+      "signal": "COMPLETE"
+    },
+    {
+      "name": "DTC_END",
+      "value": 10,
+      "description": "DTC transfer end",
+      "peripheral": "DTC",
+      "signal": "END"
     },
     {
       "name": "ELC_SOFTWARE_EVENT_0",
-      "value": 63,
-      "description": "Software event 0"
+      "value": 10,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "ELC",
+      "signal": "SOFTWARE_EVENT_0"
     },
     {
       "name": "ELC_SOFTWARE_EVENT_1",
-      "value": 64,
-      "description": "Software event 1"
+      "value": 10,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "ELC",
+      "signal": "SOFTWARE_EVENT_1"
     },
     {
-      "name": "POEG0_EVENT",
-      "value": 65,
-      "description": "Port Output disable 0 interrupt"
-    },
-    {
-      "name": "POEG1_EVENT",
-      "value": 66,
-      "description": "Port Output disable 1 interrupt"
+      "name": "FCU_FRDYI",
+      "value": 2,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "FCU",
+      "signal": "FRDYI"
     },
     {
       "name": "GPT0_CAPTURE_COMPARE_A",
-      "value": 70,
-      "description": "Capture/Compare match A"
+      "value": 14,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "GPT",
+      "channel": 0,
+      "signal": "CAPTURE_COMPARE_A"
     },
     {
       "name": "GPT0_CAPTURE_COMPARE_B",
-      "value": 71,
-      "description": "Capture/Compare match B"
+      "value": 13,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "GPT",
+      "channel": 0,
+      "signal": "CAPTURE_COMPARE_B"
     },
     {
       "name": "GPT0_COMPARE_C",
-      "value": 72,
-      "description": "Compare match C"
+      "value": 12,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "GPT",
+      "channel": 0,
+      "signal": "COMPARE_C"
     },
     {
       "name": "GPT0_COMPARE_D",
-      "value": 73,
-      "description": "Compare match D"
+      "value": 12,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "GPT",
+      "channel": 0,
+      "signal": "COMPARE_D"
     },
     {
       "name": "GPT0_COUNTER_OVERFLOW",
-      "value": 74,
-      "description": "Overflow"
+      "value": 15,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "GPT",
+      "channel": 0,
+      "signal": "COUNTER_OVERFLOW"
     },
     {
       "name": "GPT0_COUNTER_UNDERFLOW",
-      "value": 75,
-      "description": "Underflow"
+      "value": 14,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "GPT",
+      "channel": 0,
+      "signal": "COUNTER_UNDERFLOW"
     },
     {
       "name": "GPT1_CAPTURE_COMPARE_A",
-      "value": 76,
-      "description": "Capture/Compare match A"
+      "value": 25,
+      "description": "group0 (IELSR[0, 8, 16, 24])",
+      "irq_number": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "peripheral": "GPT",
+      "channel": 1,
+      "signal": "CAPTURE_COMPARE_A"
     },
     {
       "name": "GPT1_CAPTURE_COMPARE_B",
-      "value": 77,
-      "description": "Capture/Compare match B"
+      "value": 22,
+      "description": "group1 (IELSR[1, 9, 17, 25])",
+      "irq_number": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "peripheral": "GPT",
+      "channel": 1,
+      "signal": "CAPTURE_COMPARE_B"
     },
     {
       "name": "GPT1_COMPARE_C",
-      "value": 78,
-      "description": "Compare match C"
+      "value": 20,
+      "description": "group2 (IELSR[2, 10, 18, 26])",
+      "irq_number": [
+        2,
+        10,
+        18,
+        26
+      ],
+      "peripheral": "GPT",
+      "channel": 1,
+      "signal": "COMPARE_C"
     },
     {
       "name": "GPT1_COMPARE_D",
-      "value": 79,
-      "description": "Compare match D"
+      "value": 18,
+      "description": "group3 (IELSR[3, 11, 19, 27])",
+      "irq_number": [
+        3,
+        11,
+        19,
+        27
+      ],
+      "peripheral": "GPT",
+      "channel": 1,
+      "signal": "COMPARE_D"
     },
     {
       "name": "GPT1_COUNTER_OVERFLOW",
-      "value": 80,
-      "description": "Overflow"
+      "value": 24,
+      "description": "group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        4,
+        12,
+        20,
+        28
+      ],
+      "peripheral": "GPT",
+      "channel": 1,
+      "signal": "COUNTER_OVERFLOW"
     },
     {
       "name": "GPT1_COUNTER_UNDERFLOW",
-      "value": 81,
-      "description": "Underflow"
+      "value": 21,
+      "description": "group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        5,
+        13,
+        21,
+        29
+      ],
+      "peripheral": "GPT",
+      "channel": 1,
+      "signal": "COUNTER_UNDERFLOW"
     },
     {
       "name": "GPT2_CAPTURE_COMPARE_A",
-      "value": 82,
-      "description": "Capture/Compare match A"
+      "value": 16,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "GPT",
+      "channel": 2,
+      "signal": "CAPTURE_COMPARE_A"
     },
     {
       "name": "GPT2_CAPTURE_COMPARE_B",
-      "value": 83,
-      "description": "Capture/Compare match B"
+      "value": 15,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "GPT",
+      "channel": 2,
+      "signal": "CAPTURE_COMPARE_B"
     },
     {
       "name": "GPT2_COMPARE_C",
-      "value": 84,
-      "description": "Compare match C"
+      "value": 13,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "GPT",
+      "channel": 2,
+      "signal": "COMPARE_C"
     },
     {
       "name": "GPT2_COMPARE_D",
-      "value": 85,
-      "description": "Compare match D"
+      "value": 13,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "GPT",
+      "channel": 2,
+      "signal": "COMPARE_D"
     },
     {
       "name": "GPT2_COUNTER_OVERFLOW",
-      "value": 86,
-      "description": "Overflow"
+      "value": 14,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "GPT",
+      "channel": 2,
+      "signal": "COUNTER_OVERFLOW"
     },
     {
       "name": "GPT2_COUNTER_UNDERFLOW",
-      "value": 87,
-      "description": "Underflow"
+      "value": 14,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "GPT",
+      "channel": 2,
+      "signal": "COUNTER_UNDERFLOW"
     },
     {
       "name": "GPT3_CAPTURE_COMPARE_A",
-      "value": 88,
-      "description": "Capture/Compare match A"
+      "value": 25,
+      "description": "group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        4,
+        12,
+        20,
+        28
+      ],
+      "peripheral": "GPT",
+      "channel": 3,
+      "signal": "CAPTURE_COMPARE_A"
     },
     {
       "name": "GPT3_CAPTURE_COMPARE_B",
-      "value": 89,
-      "description": "Capture/Compare match B"
+      "value": 22,
+      "description": "group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        5,
+        13,
+        21,
+        29
+      ],
+      "peripheral": "GPT",
+      "channel": 3,
+      "signal": "CAPTURE_COMPARE_B"
     },
     {
       "name": "GPT3_COMPARE_C",
-      "value": 90,
-      "description": "Compare match C"
+      "value": 21,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "GPT",
+      "channel": 3,
+      "signal": "COMPARE_C"
     },
     {
       "name": "GPT3_COMPARE_D",
-      "value": 91,
-      "description": "Compare match D"
+      "value": 18,
+      "description": "group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        7,
+        15,
+        23,
+        31
+      ],
+      "peripheral": "GPT",
+      "channel": 3,
+      "signal": "COMPARE_D"
     },
     {
       "name": "GPT3_COUNTER_OVERFLOW",
-      "value": 92,
-      "description": "Overflow"
+      "value": 26,
+      "description": "group0 (IELSR[0, 8, 16, 24])",
+      "irq_number": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "peripheral": "GPT",
+      "channel": 3,
+      "signal": "COUNTER_OVERFLOW"
     },
     {
       "name": "GPT3_COUNTER_UNDERFLOW",
-      "value": 93,
-      "description": "Underflow"
+      "value": 23,
+      "description": "group1 (IELSR[1, 9, 17, 25])",
+      "irq_number": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "peripheral": "GPT",
+      "channel": 3,
+      "signal": "COUNTER_UNDERFLOW"
     },
     {
       "name": "GPT4_CAPTURE_COMPARE_A",
-      "value": 94,
-      "description": "Capture/Compare match A"
+      "value": 27,
+      "description": "group0 (IELSR[0, 8, 16, 24])",
+      "irq_number": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "peripheral": "GPT",
+      "channel": 4,
+      "signal": "CAPTURE_COMPARE_A"
     },
     {
       "name": "GPT4_CAPTURE_COMPARE_B",
-      "value": 95,
-      "description": "Capture/Compare match B"
+      "value": 24,
+      "description": "group1 (IELSR[1, 9, 17, 25])",
+      "irq_number": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "peripheral": "GPT",
+      "channel": 4,
+      "signal": "CAPTURE_COMPARE_B"
     },
     {
       "name": "GPT4_COMPARE_C",
-      "value": 96,
-      "description": "Compare match C"
+      "value": 21,
+      "description": "group2 (IELSR[2, 10, 18, 26])",
+      "irq_number": [
+        2,
+        10,
+        18,
+        26
+      ],
+      "peripheral": "GPT",
+      "channel": 4,
+      "signal": "COMPARE_C"
     },
     {
       "name": "GPT4_COMPARE_D",
-      "value": 97,
-      "description": "Compare match D"
+      "value": 19,
+      "description": "group3 (IELSR[3, 11, 19, 27])",
+      "irq_number": [
+        3,
+        11,
+        19,
+        27
+      ],
+      "peripheral": "GPT",
+      "channel": 4,
+      "signal": "COMPARE_D"
     },
     {
       "name": "GPT4_COUNTER_OVERFLOW",
-      "value": 98,
-      "description": "Overflow"
+      "value": 22,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "GPT",
+      "channel": 4,
+      "signal": "COUNTER_OVERFLOW"
     },
     {
       "name": "GPT4_COUNTER_UNDERFLOW",
-      "value": 99,
-      "description": "Underflow"
+      "value": 19,
+      "description": "group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        7,
+        15,
+        23,
+        31
+      ],
+      "peripheral": "GPT",
+      "channel": 4,
+      "signal": "COUNTER_UNDERFLOW"
     },
     {
       "name": "GPT5_CAPTURE_COMPARE_A",
-      "value": 100,
-      "description": "Capture/Compare match A"
+      "value": 26,
+      "description": "group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        4,
+        12,
+        20,
+        28
+      ],
+      "peripheral": "GPT",
+      "channel": 5,
+      "signal": "CAPTURE_COMPARE_A"
     },
     {
       "name": "GPT5_CAPTURE_COMPARE_B",
-      "value": 101,
-      "description": "Capture/Compare match B"
+      "value": 23,
+      "description": "group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        5,
+        13,
+        21,
+        29
+      ],
+      "peripheral": "GPT",
+      "channel": 5,
+      "signal": "CAPTURE_COMPARE_B"
     },
     {
       "name": "GPT5_COMPARE_C",
-      "value": 102,
-      "description": "Compare match C"
+      "value": 23,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "GPT",
+      "channel": 5,
+      "signal": "COMPARE_C"
     },
     {
       "name": "GPT5_COMPARE_D",
-      "value": 103,
-      "description": "Compare match D"
+      "value": 20,
+      "description": "group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        7,
+        15,
+        23,
+        31
+      ],
+      "peripheral": "GPT",
+      "channel": 5,
+      "signal": "COMPARE_D"
     },
     {
       "name": "GPT5_COUNTER_OVERFLOW",
-      "value": 104,
-      "description": "Overflow"
+      "value": 22,
+      "description": "group2 (IELSR[2, 10, 18, 26])",
+      "irq_number": [
+        2,
+        10,
+        18,
+        26
+      ],
+      "peripheral": "GPT",
+      "channel": 5,
+      "signal": "COUNTER_OVERFLOW"
     },
     {
       "name": "GPT5_COUNTER_UNDERFLOW",
-      "value": 105,
-      "description": "Underflow"
+      "value": 20,
+      "description": "group3 (IELSR[3, 11, 19, 27])",
+      "irq_number": [
+        3,
+        11,
+        19,
+        27
+      ],
+      "peripheral": "GPT",
+      "channel": 5,
+      "signal": "COUNTER_UNDERFLOW"
     },
     {
       "name": "GPT6_CAPTURE_COMPARE_A",
-      "value": 106,
-      "description": "Capture/Compare match A"
+      "value": 28,
+      "description": "group0 (IELSR[0, 8, 16, 24])",
+      "irq_number": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "peripheral": "GPT",
+      "channel": 6,
+      "signal": "CAPTURE_COMPARE_A"
     },
     {
       "name": "GPT6_CAPTURE_COMPARE_B",
-      "value": 107,
-      "description": "Capture/Compare match B"
+      "value": 25,
+      "description": "group1 (IELSR[1, 9, 17, 25])",
+      "irq_number": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "peripheral": "GPT",
+      "channel": 6,
+      "signal": "CAPTURE_COMPARE_B"
     },
     {
       "name": "GPT6_COMPARE_C",
-      "value": 108,
-      "description": "Compare match C"
+      "value": 23,
+      "description": "group2 (IELSR[2, 10, 18, 26])",
+      "irq_number": [
+        2,
+        10,
+        18,
+        26
+      ],
+      "peripheral": "GPT",
+      "channel": 6,
+      "signal": "COMPARE_C"
     },
     {
       "name": "GPT6_COMPARE_D",
-      "value": 109,
-      "description": "Compare match D"
+      "value": 21,
+      "description": "group3 (IELSR[3, 11, 19, 27])",
+      "irq_number": [
+        3,
+        11,
+        19,
+        27
+      ],
+      "peripheral": "GPT",
+      "channel": 6,
+      "signal": "COMPARE_D"
     },
     {
       "name": "GPT6_COUNTER_OVERFLOW",
-      "value": 110,
-      "description": "Overflow"
+      "value": 24,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "GPT",
+      "channel": 6,
+      "signal": "COUNTER_OVERFLOW"
     },
     {
       "name": "GPT6_COUNTER_UNDERFLOW",
-      "value": 111,
-      "description": "Underflow"
+      "value": 21,
+      "description": "group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        7,
+        15,
+        23,
+        31
+      ],
+      "peripheral": "GPT",
+      "channel": 6,
+      "signal": "COUNTER_UNDERFLOW"
+    },
+    {
+      "name": "GPT7_CAPTURE_COMPARE_A",
+      "value": 27,
+      "description": "group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        4,
+        12,
+        20,
+        28
+      ],
+      "peripheral": "GPT",
+      "channel": 7,
+      "signal": "CAPTURE_COMPARE_A"
+    },
+    {
+      "name": "GPT7_CAPTURE_COMPARE_B",
+      "value": 24,
+      "description": "group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        5,
+        13,
+        21,
+        29
+      ],
+      "peripheral": "GPT",
+      "channel": 7,
+      "signal": "CAPTURE_COMPARE_B"
+    },
+    {
+      "name": "GPT7_COMPARE_C",
+      "value": 25,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "GPT",
+      "channel": 7,
+      "signal": "COMPARE_C"
+    },
+    {
+      "name": "GPT7_COMPARE_D",
+      "value": 22,
+      "description": "group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        7,
+        15,
+        23,
+        31
+      ],
+      "peripheral": "GPT",
+      "channel": 7,
+      "signal": "COMPARE_D"
+    },
+    {
+      "name": "GPT7_COUNTER_OVERFLOW",
+      "value": 24,
+      "description": "group2 (IELSR[2, 10, 18, 26])",
+      "irq_number": [
+        2,
+        10,
+        18,
+        26
+      ],
+      "peripheral": "GPT",
+      "channel": 7,
+      "signal": "COUNTER_OVERFLOW"
+    },
+    {
+      "name": "GPT7_COUNTER_UNDERFLOW",
+      "value": 22,
+      "description": "group3 (IELSR[3, 11, 19, 27])",
+      "irq_number": [
+        3,
+        11,
+        19,
+        27
+      ],
+      "peripheral": "GPT",
+      "channel": 7,
+      "signal": "COUNTER_UNDERFLOW"
+    },
+    {
+      "name": "GPT8_CAPTURE_COMPARE_A",
+      "value": 29,
+      "description": "group0 (IELSR[0, 8, 16, 24])",
+      "irq_number": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "peripheral": "GPT",
+      "channel": 8,
+      "signal": "CAPTURE_COMPARE_A"
+    },
+    {
+      "name": "GPT8_CAPTURE_COMPARE_B",
+      "value": 26,
+      "description": "group1 (IELSR[1, 9, 17, 25])",
+      "irq_number": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "peripheral": "GPT",
+      "channel": 8,
+      "signal": "CAPTURE_COMPARE_B"
+    },
+    {
+      "name": "GPT8_COMPARE_C",
+      "value": 25,
+      "description": "group2 (IELSR[2, 10, 18, 26])",
+      "irq_number": [
+        2,
+        10,
+        18,
+        26
+      ],
+      "peripheral": "GPT",
+      "channel": 8,
+      "signal": "COMPARE_C"
+    },
+    {
+      "name": "GPT8_COMPARE_D",
+      "value": 23,
+      "description": "group3 (IELSR[3, 11, 19, 27])",
+      "irq_number": [
+        3,
+        11,
+        19,
+        27
+      ],
+      "peripheral": "GPT",
+      "channel": 8,
+      "signal": "COMPARE_D"
+    },
+    {
+      "name": "GPT8_COUNTER_OVERFLOW",
+      "value": 26,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "GPT",
+      "channel": 8,
+      "signal": "COUNTER_OVERFLOW"
+    },
+    {
+      "name": "GPT8_COUNTER_UNDERFLOW",
+      "value": 23,
+      "description": "group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        7,
+        15,
+        23,
+        31
+      ],
+      "peripheral": "GPT",
+      "channel": 8,
+      "signal": "COUNTER_UNDERFLOW"
+    },
+    {
+      "name": "GPT9_CAPTURE_COMPARE_A",
+      "value": 28,
+      "description": "group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        4,
+        12,
+        20,
+        28
+      ],
+      "peripheral": "GPT",
+      "channel": 9,
+      "signal": "CAPTURE_COMPARE_A"
+    },
+    {
+      "name": "GPT9_CAPTURE_COMPARE_B",
+      "value": 25,
+      "description": "group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        5,
+        13,
+        21,
+        29
+      ],
+      "peripheral": "GPT",
+      "channel": 9,
+      "signal": "CAPTURE_COMPARE_B"
+    },
+    {
+      "name": "GPT9_COMPARE_C",
+      "value": 27,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "GPT",
+      "channel": 9,
+      "signal": "COMPARE_C"
+    },
+    {
+      "name": "GPT9_COMPARE_D",
+      "value": 24,
+      "description": "group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        7,
+        15,
+        23,
+        31
+      ],
+      "peripheral": "GPT",
+      "channel": 9,
+      "signal": "COMPARE_D"
+    },
+    {
+      "name": "GPT9_COUNTER_OVERFLOW",
+      "value": 26,
+      "description": "group2 (IELSR[2, 10, 18, 26])",
+      "irq_number": [
+        2,
+        10,
+        18,
+        26
+      ],
+      "peripheral": "GPT",
+      "channel": 9,
+      "signal": "COUNTER_OVERFLOW"
+    },
+    {
+      "name": "GPT9_COUNTER_UNDERFLOW",
+      "value": 24,
+      "description": "group3 (IELSR[3, 11, 19, 27])",
+      "irq_number": [
+        3,
+        11,
+        19,
+        27
+      ],
+      "peripheral": "GPT",
+      "channel": 9,
+      "signal": "COUNTER_UNDERFLOW"
     },
     {
       "name": "GPT_UVWEDGE",
-      "value": 112,
-      "description": "UVW edge event"
+      "value": 17,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "GPT",
+      "signal": "UVWEDGE"
     },
     {
-      "name": "SCI0_RXI",
-      "value": 113,
-      "description": "Receive data full"
+      "name": "ICU_IRQ0",
+      "value": 1,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "ICU",
+      "channel": 0,
+      "signal": "IRQ"
     },
     {
-      "name": "SCI0_TXI",
-      "value": 114,
-      "description": "Transmit data empty"
+      "name": "ICU_IRQ1",
+      "value": 1,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "ICU",
+      "channel": 1,
+      "signal": "IRQ"
     },
     {
-      "name": "SCI0_TEI",
-      "value": 115,
-      "description": "Transmit end"
+      "name": "ICU_IRQ2",
+      "value": 1,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "ICU",
+      "channel": 2,
+      "signal": "IRQ"
     },
     {
-      "name": "SCI0_ERI",
-      "value": 116,
-      "description": "Receive error"
+      "name": "ICU_IRQ3",
+      "value": 1,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "ICU",
+      "channel": 3,
+      "signal": "IRQ"
+    },
+    {
+      "name": "ICU_IRQ4",
+      "value": 22,
+      "description": "group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        4,
+        12,
+        20,
+        28
+      ],
+      "peripheral": "ICU",
+      "channel": 4,
+      "signal": "IRQ"
+    },
+    {
+      "name": "ICU_IRQ5",
+      "value": 19,
+      "description": "group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        5,
+        13,
+        21,
+        29
+      ],
+      "peripheral": "ICU",
+      "channel": 5,
+      "signal": "IRQ"
+    },
+    {
+      "name": "ICU_IRQ6",
+      "value": 19,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "ICU",
+      "channel": 6,
+      "signal": "IRQ"
+    },
+    {
+      "name": "ICU_IRQ7",
+      "value": 17,
+      "description": "group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        7,
+        15,
+        23,
+        31
+      ],
+      "peripheral": "ICU",
+      "channel": 7,
+      "signal": "IRQ"
+    },
+    {
+      "name": "ICU_SNOOZE_CANCEL",
+      "value": 3,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "ICU",
+      "signal": "SNOOZE_CANCEL"
+    },
+    {
+      "name": "IIC0_ERI",
+      "value": 6,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "IIC",
+      "channel": 0,
+      "signal": "ERI"
+    },
+    {
+      "name": "IIC0_RXI",
+      "value": 10,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "IIC",
+      "channel": 0,
+      "signal": "RXI"
+    },
+    {
+      "name": "IIC0_TEI",
+      "value": 6,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "IIC",
+      "channel": 0,
+      "signal": "TEI"
+    },
+    {
+      "name": "IIC0_TXI",
+      "value": 8,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "IIC",
+      "channel": 0,
+      "signal": "TXI"
+    },
+    {
+      "name": "IIC0_WUI",
+      "value": 11,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "IIC",
+      "channel": 0,
+      "signal": "WUI"
+    },
+    {
+      "name": "IIC1_ERI",
+      "value": 20,
+      "description": "group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        5,
+        13,
+        21,
+        29
+      ],
+      "peripheral": "IIC",
+      "channel": 1,
+      "signal": "ERI"
+    },
+    {
+      "name": "IIC1_RXI",
+      "value": 23,
+      "description": "group0 (IELSR[0, 8, 16, 24])",
+      "irq_number": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "peripheral": "IIC",
+      "channel": 1,
+      "signal": "RXI"
+    },
+    {
+      "name": "IIC1_TEI",
+      "value": 23,
+      "description": "group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        4,
+        12,
+        20,
+        28
+      ],
+      "peripheral": "IIC",
+      "channel": 1,
+      "signal": "TEI"
+    },
+    {
+      "name": "IIC1_TXI",
+      "value": 20,
+      "description": "group1 (IELSR[1, 9, 17, 25])",
+      "irq_number": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "peripheral": "IIC",
+      "channel": 1,
+      "signal": "TXI"
+    },
+    {
+      "name": "IOPORT_EVENT_1",
+      "value": 21,
+      "description": "group1 (IELSR[1, 9, 17, 25])",
+      "irq_number": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "peripheral": "IOPORT",
+      "signal": "EVENT_1"
+    },
+    {
+      "name": "IOPORT_EVENT_2",
+      "value": 19,
+      "description": "group2 (IELSR[2, 10, 18, 26])",
+      "irq_number": [
+        2,
+        10,
+        18,
+        26
+      ],
+      "peripheral": "IOPORT",
+      "signal": "EVENT_2"
+    },
+    {
+      "name": "IWDT_UNDERFLOW",
+      "value": 3,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "IWDT",
+      "signal": "UNDERFLOW"
+    },
+    {
+      "name": "KEY_INT",
+      "value": 24,
+      "description": "group0 (IELSR[0, 8, 16, 24])",
+      "irq_number": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "peripheral": "KEY",
+      "signal": "INT"
+    },
+    {
+      "name": "LPM_SNOOZE_REQUEST",
+      "value": 2,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "LPM",
+      "signal": "SNOOZE_REQUEST"
+    },
+    {
+      "name": "LVD_LVD1",
+      "value": 4,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "LVD",
+      "channel": 1,
+      "signal": "LVD"
+    },
+    {
+      "name": "LVD_LVD2",
+      "value": 2,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "LVD",
+      "channel": 2,
+      "signal": "LVD"
+    },
+    {
+      "name": "POEG0_EVENT",
+      "value": 11,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "POEG",
+      "channel": 0,
+      "signal": "EVENT"
+    },
+    {
+      "name": "POEG1_EVENT",
+      "value": 11,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "POEG",
+      "channel": 1,
+      "signal": "EVENT"
+    },
+    {
+      "name": "RTC_ALARM",
+      "value": 4,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "RTC",
+      "signal": "ALARM"
+    },
+    {
+      "name": "RTC_CARRY",
+      "value": 4,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "RTC",
+      "signal": "CARRY"
+    },
+    {
+      "name": "RTC_PERIOD",
+      "value": 4,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "RTC",
+      "signal": "PERIOD"
     },
     {
       "name": "SCI0_AM",
-      "value": 117,
-      "description": "Address match event"
+      "value": 19,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "SCI",
+      "channel": 0,
+      "signal": "AM"
+    },
+    {
+      "name": "SCI0_ERI",
+      "value": 15,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "SCI",
+      "channel": 0,
+      "signal": "ERI"
+    },
+    {
+      "name": "SCI0_RXI",
+      "value": 18,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "SCI",
+      "channel": 0,
+      "signal": "RXI"
     },
     {
       "name": "SCI0_RXI_OR_ERI",
       "value": 118,
-      "description": "Receive data full/Receive error"
+      "description": "Receive data full/Receive error",
+      "peripheral": "SCI",
+      "channel": 0,
+      "signal": "RXI_OR_ERI"
     },
     {
-      "name": "SCI1_RXI",
-      "value": 119,
-      "description": "Receive data full"
+      "name": "SCI0_TEI",
+      "value": 15,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "SCI",
+      "channel": 0,
+      "signal": "TEI"
     },
     {
-      "name": "SCI1_TXI",
-      "value": 120,
-      "description": "Transmit data empty"
-    },
-    {
-      "name": "SCI1_TEI",
-      "value": 121,
-      "description": "Transmit end"
-    },
-    {
-      "name": "SCI1_ERI",
-      "value": 122,
-      "description": "Receive error"
+      "name": "SCI0_TXI",
+      "value": 16,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "SCI",
+      "channel": 0,
+      "signal": "TXI"
     },
     {
       "name": "SCI1_AM",
-      "value": 123,
-      "description": "Address match event"
+      "value": 26,
+      "description": "group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        5,
+        13,
+        21,
+        29
+      ],
+      "peripheral": "SCI",
+      "channel": 1,
+      "signal": "AM"
     },
     {
-      "name": "SCI9_RXI",
-      "value": 124,
-      "description": "Receive data full"
+      "name": "SCI1_ERI",
+      "value": 25,
+      "description": "group3 (IELSR[3, 11, 19, 27])",
+      "irq_number": [
+        3,
+        11,
+        19,
+        27
+      ],
+      "peripheral": "SCI",
+      "channel": 1,
+      "signal": "ERI"
     },
     {
-      "name": "SCI9_TXI",
-      "value": 125,
-      "description": "Transmit data empty"
+      "name": "SCI1_RXI",
+      "value": 30,
+      "description": "group0 (IELSR[0, 8, 16, 24])",
+      "irq_number": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "peripheral": "SCI",
+      "channel": 1,
+      "signal": "RXI"
     },
     {
-      "name": "SCI9_TEI",
-      "value": 126,
-      "description": "Transmit end"
+      "name": "SCI1_TEI",
+      "value": 27,
+      "description": "group2 (IELSR[2, 10, 18, 26])",
+      "irq_number": [
+        2,
+        10,
+        18,
+        26
+      ],
+      "peripheral": "SCI",
+      "channel": 1,
+      "signal": "TEI"
     },
     {
-      "name": "SCI9_ERI",
-      "value": 127,
-      "description": "Receive error"
-    },
-    {
-      "name": "SCI9_AM",
-      "value": 128,
-      "description": "Address match event"
-    },
-    {
-      "name": "SPI0_RXI",
-      "value": 129,
-      "description": "Receive buffer full"
-    },
-    {
-      "name": "SPI0_TXI",
-      "value": 130,
-      "description": "Transmit buffer empty"
-    },
-    {
-      "name": "SPI0_IDLE",
-      "value": 131,
-      "description": "Idle"
-    },
-    {
-      "name": "SPI0_ERI",
-      "value": 132,
-      "description": "Error"
-    },
-    {
-      "name": "SPI0_TEI",
-      "value": 133,
-      "description": "Transmission complete event"
-    },
-    {
-      "name": "SPI1_RXI",
-      "value": 134,
-      "description": "Receive buffer full"
-    },
-    {
-      "name": "SPI1_TXI",
-      "value": 135,
-      "description": "Transmit buffer empty"
-    },
-    {
-      "name": "SPI1_IDLE",
-      "value": 136,
-      "description": "Idle"
-    },
-    {
-      "name": "SPI1_ERI",
-      "value": 137,
-      "description": "Error"
-    },
-    {
-      "name": "SPI1_TEI",
-      "value": 138,
-      "description": "Transmission complete event"
-    },
-    {
-      "name": "AES_WRREQ",
-      "value": 139,
-      "description": "AES Write Request"
-    },
-    {
-      "name": "AES_RDREQ",
-      "value": 140,
-      "description": "AES Read Request"
-    },
-    {
-      "name": "TRNG_RDREQ",
-      "value": 141,
-      "description": "TRNG Read Request"
-    },
-    {
-      "name": "SCI2_RXI",
-      "value": 142,
-      "description": "Receive data full"
-    },
-    {
-      "name": "SCI2_TXI",
-      "value": 143,
-      "description": "Transmit data empty"
-    },
-    {
-      "name": "SCI2_TEI",
-      "value": 144,
-      "description": "Transmit end"
-    },
-    {
-      "name": "SCI2_ERI",
-      "value": 145,
-      "description": "Receive error"
+      "name": "SCI1_TXI",
+      "value": 27,
+      "description": "group1 (IELSR[1, 9, 17, 25])",
+      "irq_number": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "peripheral": "SCI",
+      "channel": 1,
+      "signal": "TXI"
     },
     {
       "name": "SCI2_AM",
-      "value": 146,
-      "description": "Address match event"
+      "value": 28,
+      "description": "group1 (IELSR[1, 9, 17, 25])",
+      "irq_number": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "peripheral": "SCI",
+      "channel": 2,
+      "signal": "AM"
     },
     {
-      "name": "SCI3_RXI",
-      "value": 147,
-      "description": "Receive data full"
+      "name": "SCI2_ERI",
+      "value": 25,
+      "description": "group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        7,
+        15,
+        23,
+        31
+      ],
+      "peripheral": "SCI",
+      "channel": 2,
+      "signal": "ERI"
     },
     {
-      "name": "SCI3_TXI",
-      "value": 148,
-      "description": "Transmit data empty"
+      "name": "SCI2_RXI",
+      "value": 29,
+      "description": "group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        4,
+        12,
+        20,
+        28
+      ],
+      "peripheral": "SCI",
+      "channel": 2,
+      "signal": "RXI"
     },
     {
-      "name": "SCI3_TEI",
-      "value": 149,
-      "description": "Transmit end"
+      "name": "SCI2_TEI",
+      "value": 28,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "SCI",
+      "channel": 2,
+      "signal": "TEI"
     },
     {
-      "name": "SCI3_ERI",
-      "value": 150,
-      "description": "Receive error"
+      "name": "SCI2_TXI",
+      "value": 27,
+      "description": "group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        5,
+        13,
+        21,
+        29
+      ],
+      "peripheral": "SCI",
+      "channel": 2,
+      "signal": "TXI"
     },
     {
       "name": "SCI3_AM",
-      "value": 151,
-      "description": "Address match event"
+      "value": 29,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "SCI",
+      "channel": 3,
+      "signal": "AM"
     },
     {
-      "name": "GPT7_CAPTURE_COMPARE_A",
-      "value": 152,
-      "description": "Capture/Compare match A"
+      "name": "SCI3_ERI",
+      "value": 26,
+      "description": "group3 (IELSR[3, 11, 19, 27])",
+      "irq_number": [
+        3,
+        11,
+        19,
+        27
+      ],
+      "peripheral": "SCI",
+      "channel": 3,
+      "signal": "ERI"
     },
     {
-      "name": "GPT7_CAPTURE_COMPARE_B",
-      "value": 153,
-      "description": "Capture/Compare match B"
+      "name": "SCI3_RXI",
+      "value": 31,
+      "description": "group0 (IELSR[0, 8, 16, 24])",
+      "irq_number": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "peripheral": "SCI",
+      "channel": 3,
+      "signal": "RXI"
     },
     {
-      "name": "GPT7_COMPARE_C",
-      "value": 154,
-      "description": "Compare match C"
+      "name": "SCI3_TEI",
+      "value": 28,
+      "description": "group2 (IELSR[2, 10, 18, 26])",
+      "irq_number": [
+        2,
+        10,
+        18,
+        26
+      ],
+      "peripheral": "SCI",
+      "channel": 3,
+      "signal": "TEI"
     },
     {
-      "name": "GPT7_COMPARE_D",
-      "value": 155,
-      "description": "Compare match D"
+      "name": "SCI3_TXI",
+      "value": 29,
+      "description": "group1 (IELSR[1, 9, 17, 25])",
+      "irq_number": [
+        1,
+        9,
+        17,
+        25
+      ],
+      "peripheral": "SCI",
+      "channel": 3,
+      "signal": "TXI"
     },
     {
-      "name": "GPT7_COUNTER_OVERFLOW",
-      "value": 156,
-      "description": "Overflow"
+      "name": "SCI9_AM",
+      "value": 27,
+      "description": "group3 (IELSR[3, 11, 19, 27])",
+      "irq_number": [
+        3,
+        11,
+        19,
+        27
+      ],
+      "peripheral": "SCI",
+      "channel": 9,
+      "signal": "AM"
     },
     {
-      "name": "GPT7_COUNTER_UNDERFLOW",
-      "value": 157,
-      "description": "Underflow"
+      "name": "SCI9_ERI",
+      "value": 26,
+      "description": "group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        7,
+        15,
+        23,
+        31
+      ],
+      "peripheral": "SCI",
+      "channel": 9,
+      "signal": "ERI"
     },
     {
-      "name": "GPT8_CAPTURE_COMPARE_A",
-      "value": 158,
-      "description": "Capture/Compare match A"
+      "name": "SCI9_RXI",
+      "value": 30,
+      "description": "group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        4,
+        12,
+        20,
+        28
+      ],
+      "peripheral": "SCI",
+      "channel": 9,
+      "signal": "RXI"
     },
     {
-      "name": "GPT8_CAPTURE_COMPARE_B",
-      "value": 159,
-      "description": "Capture/Compare match B"
+      "name": "SCI9_TEI",
+      "value": 30,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "SCI",
+      "channel": 9,
+      "signal": "TEI"
     },
     {
-      "name": "GPT8_COMPARE_C",
-      "value": 160,
-      "description": "Compare match C"
+      "name": "SCI9_TXI",
+      "value": 28,
+      "description": "group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        5,
+        13,
+        21,
+        29
+      ],
+      "peripheral": "SCI",
+      "channel": 9,
+      "signal": "TXI"
     },
     {
-      "name": "GPT8_COMPARE_D",
-      "value": 161,
-      "description": "Compare match D"
+      "name": "SPI0_ERI",
+      "value": 16,
+      "description": "group3 (IELSR[3, 11, 19, 27]) / group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        3,
+        7,
+        11,
+        15,
+        19,
+        23,
+        27,
+        31
+      ],
+      "peripheral": "SPI",
+      "channel": 0,
+      "signal": "ERI"
     },
     {
-      "name": "GPT8_COUNTER_OVERFLOW",
-      "value": 162,
-      "description": "Overflow"
+      "name": "SPI0_IDLE",
+      "value": 16,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "SPI",
+      "channel": 0,
+      "signal": "IDLE"
     },
     {
-      "name": "GPT8_COUNTER_UNDERFLOW",
-      "value": 163,
-      "description": "Underflow"
+      "name": "SPI0_RXI",
+      "value": 20,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "SPI",
+      "channel": 0,
+      "signal": "RXI"
     },
     {
-      "name": "GPT9_CAPTURE_COMPARE_A",
-      "value": 164,
-      "description": "Capture/Compare match A"
+      "name": "SPI0_TEI",
+      "value": 17,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "SPI",
+      "channel": 0,
+      "signal": "TEI"
     },
     {
-      "name": "GPT9_CAPTURE_COMPARE_B",
-      "value": 165,
-      "description": "Capture/Compare match B"
+      "name": "SPI0_TXI",
+      "value": 17,
+      "description": "group1 (IELSR[1, 9, 17, 25]) / group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        1,
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        29
+      ],
+      "peripheral": "SPI",
+      "channel": 0,
+      "signal": "TXI"
     },
     {
-      "name": "GPT9_COMPARE_C",
-      "value": 166,
-      "description": "Compare match C"
+      "name": "SPI1_ERI",
+      "value": 27,
+      "description": "group7 (IELSR[7, 15, 23, 31])",
+      "irq_number": [
+        7,
+        15,
+        23,
+        31
+      ],
+      "peripheral": "SPI",
+      "channel": 1,
+      "signal": "ERI"
     },
     {
-      "name": "GPT9_COMPARE_D",
-      "value": 167,
-      "description": "Compare match D"
+      "name": "SPI1_IDLE",
+      "value": 29,
+      "description": "group2 (IELSR[2, 10, 18, 26])",
+      "irq_number": [
+        2,
+        10,
+        18,
+        26
+      ],
+      "peripheral": "SPI",
+      "channel": 1,
+      "signal": "IDLE"
     },
     {
-      "name": "GPT9_COUNTER_OVERFLOW",
-      "value": 168,
-      "description": "Overflow"
+      "name": "SPI1_RXI",
+      "value": 31,
+      "description": "group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        4,
+        12,
+        20,
+        28
+      ],
+      "peripheral": "SPI",
+      "channel": 1,
+      "signal": "RXI"
     },
     {
-      "name": "GPT9_COUNTER_UNDERFLOW",
-      "value": 169,
-      "description": "Underflow"
+      "name": "SPI1_TEI",
+      "value": 31,
+      "description": "group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        6,
+        14,
+        22,
+        30
+      ],
+      "peripheral": "SPI",
+      "channel": 1,
+      "signal": "TEI"
+    },
+    {
+      "name": "SPI1_TXI",
+      "value": 29,
+      "description": "group5 (IELSR[5, 13, 21, 29])",
+      "irq_number": [
+        5,
+        13,
+        21,
+        29
+      ],
+      "peripheral": "SPI",
+      "channel": 1,
+      "signal": "TXI"
+    },
+    {
+      "name": "TRNG_RDREQ",
+      "value": 18,
+      "description": "group2 (IELSR[2, 10, 18, 26]) / group6 (IELSR[6, 14, 22, 30])",
+      "irq_number": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+      ],
+      "peripheral": "TRNG",
+      "signal": "RDREQ"
+    },
+    {
+      "name": "WDT_UNDERFLOW",
+      "value": 6,
+      "description": "group0 (IELSR[0, 8, 16, 24]) / group4 (IELSR[4, 12, 20, 28])",
+      "irq_number": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ],
+      "peripheral": "WDT",
+      "signal": "UNDERFLOW"
     }
   ],
-  "packages": [
-    {
-      "chip": "R7FA2L1A92DFP",
-      "package": "100LQFP",
-      "pins": [
-        {
-          "position": "1",
-          "signals": [
-            "p400"
-          ]
-        },
-        {
-          "position": "2",
-          "signals": [
-            "p401"
-          ]
-        },
-        {
-          "position": "3",
-          "signals": [
-            "p402"
-          ]
-        },
-        {
-          "position": "4",
-          "signals": [
-            "p403"
-          ]
-        },
-        {
-          "position": "5",
-          "signals": [
-            "p404"
-          ]
-        },
-        {
-          "position": "6",
-          "signals": [
-            "p405"
-          ]
-        },
-        {
-          "position": "7",
-          "signals": [
-            "p406"
-          ]
-        },
-        {
-          "position": "8",
-          "signals": [
-            "p714"
-          ]
-        },
-        {
-          "position": "9",
-          "signals": [
-            "vcl"
-          ]
-        },
-        {
-          "position": "10",
-          "signals": [
-            "p215"
-          ]
-        },
-        {
-          "position": "11",
-          "signals": [
-            "p214"
-          ]
-        },
-        {
-          "position": "12",
-          "signals": [
-            "vss"
-          ]
-        },
-        {
-          "position": "13",
-          "signals": [
-            "p213"
-          ]
-        },
-        {
-          "position": "14",
-          "signals": [
-            "p212"
-          ]
-        },
-        {
-          "position": "15",
-          "signals": [
-            "vcc"
-          ]
-        },
-        {
-          "position": "16",
-          "signals": [
-            "p708"
-          ]
-        },
-        {
-          "position": "17",
-          "signals": [
-            "p415"
-          ]
-        },
-        {
-          "position": "18",
-          "signals": [
-            "p414"
-          ]
-        },
-        {
-          "position": "19",
-          "signals": [
-            "p413"
-          ]
-        },
-        {
-          "position": "20",
-          "signals": [
-            "p412"
-          ]
-        },
-        {
-          "position": "21",
-          "signals": [
-            "p411"
-          ]
-        },
-        {
-          "position": "22",
-          "signals": [
-            "p410"
-          ]
-        },
-        {
-          "position": "23",
-          "signals": [
-            "p409"
-          ]
-        },
-        {
-          "position": "24",
-          "signals": [
-            "p408"
-          ]
-        },
-        {
-          "position": "25",
-          "signals": [
-            "p407"
-          ]
-        },
-        {
-          "position": "26",
-          "signals": [
-            "vssdcdc"
-          ]
-        },
-        {
-          "position": "27",
-          "signals": [
-            "vlo"
-          ]
-        },
-        {
-          "position": "28",
-          "signals": [
-            "vccdcdc"
-          ]
-        },
-        {
-          "position": "29",
-          "signals": [
-            "p208"
-          ]
-        },
-        {
-          "position": "30",
-          "signals": [
-            "p207"
-          ]
-        },
-        {
-          "position": "31",
-          "signals": [
-            "p206"
-          ]
-        },
-        {
-          "position": "32",
-          "signals": [
-            "p205"
-          ]
-        },
-        {
-          "position": "33",
-          "signals": [
-            "p204"
-          ]
-        },
-        {
-          "position": "34",
-          "signals": [
-            "p203"
-          ]
-        },
-        {
-          "position": "35",
-          "signals": [
-            "p202"
-          ]
-        },
-        {
-          "position": "36",
-          "signals": [
-            "vss"
-          ]
-        },
-        {
-          "position": "37",
-          "signals": [
-            "vcc"
-          ]
-        },
-        {
-          "position": "38",
-          "signals": [
-            "res"
-          ]
-        },
-        {
-          "position": "39",
-          "signals": [
-            "p201"
-          ]
-        },
-        {
-          "position": "40",
-          "signals": [
-            "p200"
-          ]
-        },
-        {
-          "position": "41",
-          "signals": [
-            "p307"
-          ]
-        },
-        {
-          "position": "42",
-          "signals": [
-            "p306"
-          ]
-        },
-        {
-          "position": "43",
-          "signals": [
-            "p305"
-          ]
-        },
-        {
-          "position": "44",
-          "signals": [
-            "p304"
-          ]
-        },
-        {
-          "position": "45",
-          "signals": [
-            "p808"
-          ]
-        },
-        {
-          "position": "46",
-          "signals": [
-            "p809"
-          ]
-        },
-        {
-          "position": "47",
-          "signals": [
-            "p303"
-          ]
-        },
-        {
-          "position": "48",
-          "signals": [
-            "p302"
-          ]
-        },
-        {
-          "position": "49",
-          "signals": [
-            "p301"
-          ]
-        },
-        {
-          "position": "50",
-          "signals": [
-            "p300"
-          ]
-        },
-        {
-          "position": "51",
-          "signals": [
-            "p108"
-          ]
-        },
-        {
-          "position": "52",
-          "signals": [
-            "p109"
-          ]
-        },
-        {
-          "position": "53",
-          "signals": [
-            "p110"
-          ]
-        },
-        {
-          "position": "54",
-          "signals": [
-            "p111"
-          ]
-        },
-        {
-          "position": "55",
-          "signals": [
-            "p112"
-          ]
-        },
-        {
-          "position": "56",
-          "signals": [
-            "p113"
-          ]
-        },
-        {
-          "position": "57",
-          "signals": [
-            "p114"
-          ]
-        },
-        {
-          "position": "58",
-          "signals": [
-            "p115"
-          ]
-        },
-        {
-          "position": "59",
-          "signals": [
-            "p608"
-          ]
-        },
-        {
-          "position": "60",
-          "signals": [
-            "p609"
-          ]
-        },
-        {
-          "position": "61",
-          "signals": [
-            "p610"
-          ]
-        },
-        {
-          "position": "62",
-          "signals": [
-            "vcc"
-          ]
-        },
-        {
-          "position": "63",
-          "signals": [
-            "vss"
-          ]
-        },
-        {
-          "position": "64",
-          "signals": [
-            "p603"
-          ]
-        },
-        {
-          "position": "65",
-          "signals": [
-            "p602"
-          ]
-        },
-        {
-          "position": "66",
-          "signals": [
-            "p601"
-          ]
-        },
-        {
-          "position": "67",
-          "signals": [
-            "p600"
-          ]
-        },
-        {
-          "position": "68",
-          "signals": [
-            "p107"
-          ]
-        },
-        {
-          "position": "69",
-          "signals": [
-            "p106"
-          ]
-        },
-        {
-          "position": "70",
-          "signals": [
-            "p105"
-          ]
-        },
-        {
-          "position": "71",
-          "signals": [
-            "p104"
-          ]
-        },
-        {
-          "position": "72",
-          "signals": [
-            "p103"
-          ]
-        },
-        {
-          "position": "73",
-          "signals": [
-            "p102"
-          ]
-        },
-        {
-          "position": "74",
-          "signals": [
-            "p101"
-          ]
-        },
-        {
-          "position": "75",
-          "signals": [
-            "p100"
-          ]
-        },
-        {
-          "position": "76",
-          "signals": [
-            "p500"
-          ]
-        },
-        {
-          "position": "77",
-          "signals": [
-            "p501"
-          ]
-        },
-        {
-          "position": "78",
-          "signals": [
-            "p502"
-          ]
-        },
-        {
-          "position": "79",
-          "signals": [
-            "p503"
-          ]
-        },
-        {
-          "position": "80",
-          "signals": [
-            "p504"
-          ]
-        },
-        {
-          "position": "81",
-          "signals": [
-            "p505"
-          ]
-        },
-        {
-          "position": "82",
-          "signals": [
-            "vcc"
-          ]
-        },
-        {
-          "position": "83",
-          "signals": [
-            "vss"
-          ]
-        },
-        {
-          "position": "84",
-          "signals": [
-            "p015"
-          ]
-        },
-        {
-          "position": "85",
-          "signals": [
-            "p014"
-          ]
-        },
-        {
-          "position": "86",
-          "signals": [
-            "p013"
-          ]
-        },
-        {
-          "position": "87",
-          "signals": [
-            "p012"
-          ]
-        },
-        {
-          "position": "88",
-          "signals": [
-            "avcc0"
-          ]
-        },
-        {
-          "position": "89",
-          "signals": [
-            "avss0"
-          ]
-        },
-        {
-          "position": "90",
-          "signals": [
-            "p011"
-          ]
-        },
-        {
-          "position": "91",
-          "signals": [
-            "p010"
-          ]
-        },
-        {
-          "position": "92",
-          "signals": [
-            "p008"
-          ]
-        },
-        {
-          "position": "93",
-          "signals": [
-            "p007"
-          ]
-        },
-        {
-          "position": "94",
-          "signals": [
-            "p006"
-          ]
-        },
-        {
-          "position": "95",
-          "signals": [
-            "p005"
-          ]
-        },
-        {
-          "position": "96",
-          "signals": [
-            "p004"
-          ]
-        },
-        {
-          "position": "97",
-          "signals": [
-            "p003"
-          ]
-        },
-        {
-          "position": "98",
-          "signals": [
-            "p002"
-          ]
-        },
-        {
-          "position": "99",
-          "signals": [
-            "p001"
-          ]
-        },
-        {
-          "position": "100",
-          "signals": [
-            "p000"
-          ]
-        }
-      ]
-    }
-  ]
+  "packages": [],
+  "pins": []
 }

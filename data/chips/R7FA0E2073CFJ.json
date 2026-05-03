@@ -46,471 +46,570 @@
       "name": "ICU",
       "address": 1073766400,
       "type": "icu",
-      "version": "v1",
-      "mstp": null,
-      "bit_width": null
+      "version": "ra0e2",
+      "block": "ICU"
     },
     {
       "name": "MSTP",
       "address": 1074032640,
       "type": "mstp",
       "version": "v1",
-      "mstp": null,
-      "bit_width": null
+      "block": "MSTP"
+    },
+    {
+      "name": "PFS",
+      "address": 1074397696,
+      "type": "pfs",
+      "version": "v2",
+      "block": "PFS"
     },
     {
       "name": "PORT0",
       "address": 1074397184,
-      "type": "gpio",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "port",
+      "version": "v1",
+      "block": "PORT"
     },
     {
       "name": "PORT1",
       "address": 1074397216,
-      "type": "gpio",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "port",
+      "version": "v1",
+      "block": "PORT"
     },
     {
       "name": "PORT2",
       "address": 1074397248,
-      "type": "gpio",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "port",
+      "version": "v1",
+      "block": "PORT"
     },
     {
       "name": "PORT3",
       "address": 1074397280,
-      "type": "gpio",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "port",
+      "version": "v1",
+      "block": "PORT"
     },
     {
       "name": "PORT4",
       "address": 1074397312,
-      "type": "gpio",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "port",
+      "version": "v1",
+      "block": "PORT"
     },
     {
       "name": "PORT5",
       "address": 1074397344,
-      "type": "gpio",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
+      "type": "port",
+      "version": "v1",
+      "block": "PORT"
     },
     {
       "name": "PORT9",
       "address": 1074397472,
-      "type": "gpio",
-      "version": "v3",
-      "mstp": null,
-      "bit_width": null
-    },
-    {
-      "name": "RTC_C",
-      "address": 1074408448,
-      "type": "rtc",
+      "type": "port",
       "version": "v1",
-      "mstp": null,
-      "bit_width": null
+      "block": "PORT"
     },
     {
-      "name": "SYSTEM",
+      "name": "SYSC",
       "address": 1073864704,
-      "type": "system",
-      "version": "v2",
-      "mstp": null,
-      "bit_width": null
+      "type": "sysc",
+      "version": "v7",
+      "block": "SYSC"
     }
   ],
   "interrupts": [
     {
-      "name": "ICU_IRQ0",
-      "value": 1,
-      "description": "External pin interrupt 0"
+      "name": "ADC0_SCAN_END",
+      "value": 31,
+      "description": "End of A/D scanning operation",
+      "peripheral": "ADC",
+      "channel": 0,
+      "signal": "SCAN_END"
     },
     {
-      "name": "ICU_IRQ1",
-      "value": 2,
-      "description": "External pin interrupt 1"
-    },
-    {
-      "name": "ICU_IRQ2",
-      "value": 3,
-      "description": "External pin interrupt 2"
-    },
-    {
-      "name": "ICU_IRQ3",
-      "value": 4,
-      "description": "External pin interrupt 3"
-    },
-    {
-      "name": "ICU_IRQ4",
-      "value": 5,
-      "description": "External pin interrupt 4"
-    },
-    {
-      "name": "ICU_IRQ5",
-      "value": 6,
-      "description": "External pin interrupt 5"
-    },
-    {
-      "name": "RTC_ALARM_OR_PERIOD",
-      "value": 7,
-      "description": "Alarm or Periodic interrupt"
-    },
-    {
-      "name": "TML0_ITL0",
-      "value": 8,
-      "description": "TML timer0 compare-match"
-    },
-    {
-      "name": "TML0_ITL1",
-      "value": 9,
-      "description": "TML timer1 compare-match"
-    },
-    {
-      "name": "TML0_ITL2",
+      "name": "DTC_COMPLETE",
       "value": 10,
-      "description": "TML timer2 compare-match"
-    },
-    {
-      "name": "TML0_ITL3",
-      "value": 11,
-      "description": "TML timer3 compare-match"
-    },
-    {
-      "name": "TAU0_TMI00",
-      "value": 12,
-      "description": "End of timer channel 00 count or capture"
-    },
-    {
-      "name": "TAU0_TMI01",
-      "value": 13,
-      "description": "End of timer channel 01 count or capture"
-    },
-    {
-      "name": "TAU0_TMI02",
-      "value": 14,
-      "description": "End of timer channel 02 count or capture"
-    },
-    {
-      "name": "TAU0_TMI03",
-      "value": 15,
-      "description": "End of timer channel 03 count or capture"
-    },
-    {
-      "name": "SAU0_UART_TXI0",
-      "value": 16,
-      "description": "SAU UART TX 0/I2C 00/SPI 00"
-    },
-    {
-      "name": "SAU0_SPI_TXRXI00",
-      "value": 16,
-      "description": "SAU UART TX 0/I2C 00/SPI 00"
-    },
-    {
-      "name": "SAU0_IIC_TXRXI00",
-      "value": 16,
-      "description": "SAU UART TX 0/I2C 00/SPI 00"
-    },
-    {
-      "name": "SAU0_UART_RXI0",
-      "value": 17,
-      "description": "SAU UART RX 0/I2C 01/SPI 01"
-    },
-    {
-      "name": "SAU0_SPI_TXRXI01",
-      "value": 17,
-      "description": "SAU UART RX 0/I2C 01/SPI 01"
-    },
-    {
-      "name": "SAU0_IIC_TXRXI01",
-      "value": 17,
-      "description": "SAU UART RX 0/I2C 01/SPI 01"
+      "description": "DTC transfer complete",
+      "peripheral": "DTC",
+      "signal": "COMPLETE"
     },
     {
       "name": "DTC_END",
       "value": 18,
-      "description": "DTC transfer end"
-    },
-    {
-      "name": "LVD_LVD1",
-      "value": 19,
-      "description": "Voltage monitor 1 interrupt"
+      "description": "DTC transfer end",
+      "peripheral": "DTC",
+      "signal": "END"
     },
     {
       "name": "ELC_SOFTWARE_EVENT_0",
-      "value": 20,
-      "description": "Software event 0"
+      "value": 15,
+      "description": "Software event 0",
+      "peripheral": "ELC",
+      "signal": "SOFTWARE_EVENT_0"
     },
     {
       "name": "ELC_SOFTWARE_EVENT_1",
-      "value": 21,
-      "description": "Software event 1"
+      "value": 16,
+      "description": "Software event 1",
+      "peripheral": "ELC",
+      "signal": "SOFTWARE_EVENT_1"
     },
     {
-      "name": "ADC0_SCAN_END",
-      "value": 22,
-      "description": "End of A/D scanning operation"
+      "name": "FCU_FRDYI",
+      "value": 11,
+      "description": "Flash ready interrupt",
+      "peripheral": "FCU",
+      "signal": "FRDYI"
     },
     {
-      "name": "UARTA0_ERRI",
-      "value": 23,
-      "description": "UARTA0 reception communication error occurrence"
+      "name": "ICU_IRQ0",
+      "value": 2,
+      "description": "External pin interrupt 0",
+      "peripheral": "ICU",
+      "channel": 0,
+      "signal": "IRQ"
     },
     {
-      "name": "UARTA0_TXI",
-      "value": 24,
-      "description": "UARTA0 transmission transfer end or buffer empty interrupt"
+      "name": "ICU_IRQ1",
+      "value": 3,
+      "description": "External pin interrupt 1",
+      "peripheral": "ICU",
+      "channel": 1,
+      "signal": "IRQ"
     },
     {
-      "name": "UARTA0_RXI",
-      "value": 25,
-      "description": "UARTA0 reception transfer end"
+      "name": "ICU_IRQ2",
+      "value": 4,
+      "description": "External pin interrupt 2",
+      "peripheral": "ICU",
+      "channel": 2,
+      "signal": "IRQ"
+    },
+    {
+      "name": "ICU_IRQ3",
+      "value": 5,
+      "description": "External pin interrupt 3",
+      "peripheral": "ICU",
+      "channel": 3,
+      "signal": "IRQ"
+    },
+    {
+      "name": "ICU_IRQ4",
+      "value": 6,
+      "description": "External pin interrupt 4",
+      "peripheral": "ICU",
+      "channel": 4,
+      "signal": "IRQ"
+    },
+    {
+      "name": "ICU_IRQ5",
+      "value": 7,
+      "description": "External pin interrupt 5",
+      "peripheral": "ICU",
+      "channel": 5,
+      "signal": "IRQ"
+    },
+    {
+      "name": "ICU_IRQ6",
+      "value": 8,
+      "description": "External pin interrupt 6",
+      "peripheral": "ICU",
+      "channel": 6,
+      "signal": "IRQ"
+    },
+    {
+      "name": "ICU_IRQ7",
+      "value": 9,
+      "description": "External pin interrupt 7",
+      "peripheral": "ICU",
+      "channel": 7,
+      "signal": "IRQ"
     },
     {
       "name": "IICA0_TXRXI",
       "value": 26,
-      "description": "End of IICA0 communication"
-    },
-    {
-      "name": "ICU_IRQ6",
-      "value": 27,
-      "description": "External pin interrupt 6"
-    },
-    {
-      "name": "ICU_IRQ7",
-      "value": 28,
-      "description": "External pin interrupt 7"
-    },
-    {
-      "name": "UARTA1_ERRI",
-      "value": 29,
-      "description": "UARTA1 reception communication error occurrence"
-    },
-    {
-      "name": "UARTA1_TXI",
-      "value": 30,
-      "description": "UARTA1 transmission transfer end or buffer empty interrupt"
-    },
-    {
-      "name": "UARTA1_RXI",
-      "value": 31,
-      "description": "UARTA1 reception transfer end"
+      "description": "End of IICA0 communication",
+      "peripheral": "IICA",
+      "channel": 0,
+      "signal": "TXRXI"
     },
     {
       "name": "IICA1_TXRXI",
+      "value": 42,
+      "description": "End of IICA1 communication",
+      "peripheral": "IICA",
+      "channel": 1,
+      "signal": "TXRXI"
+    },
+    {
+      "name": "IWDT_UNDERFLOW",
+      "value": 0,
+      "description": "IWDT underflow",
+      "peripheral": "IWDT",
+      "signal": "UNDERFLOW"
+    },
+    {
+      "name": "LVD_LVD1",
+      "value": 1,
+      "description": "Voltage monitor 1 interrupt",
+      "peripheral": "LVD",
+      "channel": 1,
+      "signal": "LVD"
+    },
+    {
+      "name": "RTC_ALARM_OR_PERIOD",
       "value": 32,
-      "description": "End of IICA1 communication"
+      "description": "Alarm or Periodic interrupt",
+      "peripheral": "RTC",
+      "signal": "ALARM_OR_PERIOD"
+    },
+    {
+      "name": "SAU0_IIC_TXRXI00",
+      "value": 18,
+      "description": "SAU UART TX 0/I2C 00/SPI 00",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "IIC_TXRXI00"
+    },
+    {
+      "name": "SAU0_IIC_TXRXI01",
+      "value": 27,
+      "description": "SAU UART RX 0/I2C 01/SPI 01",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "IIC_TXRXI01"
+    },
+    {
+      "name": "SAU0_IIC_TXRXI10",
+      "value": 22,
+      "description": "SAU UART TX 1/I2C 10/SPI 10",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "IIC_TXRXI10"
+    },
+    {
+      "name": "SAU0_IIC_TXRXI11",
+      "value": 23,
+      "description": "SAU UART RX 1/I2C 11/SPI 11",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "IIC_TXRXI11"
+    },
+    {
+      "name": "SAU0_SPI_TXRXI00",
+      "value": 18,
+      "description": "SAU UART TX 0/I2C 00/SPI 00",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "SPI_TXRXI00"
+    },
+    {
+      "name": "SAU0_SPI_TXRXI01",
+      "value": 27,
+      "description": "SAU UART RX 0/I2C 01/SPI 01",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "SPI_TXRXI01"
+    },
+    {
+      "name": "SAU0_SPI_TXRXI10",
+      "value": 22,
+      "description": "SAU UART TX 1/I2C 10/SPI 10",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "SPI_TXRXI10"
+    },
+    {
+      "name": "SAU0_SPI_TXRXI11",
+      "value": 23,
+      "description": "SAU UART RX 1/I2C 11/SPI 11",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "SPI_TXRXI11"
+    },
+    {
+      "name": "SAU0_UART_ERRI0",
+      "value": 20,
+      "description": "SAU UART Error",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "UART_ERRI0"
+    },
+    {
+      "name": "SAU0_UART_ERRI1",
+      "value": 24,
+      "description": "SAU UART Error",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "UART_ERRI1"
+    },
+    {
+      "name": "SAU0_UART_RXI0",
+      "value": 27,
+      "description": "SAU UART RX 0/I2C 01/SPI 01",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "UART_RXI0"
+    },
+    {
+      "name": "SAU0_UART_RXI1",
+      "value": 23,
+      "description": "SAU UART RX 1/I2C 11/SPI 11",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "UART_RXI1"
+    },
+    {
+      "name": "SAU0_UART_TXI0",
+      "value": 18,
+      "description": "SAU UART TX 0/I2C 00/SPI 00",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "UART_TXI0"
+    },
+    {
+      "name": "SAU0_UART_TXI1",
+      "value": 22,
+      "description": "SAU UART TX 1/I2C 10/SPI 10",
+      "peripheral": "SAU",
+      "channel": 0,
+      "signal": "UART_TXI1"
+    },
+    {
+      "name": "SAU1_IIC_TXRXI20",
+      "value": 12,
+      "description": "SAU UART TX 2/I2C 20/SPI 20",
+      "peripheral": "SAU",
+      "channel": 1,
+      "signal": "IIC_TXRXI20"
+    },
+    {
+      "name": "SAU1_IIC_TXRXI21",
+      "value": 13,
+      "description": "SAU UART RX 2/I2C 21/SPI 21",
+      "peripheral": "SAU",
+      "channel": 1,
+      "signal": "IIC_TXRXI21"
+    },
+    {
+      "name": "SAU1_SPI_TXRXI20",
+      "value": 12,
+      "description": "SAU UART TX 2/I2C 20/SPI 20",
+      "peripheral": "SAU",
+      "channel": 1,
+      "signal": "SPI_TXRXI20"
+    },
+    {
+      "name": "SAU1_SPI_TXRXI21",
+      "value": 13,
+      "description": "SAU UART RX 2/I2C 21/SPI 21",
+      "peripheral": "SAU",
+      "channel": 1,
+      "signal": "SPI_TXRXI21"
+    },
+    {
+      "name": "SAU1_UART_ERRI2",
+      "value": 14,
+      "description": "SAU UART Error",
+      "peripheral": "SAU",
+      "channel": 1,
+      "signal": "UART_ERRI2"
+    },
+    {
+      "name": "SAU1_UART_RXI2",
+      "value": 13,
+      "description": "SAU UART RX 2/I2C 21/SPI 21",
+      "peripheral": "SAU",
+      "channel": 1,
+      "signal": "UART_RXI2"
+    },
+    {
+      "name": "SAU1_UART_TXI2",
+      "value": 12,
+      "description": "SAU UART TX 2/I2C 20/SPI 20",
+      "peripheral": "SAU",
+      "channel": 1,
+      "signal": "UART_TXI2"
+    },
+    {
+      "name": "TAU0_TMI00",
+      "value": 19,
+      "description": "End of timer channel 00 count or capture",
+      "peripheral": "TAU",
+      "channel": 0,
+      "signal": "TMI00"
+    },
+    {
+      "name": "TAU0_TMI01",
+      "value": 28,
+      "description": "End of timer channel 01 count or capture",
+      "peripheral": "TAU",
+      "channel": 0,
+      "signal": "TMI01"
+    },
+    {
+      "name": "TAU0_TMI01H",
+      "value": 21,
+      "description": "End of timer channel 01 count or capture (higher operation)",
+      "peripheral": "TAU",
+      "channel": 0,
+      "signal": "TMI01H"
+    },
+    {
+      "name": "TAU0_TMI02",
+      "value": 29,
+      "description": "End of timer channel 02 count or capture",
+      "peripheral": "TAU",
+      "channel": 0,
+      "signal": "TMI02"
+    },
+    {
+      "name": "TAU0_TMI03",
+      "value": 30,
+      "description": "End of timer channel 03 count or capture",
+      "peripheral": "TAU",
+      "channel": 0,
+      "signal": "TMI03"
+    },
+    {
+      "name": "TAU0_TMI03H",
+      "value": 25,
+      "description": "End of timer channel 03 count or capture (higher operation)",
+      "peripheral": "TAU",
+      "channel": 0,
+      "signal": "TMI03H"
+    },
+    {
+      "name": "TAU0_TMI04",
+      "value": 35,
+      "description": "End of timer channel 04 count or capture",
+      "peripheral": "TAU",
+      "channel": 0,
+      "signal": "TMI04"
+    },
+    {
+      "name": "TAU0_TMI05",
+      "value": 36,
+      "description": "End of timer channel 05 count or capture",
+      "peripheral": "TAU",
+      "channel": 0,
+      "signal": "TMI05"
+    },
+    {
+      "name": "TAU0_TMI06",
+      "value": 37,
+      "description": "End of timer channel 06 count or capture",
+      "peripheral": "TAU",
+      "channel": 0,
+      "signal": "TMI06"
+    },
+    {
+      "name": "TAU0_TMI07",
+      "value": 38,
+      "description": "End of timer channel 07 count or capture",
+      "peripheral": "TAU",
+      "channel": 0,
+      "signal": "TMI07"
+    },
+    {
+      "name": "TML0_ITL0",
+      "value": 34,
+      "description": "TML timer0 compare-match",
+      "peripheral": "TML",
+      "channel": 0,
+      "signal": "ITL0"
+    },
+    {
+      "name": "TML0_ITL1",
+      "value": 9,
+      "description": "TML timer1 compare-match",
+      "peripheral": "TML",
+      "channel": 0,
+      "signal": "ITL1"
+    },
+    {
+      "name": "TML0_ITL2",
+      "value": 10,
+      "description": "TML timer2 compare-match",
+      "peripheral": "TML",
+      "channel": 0,
+      "signal": "ITL2"
+    },
+    {
+      "name": "TML0_ITL3",
+      "value": 11,
+      "description": "TML timer3 compare-match",
+      "peripheral": "TML",
+      "channel": 0,
+      "signal": "ITL3"
+    },
+    {
+      "name": "TML0_ITL_OR",
+      "value": 33,
+      "description": "TML timer event",
+      "peripheral": "TML",
+      "channel": 0,
+      "signal": "ITL_OR"
+    },
+    {
+      "name": "TRNG_RDREQ",
+      "value": 17,
+      "description": "TRNG Read Request",
+      "peripheral": "TRNG",
+      "signal": "RDREQ"
+    },
+    {
+      "name": "UARTA0_ERRI",
+      "value": 39,
+      "description": "UARTA0 reception communication error occurrence",
+      "peripheral": "UARTA",
+      "channel": 0,
+      "signal": "ERRI"
+    },
+    {
+      "name": "UARTA0_RXI",
+      "value": 41,
+      "description": "UARTA0 reception transfer end",
+      "peripheral": "UARTA",
+      "channel": 0,
+      "signal": "RXI"
+    },
+    {
+      "name": "UARTA0_TXI",
+      "value": 40,
+      "description": "UARTA0 transmission transfer end or buffer empty interrupt",
+      "peripheral": "UARTA",
+      "channel": 0,
+      "signal": "TXI"
+    },
+    {
+      "name": "UARTA1_ERRI",
+      "value": 43,
+      "description": "UARTA1 reception communication error occurrence",
+      "peripheral": "UARTA",
+      "channel": 1,
+      "signal": "ERRI"
+    },
+    {
+      "name": "UARTA1_RXI",
+      "value": 45,
+      "description": "UARTA1 reception transfer end",
+      "peripheral": "UARTA",
+      "channel": 1,
+      "signal": "RXI"
+    },
+    {
+      "name": "UARTA1_TXI",
+      "value": 44,
+      "description": "UARTA1 transmission transfer end or buffer empty interrupt",
+      "peripheral": "UARTA",
+      "channel": 1,
+      "signal": "TXI"
     }
   ],
-  "packages": [
-    {
-      "chip": "R7FA0E2073CFJ",
-      "package": "32LQFP",
-      "pins": [
-        {
-          "position": "30",
-          "signals": [
-            "p008"
-          ]
-        },
-        {
-          "position": "29",
-          "signals": [
-            "p009"
-          ]
-        },
-        {
-          "position": "32",
-          "signals": [
-            "p010"
-          ]
-        },
-        {
-          "position": "31",
-          "signals": [
-            "p011"
-          ]
-        },
-        {
-          "position": "28",
-          "signals": [
-            "p012"
-          ]
-        },
-        {
-          "position": "27",
-          "signals": [
-            "p013"
-          ]
-        },
-        {
-          "position": "26",
-          "signals": [
-            "p014"
-          ]
-        },
-        {
-          "position": "25",
-          "signals": [
-            "p015"
-          ]
-        },
-        {
-          "position": "24",
-          "signals": [
-            "p100"
-          ]
-        },
-        {
-          "position": "23",
-          "signals": [
-            "p101"
-          ]
-        },
-        {
-          "position": "22",
-          "signals": [
-            "p102"
-          ]
-        },
-        {
-          "position": "21",
-          "signals": [
-            "p103"
-          ]
-        },
-        {
-          "position": "17",
-          "signals": [
-            "p108"
-          ]
-        },
-        {
-          "position": "18",
-          "signals": [
-            "p109"
-          ]
-        },
-        {
-          "position": "19",
-          "signals": [
-            "p110"
-          ]
-        },
-        {
-          "position": "20",
-          "signals": [
-            "p112"
-          ]
-        },
-        {
-          "position": "15",
-          "signals": [
-            "p200"
-          ]
-        },
-        {
-          "position": "14",
-          "signals": [
-            "p201"
-          ]
-        },
-        {
-          "position": "13",
-          "signals": [
-            "p206"
-          ]
-        },
-        {
-          "position": "12",
-          "signals": [
-            "p207"
-          ]
-        },
-        {
-          "position": "11",
-          "signals": [
-            "p208"
-          ]
-        },
-        {
-          "position": "6",
-          "signals": [
-            "p212"
-          ]
-        },
-        {
-          "position": "5",
-          "signals": [
-            "p213"
-          ]
-        },
-        {
-          "position": "3",
-          "signals": [
-            "p214"
-          ]
-        },
-        {
-          "position": "2",
-          "signals": [
-            "p215"
-          ]
-        },
-        {
-          "position": "16",
-          "signals": [
-            "p300"
-          ]
-        },
-        {
-          "position": "8",
-          "signals": [
-            "p407"
-          ]
-        },
-        {
-          "position": "10",
-          "signals": [
-            "p913"
-          ]
-        },
-        {
-          "position": "9",
-          "signals": [
-            "p914"
-          ]
-        },
-        {
-          "position": "7",
-          "signals": [
-            "vcc"
-          ]
-        },
-        {
-          "position": "1",
-          "signals": [
-            "vcl"
-          ]
-        },
-        {
-          "position": "4",
-          "signals": [
-            "vss"
-          ]
-        }
-      ]
-    }
-  ]
+  "packages": [],
+  "pins": []
 }

@@ -1,0 +1,1991 @@
+{
+  "block/SYSC": {
+    "description": "System Control - RA2 class. No PLL. MEMWAIT[0] in SYSC. MOMCR uses 1-bit MODRV1[3]. See README.md.",
+    "items": [
+      {
+        "name": "SBYCR",
+        "description": "Standby Control Register.",
+        "byte_offset": 12,
+        "bit_size": 16,
+        "fieldset": "SBYCR"
+      },
+      {
+        "name": "MSTPCRA",
+        "description": "Module Stop Control Register A.",
+        "byte_offset": 28,
+        "fieldset": "MSTPCRA"
+      },
+      {
+        "name": "SCKDIVCR",
+        "description": "System Clock Division Control Register.",
+        "byte_offset": 32,
+        "fieldset": "SCKDIVCR"
+      },
+      {
+        "name": "SCKSCR",
+        "description": "System Clock Source Control Register.",
+        "byte_offset": 38,
+        "bit_size": 8,
+        "fieldset": "SCKSCR"
+      },
+      {
+        "name": "MEMWAIT",
+        "description": "Memory Wait Cycle Control Register.",
+        "byte_offset": 49,
+        "bit_size": 8,
+        "fieldset": "MEMWAIT"
+      },
+      {
+        "name": "MOSCCR",
+        "description": "Main Clock Oscillator Control Register.",
+        "byte_offset": 50,
+        "bit_size": 8,
+        "fieldset": "MOSCCR"
+      },
+      {
+        "name": "HOCOCR",
+        "description": "High-Speed On-Chip Oscillator Control Register.",
+        "byte_offset": 54,
+        "bit_size": 8,
+        "fieldset": "HOCOCR"
+      },
+      {
+        "name": "MOCOCR",
+        "description": "Middle-Speed On-Chip Oscillator Control Register.",
+        "byte_offset": 56,
+        "bit_size": 8,
+        "fieldset": "MOCOCR"
+      },
+      {
+        "name": "OSCSF",
+        "description": "Oscillation Stabilization Flag Register.",
+        "byte_offset": 60,
+        "bit_size": 8,
+        "access": "Read",
+        "fieldset": "OSCSF"
+      },
+      {
+        "name": "CKOCR",
+        "description": "Clock Out Control Register.",
+        "byte_offset": 62,
+        "bit_size": 8,
+        "fieldset": "CKOCR"
+      },
+      {
+        "name": "OSTDCR",
+        "description": "Oscillation Stop Detection Control Register.",
+        "byte_offset": 64,
+        "bit_size": 8,
+        "fieldset": "OSTDCR"
+      },
+      {
+        "name": "OSTDSR",
+        "description": "Oscillation Stop Detection Status Register.",
+        "byte_offset": 65,
+        "bit_size": 8,
+        "fieldset": "OSTDSR"
+      },
+      {
+        "name": "MOCOUTCR",
+        "description": "MOCO User Trimming Control Register.",
+        "byte_offset": 97,
+        "bit_size": 8,
+        "fieldset": "MOCOUTCR"
+      },
+      {
+        "name": "HOCOUTCR",
+        "description": "HOCO User Trimming Control Register.",
+        "byte_offset": 98,
+        "bit_size": 8,
+        "fieldset": "HOCOUTCR"
+      },
+      {
+        "name": "SNZCR",
+        "description": "Snooze Control Register.",
+        "byte_offset": 146,
+        "bit_size": 8,
+        "fieldset": "SNZCR"
+      },
+      {
+        "name": "SNZEDCR",
+        "description": "Snooze End Control Register.",
+        "byte_offset": 148,
+        "bit_size": 8,
+        "fieldset": "SNZEDCR"
+      },
+      {
+        "name": "SNZREQCR",
+        "description": "Snooze Request Control Register.",
+        "byte_offset": 152,
+        "fieldset": "SNZREQCR"
+      },
+      {
+        "name": "FLSTOP",
+        "description": "Flash Operation Control Register.",
+        "byte_offset": 158,
+        "bit_size": 8,
+        "fieldset": "FLSTOP"
+      },
+      {
+        "name": "OPCCR",
+        "description": "Operating Power Control Register.",
+        "byte_offset": 160,
+        "bit_size": 8,
+        "fieldset": "OPCCR"
+      },
+      {
+        "name": "MOSCWTCR",
+        "description": "Main Clock Oscillator Wait Control Register.",
+        "byte_offset": 162,
+        "bit_size": 8,
+        "fieldset": "MOSCWTCR"
+      },
+      {
+        "name": "HOCOWTCR",
+        "description": "High-Speed On-Chip Oscillator Wait Control Register.",
+        "byte_offset": 165,
+        "bit_size": 8,
+        "fieldset": "HOCOWTCR"
+      },
+      {
+        "name": "SOPCCR",
+        "description": "Sub Operating Power Control Register.",
+        "byte_offset": 170,
+        "bit_size": 8,
+        "fieldset": "SOPCCR"
+      },
+      {
+        "name": "RSTSR1",
+        "description": "Reset Status Register 1.",
+        "byte_offset": 192,
+        "bit_size": 16,
+        "fieldset": "RSTSR1"
+      },
+      {
+        "name": "SDADCCKCR",
+        "description": "24-bit Sigma-Delta A/D Converter Clock Control Register.",
+        "byte_offset": 209,
+        "bit_size": 8,
+        "fieldset": "SDADCCKCR"
+      },
+      {
+        "name": "LVD1CR1",
+        "description": "Voltage Monitor 1 Circuit Control Register 1.",
+        "byte_offset": 224,
+        "bit_size": 8,
+        "fieldset": "LVD1CR1"
+      },
+      {
+        "name": "LVD1SR",
+        "description": "Voltage Monitor 1 Circuit Status Register.",
+        "byte_offset": 225,
+        "bit_size": 8,
+        "fieldset": "LVD1SR"
+      },
+      {
+        "name": "LVD2CR1",
+        "description": "Voltage Monitor 2 Circuit Control Register 1.",
+        "byte_offset": 226,
+        "bit_size": 8,
+        "fieldset": "LVD2CR1"
+      },
+      {
+        "name": "LVD2SR",
+        "description": "Voltage Monitor 2 Circuit Status Register.",
+        "byte_offset": 227,
+        "bit_size": 8,
+        "fieldset": "LVD2SR"
+      },
+      {
+        "name": "PRCR",
+        "description": "Protect Register.",
+        "byte_offset": 1022,
+        "bit_size": 16,
+        "fieldset": "PRCR"
+      },
+      {
+        "name": "SYOCDCR",
+        "description": "System Control OCD Control Register.",
+        "byte_offset": 1038,
+        "bit_size": 8,
+        "fieldset": "SYOCDCR"
+      },
+      {
+        "name": "RSTSR0",
+        "description": "Reset Status Register 0.",
+        "byte_offset": 1040,
+        "bit_size": 8,
+        "fieldset": "RSTSR0"
+      },
+      {
+        "name": "RSTSR2",
+        "description": "Reset Status Register 2.",
+        "byte_offset": 1041,
+        "bit_size": 8,
+        "fieldset": "RSTSR2"
+      },
+      {
+        "name": "MOMCR",
+        "description": "Main Clock Oscillator Mode Oscillation Control Register.",
+        "byte_offset": 1043,
+        "bit_size": 8,
+        "fieldset": "MOMCR"
+      },
+      {
+        "name": "LVCMPCR",
+        "description": "Voltage Monitor Circuit Control Register.",
+        "byte_offset": 1047,
+        "bit_size": 8,
+        "fieldset": "LVCMPCR"
+      },
+      {
+        "name": "LVDLVLR",
+        "description": "Voltage Detection Level Select Register.",
+        "byte_offset": 1048,
+        "bit_size": 8,
+        "fieldset": "LVDLVLR"
+      },
+      {
+        "name": "LVD1CR0",
+        "description": "Voltage Monitor 1 Circuit Control Register 0.",
+        "byte_offset": 1050,
+        "bit_size": 8,
+        "fieldset": "LVD1CR0"
+      },
+      {
+        "name": "LVD2CR0",
+        "description": "Voltage Monitor 2 Circuit Control Register 0.",
+        "byte_offset": 1051,
+        "bit_size": 8,
+        "fieldset": "LVD2CR0"
+      },
+      {
+        "name": "SOSCCR",
+        "description": "Sub-clock Oscillator Control Register.",
+        "byte_offset": 1152,
+        "bit_size": 8,
+        "fieldset": "SOSCCR"
+      },
+      {
+        "name": "SOMCR",
+        "description": "Sub-clock Oscillator Mode Control Register.",
+        "byte_offset": 1153,
+        "bit_size": 8,
+        "fieldset": "SOMCR"
+      },
+      {
+        "name": "LOCOCR",
+        "description": "Low-Speed On-Chip Oscillator Control Register.",
+        "byte_offset": 1168,
+        "bit_size": 8,
+        "fieldset": "LOCOCR"
+      },
+      {
+        "name": "LOCOUTCR",
+        "description": "LOCO User Trimming Control Register.",
+        "byte_offset": 1170,
+        "bit_size": 8,
+        "fieldset": "LOCOUTCR"
+      }
+    ]
+  },
+  "fieldset/SBYCR": {
+    "description": "Standby Control Register.",
+    "bit_size": 16,
+    "fields": [
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000000000000000. The write value should be 000000000000000.",
+        "bit_offset": 0,
+        "bit_size": 15
+      },
+      {
+        "name": "SSBY",
+        "description": "Software Standby",
+        "bit_offset": 15,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/MSTPCRA": {
+    "description": "Module Stop Control Register A.",
+    "bit_size": 32,
+    "fields": [
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 1111111111111111111111. The write value should be 1111111111111111111111.",
+        "bit_offset": 0,
+        "bit_size": 22
+      },
+      {
+        "name": "MSTPA22",
+        "description": "Data Transfer Controller Module Stop",
+        "bit_offset": 22,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 111111111. The write value should be 111111111.",
+        "bit_offset": 23,
+        "bit_size": 9
+      }
+    ]
+  },
+  "fieldset/SCKDIVCR": {
+    "description": "System Clock Division Control Register.",
+    "bit_size": 32,
+    "fields": [
+      {
+        "name": "PCKD",
+        "description": "Peripheral Module Clock D (PCLKD) Select",
+        "bit_offset": 0,
+        "bit_size": 3,
+        "enum": "PCKD"
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00000. The write value should be 00000.",
+        "bit_offset": 3,
+        "bit_size": 5
+      },
+      {
+        "name": "PCKB",
+        "description": "Peripheral Module Clock B (PCLKB) Select",
+        "bit_offset": 8,
+        "bit_size": 3,
+        "enum": "PCKB"
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000000000. The write value should be 0000000000000.",
+        "bit_offset": 11,
+        "bit_size": 13
+      },
+      {
+        "name": "ICK",
+        "description": "System Clock (ICLK) Select",
+        "bit_offset": 24,
+        "bit_size": 3,
+        "enum": "ICK"
+      },
+      {
+        "name": "FCK",
+        "description": "Flash IF Clock (FCLK) Select",
+        "bit_offset": 28,
+        "bit_size": 3,
+        "enum": "FCK"
+      },
+      {
+        "name": "Reserved",
+        "description": "This bit is read as 0. The write value should be 0.",
+        "bit_offset": 31,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/SCKSCR": {
+    "description": "System Clock Source Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "CKSEL",
+        "description": "Clock Source Select",
+        "bit_offset": 0,
+        "bit_size": 3,
+        "enum": "CKSEL"
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00000. The write value should be 00000.",
+        "bit_offset": 3,
+        "bit_size": 5
+      }
+    ]
+  },
+  "fieldset/MEMWAIT": {
+    "description": "Memory Wait Cycle Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "MEMWAIT",
+        "description": "Memory Wait Cycle Select",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000. The write value should be 0000000.",
+        "bit_offset": 1,
+        "bit_size": 7
+      }
+    ]
+  },
+  "fieldset/MOSCCR": {
+    "description": "Main Clock Oscillator Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "MOSTP",
+        "description": "Main Clock Oscillator Stop",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000. The write value should be 0000000.",
+        "bit_offset": 1,
+        "bit_size": 7
+      }
+    ]
+  },
+  "fieldset/HOCOCR": {
+    "description": "High-Speed On-Chip Oscillator Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "HCSTP",
+        "description": "HOCO Stop",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000. The write value should be 0000000.",
+        "bit_offset": 1,
+        "bit_size": 7
+      }
+    ]
+  },
+  "fieldset/MOCOCR": {
+    "description": "Middle-Speed On-Chip Oscillator Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "MCSTP",
+        "description": "MOCO Stop",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000. The write value should be 0000000.",
+        "bit_offset": 1,
+        "bit_size": 7
+      }
+    ]
+  },
+  "fieldset/OSCSF": {
+    "description": "Oscillation Stabilization Flag Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "HOCOSF",
+        "description": "HOCO Clock Oscillation Stabilization FlagNOTE: The HOCOSF bit value after a reset is 1 when the OFS1.HOCOEN bit is 0. It is 0 when the OFS1.HOCOEN bit is 1.",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00.",
+        "bit_offset": 1,
+        "bit_size": 2
+      },
+      {
+        "name": "MOSCSF",
+        "description": "Main Clock Oscillation Stabilization Flag",
+        "bit_offset": 3,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000.",
+        "bit_offset": 4,
+        "bit_size": 4
+      }
+    ]
+  },
+  "fieldset/CKOCR": {
+    "description": "Clock Out Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "CKOSEL",
+        "description": "Clock out source select",
+        "bit_offset": 0,
+        "bit_size": 3,
+        "enum": "CKOSEL"
+      },
+      {
+        "name": "Reserved",
+        "description": "This bit is read as 0. The write value should be 0.",
+        "bit_offset": 3,
+        "bit_size": 1
+      },
+      {
+        "name": "CKODIV",
+        "description": "Clock out input frequency Division Select",
+        "bit_offset": 4,
+        "bit_size": 3,
+        "enum": "CKODIV"
+      },
+      {
+        "name": "CKOEN",
+        "description": "Clock out enable",
+        "bit_offset": 7,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/OSTDCR": {
+    "description": "Oscillation Stop Detection Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "OSTDIE",
+        "description": "Oscillation Stop Detection Interrupt Enable",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000000. The write value should be 000000.",
+        "bit_offset": 1,
+        "bit_size": 6
+      },
+      {
+        "name": "OSTDE",
+        "description": "Oscillation Stop Detection Function Enable",
+        "bit_offset": 7,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/OSTDSR": {
+    "description": "Oscillation Stop Detection Status Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "OSTDF",
+        "description": "Oscillation Stop Detection Flag",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000. The write value should be 0000000.",
+        "bit_offset": 1,
+        "bit_size": 7
+      }
+    ]
+  },
+  "fieldset/MOCOUTCR": {
+    "description": "MOCO User Trimming Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "MOCOUTRM",
+        "description": "MOCO User Trimming 1000_0000 : -128 1000_0001 : -127 1000_0010 : -126 . . . 1111_1111 : -1 0000_0000 : Center Code 0000_0001 : +1 . . . 0111_1101 : +125 0111_1110 : +126 0111_1111 : +127These bits are added to original MOCO trimming bits",
+        "bit_offset": 0,
+        "bit_size": 8
+      }
+    ]
+  },
+  "fieldset/HOCOUTCR": {
+    "description": "HOCO User Trimming Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "HOCOUTRM",
+        "description": "HOCO User Trimming 1000_0000 : -128 1000_0001 : -127 1000_0010 : -126 . . . 1111_1111 : -1 0000_0000 : Center Code 0000_0001 : +1 . . . 0111_1101 : +125 0111_1110 : +126 0111_1111 : +127These bits are added to original HOCO trimming bits",
+        "bit_offset": 0,
+        "bit_size": 8
+      }
+    ]
+  },
+  "fieldset/SNZCR": {
+    "description": "Snooze Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "RXDREQEN",
+        "description": "RXD0 Snooze Request Enable NOTE: Do not set to 1 other than in asynchronous mode.",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "SNZDTCEN",
+        "description": "DTC Enable in Snooze Mode",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00000. The write value should be 00000.",
+        "bit_offset": 2,
+        "bit_size": 5
+      },
+      {
+        "name": "SNZE",
+        "description": "Snooze Mode Enable",
+        "bit_offset": 7,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/SNZEDCR": {
+    "description": "Snooze End Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "AGTUNFED",
+        "description": "AGT1 underflow Snooze End Enable",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "DTCZRED",
+        "description": "Last DTC transmission completion Snooze End Enable",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "DTCNZRED",
+        "description": "Not Last DTC transmission completion Snooze End Enable",
+        "bit_offset": 2,
+        "bit_size": 1
+      },
+      {
+        "name": "AD0MATED",
+        "description": "AD compare match 0 Snooze End Enable",
+        "bit_offset": 3,
+        "bit_size": 1
+      },
+      {
+        "name": "AD0UMTED",
+        "description": "AD compare mismatch 0 Snooze End Enable",
+        "bit_offset": 4,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00. The write value should be 00.",
+        "bit_offset": 5,
+        "bit_size": 2
+      },
+      {
+        "name": "SCI0UMTED",
+        "description": "SCI0 address unmatch Snooze End EnableNote: Do not set to 1 other than in asynchronous mode.",
+        "bit_offset": 7,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/SNZREQCR": {
+    "description": "Snooze Request Control Register.",
+    "bit_size": 32,
+    "fields": [
+      {
+        "name": "SNZREQEN0",
+        "description": "Snooze Request Enable 0Enable IRQ0 pin snooze request",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "SNZREQEN1",
+        "description": "Snooze Request Enable 1Enable IRQ1 pin snooze request",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "SNZREQEN2",
+        "description": "Snooze Request Enable 2Enable IRQ2 pin snooze request",
+        "bit_offset": 2,
+        "bit_size": 1
+      },
+      {
+        "name": "SNZREQEN3",
+        "description": "Snooze Request Enable 3Enable IRQ3 pin snooze request",
+        "bit_offset": 3,
+        "bit_size": 1
+      },
+      {
+        "name": "SNZREQEN4",
+        "description": "Snooze Request Enable 4Enable IRQ4 pin snooze request",
+        "bit_offset": 4,
+        "bit_size": 1
+      },
+      {
+        "name": "SNZREQEN5",
+        "description": "Snooze Request Enable 5Enable IRQ5 pin snooze request",
+        "bit_offset": 5,
+        "bit_size": 1
+      },
+      {
+        "name": "SNZREQEN6",
+        "description": "Snooze Request Enable 6Enable IRQ6 pin snooze request",
+        "bit_offset": 6,
+        "bit_size": 1
+      },
+      {
+        "name": "SNZREQEN7",
+        "description": "Snooze Request Enable 7Enable IRQ7 pin snooze request",
+        "bit_offset": 7,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000000000. The write value should be 000000000.",
+        "bit_offset": 8,
+        "bit_size": 9
+      },
+      {
+        "name": "SNZREQEN17",
+        "description": "Snooze Request Enable 17Enable KINT snooze request",
+        "bit_offset": 17,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00000. The write value should be 00000.",
+        "bit_offset": 18,
+        "bit_size": 5
+      },
+      {
+        "name": "SNZREQEN23",
+        "description": "Snooze Request Enable 24Enable RTC alarm snooze request",
+        "bit_offset": 23,
+        "bit_size": 1
+      },
+      {
+        "name": "SNZREQEN24",
+        "description": "Snooze Request Enable 24Enable RTC alarm snooze request",
+        "bit_offset": 24,
+        "bit_size": 1
+      },
+      {
+        "name": "SNZREQEN25",
+        "description": "Snooze Request Enable 25Enable RTC period snooze request",
+        "bit_offset": 25,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00. The write value should be 00.",
+        "bit_offset": 26,
+        "bit_size": 2
+      },
+      {
+        "name": "SNZREQEN28",
+        "description": "Snooze Request Enable 28Enable AGT1 underflow snooze request",
+        "bit_offset": 28,
+        "bit_size": 1
+      },
+      {
+        "name": "SNZREQEN29",
+        "description": "Snooze Request Enable 29Enable AGT1 compare match A snooze request",
+        "bit_offset": 29,
+        "bit_size": 1
+      },
+      {
+        "name": "SNZREQEN30",
+        "description": "Snooze Request Enable 30Enable AGT1 compare match B snooze request",
+        "bit_offset": 30,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "This bit is read as 0. The write value should be 0.",
+        "bit_offset": 31,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/FLSTOP": {
+    "description": "Flash Operation Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "FLSTOP",
+        "description": "Selecting ON/OFF of the Flash Memory Operation",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000. The write value should be 000.",
+        "bit_offset": 1,
+        "bit_size": 3
+      },
+      {
+        "name": "FLSTPF",
+        "description": "Flash Memory Operation Status Flag",
+        "bit_offset": 4,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000. The write value should be 000.",
+        "bit_offset": 5,
+        "bit_size": 3
+      }
+    ]
+  },
+  "fieldset/OPCCR": {
+    "description": "Operating Power Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "OPCM",
+        "description": "Operating Power Control Mode Select",
+        "bit_offset": 0,
+        "bit_size": 2,
+        "enum": "OPCM"
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00. The write value should be 00.",
+        "bit_offset": 2,
+        "bit_size": 2
+      },
+      {
+        "name": "OPCMTSF",
+        "description": "Operating Power Control Mode Transition Status Flag",
+        "bit_offset": 4,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000. The write value should be 000.",
+        "bit_offset": 5,
+        "bit_size": 3
+      }
+    ]
+  },
+  "fieldset/MOSCWTCR": {
+    "description": "Main Clock Oscillator Wait Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "MSTS",
+        "description": "Main clock oscillator wait time setting",
+        "bit_offset": 0,
+        "bit_size": 4,
+        "enum": "MSTS"
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000. The write value should be 0000.",
+        "bit_offset": 4,
+        "bit_size": 4
+      }
+    ]
+  },
+  "fieldset/HOCOWTCR": {
+    "description": "High-Speed On-Chip Oscillator Wait Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "HSTS",
+        "description": "HOCO wait time setting",
+        "bit_offset": 0,
+        "bit_size": 3,
+        "enum": "HSTS"
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00000. The write value should be 00000.",
+        "bit_offset": 3,
+        "bit_size": 5
+      }
+    ]
+  },
+  "fieldset/SOPCCR": {
+    "description": "Sub Operating Power Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "SOPCM",
+        "description": "Sub Operating Power Control Mode Select",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000. The write value should be 000.",
+        "bit_offset": 1,
+        "bit_size": 3
+      },
+      {
+        "name": "SOPCMTSF",
+        "description": "Sub Operating Power Control Mode Transition Status Flag",
+        "bit_offset": 4,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000. The write value should be 000.",
+        "bit_offset": 5,
+        "bit_size": 3
+      }
+    ]
+  },
+  "fieldset/RSTSR1": {
+    "description": "Reset Status Register 1.",
+    "bit_size": 16,
+    "fields": [
+      {
+        "name": "IWDTRF",
+        "description": "Independent Watchdog Timer Reset Detect FlagNote: Only 0 can be written to clear the flag. The reset flag must be written as 0 after the reset flag is read as 1.",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "WDTRF",
+        "description": "Watchdog Timer Reset Detect FlagNote: Only 0 can be written to clear the flag. The reset flag must be written as 0 after the reset flag is read as 1.",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "SWRF",
+        "description": "Software Reset Detect FlagNote: Only 0 can be written to clear the flag. The reset flag must be written as 0 after the reset flag is read as 1.",
+        "bit_offset": 2,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00000. The write value should be 00000.",
+        "bit_offset": 3,
+        "bit_size": 5
+      },
+      {
+        "name": "RPERF",
+        "description": "RAM Parity Error Reset Detect FlagNote: Only 0 can be written to clear the flag. The reset flag must be written as 0 after the reset flag is read as 1.",
+        "bit_offset": 8,
+        "bit_size": 1
+      },
+      {
+        "name": "REERF",
+        "description": "RAM ECC Error Reset Detect FlagNote: Only 0 can be written to clear the flag. The reset flag must be written as 0 after the reset flag is read as 1.",
+        "bit_offset": 9,
+        "bit_size": 1
+      },
+      {
+        "name": "BUSSRF",
+        "description": "Bus Slave MPU Reset Detect FlagNote: Only 0 can be written to clear the flag. The reset flag must be written as 0 after the reset flag is read as 1.",
+        "bit_offset": 10,
+        "bit_size": 1
+      },
+      {
+        "name": "BUSMRF",
+        "description": "Bus Master MPU Reset Detect FlagNote: Only 0 can be written to clear the flag. The reset flag must be written as 0 after the reset flag is read as 1.",
+        "bit_offset": 11,
+        "bit_size": 1
+      },
+      {
+        "name": "SPERF",
+        "description": "SP Error Reset Detect FlagNote: Only 0 can be written to clear the flag. The reset flag must be written as 0 after the reset flag is read as 1.",
+        "bit_offset": 12,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000. The write value should be 000.",
+        "bit_offset": 13,
+        "bit_size": 3
+      }
+    ]
+  },
+  "fieldset/SDADCCKCR": {
+    "description": "24-bit Sigma-Delta A/D Converter Clock Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "SDADCCKSEL",
+        "description": "24-bit Sigma-Delta A/D Converter Clock Enable",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000000. The write value should be 000000.",
+        "bit_offset": 1,
+        "bit_size": 6
+      },
+      {
+        "name": "SDADCCKEN",
+        "description": "24-bit Sigma-Delta A/D Converter Clock Select",
+        "bit_offset": 7,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/LVD1CR1": {
+    "description": "Voltage Monitor 1 Circuit Control Register 1.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "IDTSEL",
+        "description": "Voltage Monitor 1 Interrupt Generation Condition Select",
+        "bit_offset": 0,
+        "bit_size": 2,
+        "enum": "IDTSEL"
+      },
+      {
+        "name": "IRQSEL",
+        "description": "Voltage Monitor 1 Interrupt Type Select",
+        "bit_offset": 2,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00000. The write value should be 00000.",
+        "bit_offset": 3,
+        "bit_size": 5
+      }
+    ]
+  },
+  "fieldset/LVD1SR": {
+    "description": "Voltage Monitor 1 Circuit Status Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "DET",
+        "description": "Voltage Monitor 1 Voltage Change Detection Flag",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "MON",
+        "description": "Voltage Monitor 1 Signal Monitor Flag",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000000. The write value should be 000000.",
+        "bit_offset": 2,
+        "bit_size": 6
+      }
+    ]
+  },
+  "fieldset/LVD2CR1": {
+    "description": "Voltage Monitor 2 Circuit Control Register 1.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "IDTSEL",
+        "description": "Voltage Monitor 2 Interrupt Generation Condition Select",
+        "bit_offset": 0,
+        "bit_size": 2,
+        "enum": "IDTSEL"
+      },
+      {
+        "name": "IRQSEL",
+        "description": "Voltage Monitor 2 Interrupt Type Select",
+        "bit_offset": 2,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00000. The write value should be 00000.",
+        "bit_offset": 3,
+        "bit_size": 5
+      }
+    ]
+  },
+  "fieldset/LVD2SR": {
+    "description": "Voltage Monitor 2 Circuit Status Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "DET",
+        "description": "Voltage Monitor 2 Voltage Change Detection Flag",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "MON",
+        "description": "Voltage Monitor 2 Signal Monitor Flag",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000000. The write value should be 000000.",
+        "bit_offset": 2,
+        "bit_size": 6
+      }
+    ]
+  },
+  "fieldset/PRCR": {
+    "description": "Protect Register.",
+    "bit_size": 16,
+    "fields": [
+      {
+        "name": "PRC0",
+        "description": "Enables writing to the registers related to the clock generation circuit.",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "PRC1",
+        "description": "Enables writing to the registers related to the operating modes, the low power consumption modes and the battery backup function.",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "This bit is read as 0. The write value should be 0.",
+        "bit_offset": 2,
+        "bit_size": 1
+      },
+      {
+        "name": "PRC3",
+        "description": "Enables writing to the registers related to the LVD.",
+        "bit_offset": 3,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000. The write value should be 0000.",
+        "bit_offset": 4,
+        "bit_size": 4
+      },
+      {
+        "name": "PRKEY",
+        "description": "PRKEY Key Code",
+        "bit_offset": 8,
+        "bit_size": 8
+      }
+    ]
+  },
+  "fieldset/SYOCDCR": {
+    "description": "System Control OCD Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000. The write value should be 0000000.",
+        "bit_offset": 0,
+        "bit_size": 7
+      },
+      {
+        "name": "DBGEN",
+        "description": "Debugger Enable",
+        "bit_offset": 7,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/RSTSR0": {
+    "description": "Reset Status Register 0.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "PORF",
+        "description": "Power-On Reset Detect FlagNote: Only 0 can be written to clear the flag. The reset flag must be written with 0 after the reset flag is read as 1.",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "LVD0RF",
+        "description": "Voltage Monitor 0 Reset Detect FlagNote: Only 0 can be written to clear the flag. The reset flag must be written with 0 after the reset flag is read as 1.",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "LVD1RF",
+        "description": "Voltage Monitor 1 Reset Detect FlagNote: Only 0 can be written to clear the flag. The reset flag must be written with 0 after the reset flag is read as 1.",
+        "bit_offset": 2,
+        "bit_size": 1
+      },
+      {
+        "name": "LVD2RF",
+        "description": "Voltage Monitor 2 Reset Detect FlagNote: Only 0 can be written to clear the flag. The reset flag must be written with 0 after the reset flag is read as 1.",
+        "bit_offset": 3,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000. The write value should be 0000.",
+        "bit_offset": 4,
+        "bit_size": 4
+      }
+    ]
+  },
+  "fieldset/RSTSR2": {
+    "description": "Reset Status Register 2.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "CWSF",
+        "description": "Cold/Warm Start Determination FlagNote: Only 1 can be written to set the flag.",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000. The write value should be 0000000.",
+        "bit_offset": 1,
+        "bit_size": 7
+      }
+    ]
+  },
+  "fieldset/MOMCR": {
+    "description": "Main Clock Oscillator Mode Oscillation Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000. The write value should be 000.",
+        "bit_offset": 0,
+        "bit_size": 3
+      },
+      {
+        "name": "MODRV1",
+        "description": "Main Clock Oscillator Drive Capability 1 Switching",
+        "bit_offset": 3,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00. The write value should be 00.",
+        "bit_offset": 4,
+        "bit_size": 2
+      },
+      {
+        "name": "MOSEL",
+        "description": "Main Clock Oscillator Switching",
+        "bit_offset": 6,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "This bit is read as 0. The write value should be 0.",
+        "bit_offset": 7,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/LVCMPCR": {
+    "description": "Voltage Monitor Circuit Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 00000. The write value should be 00000.",
+        "bit_offset": 0,
+        "bit_size": 5
+      },
+      {
+        "name": "LVD1E",
+        "description": "Voltage Detection 1 Enable",
+        "bit_offset": 5,
+        "bit_size": 1
+      },
+      {
+        "name": "LVD2E",
+        "description": "Voltage Detection 2 Enable",
+        "bit_offset": 6,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "This bit is read as 0. The write value should be 0.",
+        "bit_offset": 7,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/LVDLVLR": {
+    "description": "Voltage Detection Level Select Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "LVD1LVL",
+        "description": "Voltage Detection 1 Level Select (Standard voltage during drop in voltage)",
+        "bit_offset": 0,
+        "bit_size": 5,
+        "enum": "LVD1LVL"
+      },
+      {
+        "name": "LVD2LVL",
+        "description": "Voltage Detection 2 Level Select (Standard voltage during drop in voltage)",
+        "bit_offset": 5,
+        "bit_size": 3,
+        "enum": "LVD2LVL"
+      }
+    ]
+  },
+  "fieldset/LVD1CR0": {
+    "description": "Voltage Monitor 1 Circuit Control Register 0.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "RIE",
+        "description": "Voltage Monitor 1 Interrupt/ Reset Enable",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "This bit is read as 0. The write value should be 0.",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "CMPE",
+        "description": "Voltage Monitor 1 Circuit Comparison Result Output Enable",
+        "bit_offset": 2,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000. The write value should be 000.",
+        "bit_offset": 3,
+        "bit_size": 3
+      },
+      {
+        "name": "RI",
+        "description": "Voltage Monitor 1 Circuit Mode Select",
+        "bit_offset": 6,
+        "bit_size": 1
+      },
+      {
+        "name": "RN",
+        "description": "Voltage Monitor 1 Reset Negate Select",
+        "bit_offset": 7,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/LVD2CR0": {
+    "description": "Voltage Monitor 2 Circuit Control Register 0.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "RIE",
+        "description": "Voltage Monitor 2 Interrupt/Reset Enable",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "This bit is read as 0. The write value should be 0.",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "CMPE",
+        "description": "Voltage Monitor 2 Circuit Comparison Result Output Enable",
+        "bit_offset": 2,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000. The write value should be 000.",
+        "bit_offset": 3,
+        "bit_size": 3
+      },
+      {
+        "name": "RI",
+        "description": "Voltage Monitor 2 Circuit Mode Select",
+        "bit_offset": 6,
+        "bit_size": 1
+      },
+      {
+        "name": "RN",
+        "description": "Voltage Monitor 2 Reset Negate Select",
+        "bit_offset": 7,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/SOSCCR": {
+    "description": "Sub-clock Oscillator Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "SOSTP",
+        "description": "Sub-Clock Oscillator Stop",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000. The write value should be 0000000.",
+        "bit_offset": 1,
+        "bit_size": 7
+      }
+    ]
+  },
+  "fieldset/SOMCR": {
+    "description": "Sub-clock Oscillator Mode Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "SODRV",
+        "description": "Sub Clock Oscillator Drive Capability Switching",
+        "bit_offset": 0,
+        "bit_size": 2,
+        "enum": "SODRV"
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 000000. The write value should be 000000.",
+        "bit_offset": 2,
+        "bit_size": 6
+      }
+    ]
+  },
+  "fieldset/LOCOCR": {
+    "description": "Low-Speed On-Chip Oscillator Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "LCSTP",
+        "description": "LOCO Stop",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000. The write value should be 0000000.",
+        "bit_offset": 1,
+        "bit_size": 7
+      }
+    ]
+  },
+  "fieldset/LOCOUTCR": {
+    "description": "LOCO User Trimming Control Register.",
+    "bit_size": 8,
+    "fields": [
+      {
+        "name": "LOCOUTRM",
+        "description": "LOCO User Trimming 1000_0000 : -128 1000_0001 : -127 1000_0010 : -126 . . . 1111_1111 : -1 0000_0000 : Center Code 0000_0001 : +1 . . . 0111_1101 : +125 0111_1110 : +126 0111_1111 : +127These bits are added to original LOCO trimming bits",
+        "bit_offset": 0,
+        "bit_size": 8
+      }
+    ]
+  },
+  "enum/CKODIV": {
+    "bit_size": 3,
+    "variants": [
+      {
+        "name": "V_000",
+        "description": "/1",
+        "value": 0
+      },
+      {
+        "name": "V_001",
+        "description": "/2",
+        "value": 1
+      },
+      {
+        "name": "V_010",
+        "description": "/4",
+        "value": 2
+      },
+      {
+        "name": "V_011",
+        "description": "/8",
+        "value": 3
+      },
+      {
+        "name": "V_100",
+        "description": "/16",
+        "value": 4
+      },
+      {
+        "name": "V_101",
+        "description": "/32",
+        "value": 5
+      },
+      {
+        "name": "V_110",
+        "description": "/64",
+        "value": 6
+      },
+      {
+        "name": "V_111",
+        "description": "/128",
+        "value": 7
+      }
+    ]
+  },
+  "enum/CKOSEL": {
+    "bit_size": 3,
+    "variants": [
+      {
+        "name": "V_000",
+        "description": "HOCO",
+        "value": 0
+      },
+      {
+        "name": "V_001",
+        "description": "MOCO",
+        "value": 1
+      },
+      {
+        "name": "V_010",
+        "description": "LOCO",
+        "value": 2
+      },
+      {
+        "name": "V_011",
+        "description": "MOSC",
+        "value": 3
+      },
+      {
+        "name": "V_100",
+        "description": "SOSC",
+        "value": 4
+      }
+    ]
+  },
+  "enum/CKSEL": {
+    "bit_size": 3,
+    "variants": [
+      {
+        "name": "V_000",
+        "description": "HOCO",
+        "value": 0
+      },
+      {
+        "name": "V_001",
+        "description": "MOCO",
+        "value": 1
+      },
+      {
+        "name": "V_010",
+        "description": "LOCO",
+        "value": 2
+      },
+      {
+        "name": "V_011",
+        "description": "Main clock oscillator",
+        "value": 3
+      },
+      {
+        "name": "V_100",
+        "description": "Sub-clock oscillator",
+        "value": 4
+      }
+    ]
+  },
+  "enum/FCK": {
+    "bit_size": 3,
+    "variants": [
+      {
+        "name": "V_000",
+        "description": "/1",
+        "value": 0
+      },
+      {
+        "name": "V_001",
+        "description": "/2",
+        "value": 1
+      },
+      {
+        "name": "V_010",
+        "description": "/4",
+        "value": 2
+      },
+      {
+        "name": "V_011",
+        "description": "/8",
+        "value": 3
+      },
+      {
+        "name": "V_100",
+        "description": "/16",
+        "value": 4
+      },
+      {
+        "name": "V_101",
+        "description": "/32",
+        "value": 5
+      },
+      {
+        "name": "V_110",
+        "description": "/64",
+        "value": 6
+      }
+    ]
+  },
+  "enum/HSTS": {
+    "bit_size": 3,
+    "variants": [
+      {
+        "name": "V_101",
+        "description": "If HOCO frequency is other than 64MHz, should set the value to 101b.",
+        "value": 5
+      },
+      {
+        "name": "V_110",
+        "description": "If HOCO frequency = 64MHz, should set the value to 110b.",
+        "value": 6
+      }
+    ]
+  },
+  "enum/ICK": {
+    "bit_size": 3,
+    "variants": [
+      {
+        "name": "V_000",
+        "description": "/1",
+        "value": 0
+      },
+      {
+        "name": "V_001",
+        "description": "/2",
+        "value": 1
+      },
+      {
+        "name": "V_010",
+        "description": "/4",
+        "value": 2
+      },
+      {
+        "name": "V_011",
+        "description": "/8",
+        "value": 3
+      },
+      {
+        "name": "V_100",
+        "description": "/16",
+        "value": 4
+      },
+      {
+        "name": "V_101",
+        "description": "/32",
+        "value": 5
+      },
+      {
+        "name": "V_110",
+        "description": "/64",
+        "value": 6
+      }
+    ]
+  },
+  "enum/IDTSEL": {
+    "bit_size": 2,
+    "variants": [
+      {
+        "name": "V_00",
+        "description": "When VCC>=Vdet1 (rise) is detected",
+        "value": 0
+      },
+      {
+        "name": "V_01",
+        "description": "When VCC<Vdet1 (drop) is detected",
+        "value": 1
+      },
+      {
+        "name": "V_10",
+        "description": "When drop and rise are detected",
+        "value": 2
+      },
+      {
+        "name": "V_11",
+        "description": "Settings prohibited",
+        "value": 3
+      }
+    ]
+  },
+  "enum/LVD1LVL": {
+    "bit_size": 5,
+    "variants": [
+      {
+        "name": "V_00000",
+        "description": "4.29V(Vdet1_0)",
+        "value": 0
+      },
+      {
+        "name": "V_00001",
+        "description": "4.14V(Vdet1_1)",
+        "value": 1
+      },
+      {
+        "name": "V_00010",
+        "description": "4.02V(Vdet1_2)",
+        "value": 2
+      },
+      {
+        "name": "V_00011",
+        "description": "3.84V(Vdet1_3)",
+        "value": 3
+      },
+      {
+        "name": "V_00100",
+        "description": "3.10V(Vdet1_4)",
+        "value": 4
+      },
+      {
+        "name": "V_00101",
+        "description": "3.00V(Vdet1_5)",
+        "value": 5
+      },
+      {
+        "name": "V_00110",
+        "description": "2.90V(Vdet1_6)",
+        "value": 6
+      },
+      {
+        "name": "V_00111",
+        "description": "2.79V(Vdet1_7)",
+        "value": 7
+      },
+      {
+        "name": "V_01000",
+        "description": "2.68V(Vdet1_8)",
+        "value": 8
+      },
+      {
+        "name": "V_01001",
+        "description": "2.58V(Vdet1_9)",
+        "value": 9
+      },
+      {
+        "name": "V_01010",
+        "description": "2.48V(Vdet1_A)",
+        "value": 10
+      },
+      {
+        "name": "V_01011",
+        "description": "2.20V(Vdet1_B)",
+        "value": 11
+      },
+      {
+        "name": "V_01100",
+        "description": "1.96V(Vdet1_C)",
+        "value": 12
+      },
+      {
+        "name": "V_01101",
+        "description": "1.86V(Vdet1_D)",
+        "value": 13
+      },
+      {
+        "name": "V_01110",
+        "description": "1.75V(Vdet1_E)",
+        "value": 14
+      },
+      {
+        "name": "V_01111",
+        "description": "1.65V(Vdet1_F)",
+        "value": 15
+      }
+    ]
+  },
+  "enum/LVD2LVL": {
+    "bit_size": 3,
+    "variants": [
+      {
+        "name": "V_000",
+        "description": "4.29V(Vdet2_0)",
+        "value": 0
+      },
+      {
+        "name": "V_001",
+        "description": "4.14V(Vdet2_1)",
+        "value": 1
+      },
+      {
+        "name": "V_010",
+        "description": "4.02V(Vdet2_2)",
+        "value": 2
+      },
+      {
+        "name": "V_011",
+        "description": "3.84V(Vdet2_3)",
+        "value": 3
+      }
+    ]
+  },
+  "enum/MSTS": {
+    "bit_size": 4,
+    "variants": [
+      {
+        "name": "V_0000",
+        "description": "Wait time= 3 cycles (11.4us : calculated at LOCO=262.144KHz (3.81us TYP.))",
+        "value": 0
+      },
+      {
+        "name": "V_0001",
+        "description": "Wait time= 35 cycles (133.5us : calculated at LOCO=262.144KHz (3.81us TYP.))",
+        "value": 1
+      },
+      {
+        "name": "V_0010",
+        "description": "Wait time= 67 cycles (255.6us: calculated at LOCO=262.144KHz (3.81us TYP.))",
+        "value": 2
+      },
+      {
+        "name": "V_0011",
+        "description": "Wait time= 131 cycles (499.7us: calculated at LOCO=262.144KHz (3.81us TYP.))",
+        "value": 3
+      },
+      {
+        "name": "V_0100",
+        "description": "Wait time= 259 cycles (988.0us: calculated at LOCO=262.144KHz (3.81us TYP.))",
+        "value": 4
+      },
+      {
+        "name": "V_0101",
+        "description": "Wait time= 547 cycles (2086.6us: calculated at LOCO=262.144KHz (3.81us TYP.))",
+        "value": 5
+      },
+      {
+        "name": "V_0110",
+        "description": "Wait time= 1059 cycles (4039.8us: calculated at LOCO=262.144KHz (3.81us TYP.))",
+        "value": 6
+      },
+      {
+        "name": "V_0111",
+        "description": "Wait time= 2147 cycles (8190.2us: calculated at LOCO=262.144KHz (3.81us TYP.))",
+        "value": 7
+      },
+      {
+        "name": "V_1000",
+        "description": "Wait time= 4291 cycles (16368.9us: calculated at LOCO=262.144KHz (3.81us TYP.))",
+        "value": 8
+      },
+      {
+        "name": "V_1001",
+        "description": "Wait time= 8163 cycles (31139.4us: calculated at LOCO=262.144KHz (3.81us TYP.))",
+        "value": 9
+      }
+    ]
+  },
+  "enum/OPCM": {
+    "bit_size": 2,
+    "variants": [
+      {
+        "name": "V_00",
+        "description": "High-speed mode",
+        "value": 0
+      },
+      {
+        "name": "V_01",
+        "description": "Prohibited",
+        "value": 1
+      },
+      {
+        "name": "V_10",
+        "description": "Prohibited",
+        "value": 2
+      },
+      {
+        "name": "V_11",
+        "description": "Low-speed mode",
+        "value": 3
+      }
+    ]
+  },
+  "enum/PCKB": {
+    "bit_size": 3,
+    "variants": [
+      {
+        "name": "V_000",
+        "description": "/1",
+        "value": 0
+      },
+      {
+        "name": "V_001",
+        "description": "/2",
+        "value": 1
+      },
+      {
+        "name": "V_010",
+        "description": "/4",
+        "value": 2
+      },
+      {
+        "name": "V_011",
+        "description": "/8",
+        "value": 3
+      },
+      {
+        "name": "V_100",
+        "description": "/16",
+        "value": 4
+      },
+      {
+        "name": "V_101",
+        "description": "/32",
+        "value": 5
+      },
+      {
+        "name": "V_110",
+        "description": "/64",
+        "value": 6
+      }
+    ]
+  },
+  "enum/PCKD": {
+    "bit_size": 3,
+    "variants": [
+      {
+        "name": "V_000",
+        "description": "/1",
+        "value": 0
+      },
+      {
+        "name": "V_001",
+        "description": "/2",
+        "value": 1
+      },
+      {
+        "name": "V_010",
+        "description": "/4",
+        "value": 2
+      },
+      {
+        "name": "V_011",
+        "description": "/8",
+        "value": 3
+      },
+      {
+        "name": "V_100",
+        "description": "/16",
+        "value": 4
+      },
+      {
+        "name": "V_101",
+        "description": "/32",
+        "value": 5
+      },
+      {
+        "name": "V_110",
+        "description": "/64",
+        "value": 6
+      }
+    ]
+  },
+  "enum/SODRV": {
+    "bit_size": 2,
+    "variants": [
+      {
+        "name": "V_00",
+        "description": "Normal Mode",
+        "value": 0
+      },
+      {
+        "name": "V_01",
+        "description": "Low power mode 1",
+        "value": 1
+      },
+      {
+        "name": "V_10",
+        "description": "Low power mode 2",
+        "value": 2
+      },
+      {
+        "name": "V_11",
+        "description": "Low power mode 3",
+        "value": 3
+      }
+    ]
+  }
+}

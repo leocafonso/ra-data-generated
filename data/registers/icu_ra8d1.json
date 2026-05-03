@@ -1,0 +1,434 @@
+{
+  "block/ICU": {
+    "description": "Interrupt Controller.",
+    "items": [
+      {
+        "name": "NMIER",
+        "description": "Non-Maskable Interrupt Enable Register.",
+        "byte_offset": 256,
+        "bit_size": 16,
+        "fieldset": "NMIER"
+      },
+      {
+        "name": "NMICLR",
+        "description": "Non-Maskable Interrupt Status Clear Register.",
+        "byte_offset": 272,
+        "bit_size": 16,
+        "fieldset": "NMICLR"
+      },
+      {
+        "name": "NMISR",
+        "description": "Non-Maskable Interrupt Status Register.",
+        "byte_offset": 288,
+        "access": "Read",
+        "bit_size": 16,
+        "fieldset": "NMISR"
+      },
+      {
+        "name": "WUPEN0",
+        "description": "Wake Up Interrupt Enable Register 0.",
+        "byte_offset": 416,
+        "fieldset": "WUPEN0"
+      },
+      {
+        "name": "WUPEN1",
+        "description": "Wake Up interrupt enable register 1.",
+        "byte_offset": 420,
+        "fieldset": "WUPEN1"
+      },
+      {
+        "name": "IELSR",
+        "description": "ICU Event Link Setting Register %s.",
+        "array": {
+          "len": 96,
+          "stride": 4
+        },
+        "byte_offset": 768,
+        "fieldset": "IELSR"
+      }
+    ]
+  },
+  "fieldset/IELSR": {
+    "description": "ICU Event Link Setting Register %s.",
+    "fields": [
+      {
+        "name": "IELS",
+        "description": "Event selection to NVIC.",
+        "bit_offset": 0,
+        "bit_size": 9,
+        "enum": "IELS"
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000. The write value should be 0000000.",
+        "bit_offset": 9,
+        "bit_size": 7
+      },
+      {
+        "name": "IR",
+        "description": "Interrupt Status Flag.\n0: No interrupt request is generated.\n1: An interrupt request is generated ( \"1\" write to the IR bit is prohibited. ).\n",
+        "bit_offset": 16,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000. The write value should be 0000000.",
+        "bit_offset": 17,
+        "bit_size": 7
+      },
+      {
+        "name": "DTCE",
+        "description": "DTC Activation Enable.\n0: DTC activation is disabled.\n1: DTC activation is enabled.\n",
+        "bit_offset": 24,
+        "bit_size": 1
+      },
+      {
+        "name": "Reserved",
+        "description": "These bits are read as 0000000. The write value should be 0000000.",
+        "bit_offset": 25,
+        "bit_size": 7
+      }
+    ]
+  },
+  "fieldset/NMICLR": {
+    "description": "Non-Maskable Interrupt Status Clear Register.",
+    "bit_size": 16,
+    "fields": [
+      {
+        "name": "IWDTCLR",
+        "description": "IWDT Underflow/Refresh Error Interrupt Status Flag Clear.\n0: No effect.\n1: Clear the NMISR.IWDTST flag.\n",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "WDTCLR",
+        "description": "WDT Underflow/Refresh Error Interrupt Status Flag Clear.\n0: No effect.\n1: Clear the NMISR.WDTST flag.\n",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "PVD1CLR",
+        "description": "Voltage Monitor 1 Interrupt Status Flag Clear.\n0: No effect.\n1: Clear the NMISR.PVD1ST flag.\n",
+        "bit_offset": 2,
+        "bit_size": 1
+      },
+      {
+        "name": "PVD2CLR",
+        "description": "Voltage Monitor 2 Interrupt Status Flag Clear.\n0: No effect.\n1: Clear the NMISR.PVD2ST flag.\n",
+        "bit_offset": 3,
+        "bit_size": 1
+      },
+      {
+        "name": "OSTCLR",
+        "description": "Oscillation Stop Detection Interrupt Status Flag Clear.\n0: No effect.\n1: Clear the NMISR.OSTST flag.\n",
+        "bit_offset": 6,
+        "bit_size": 1
+      },
+      {
+        "name": "NMICLR",
+        "description": "NMI Pin Interrupt Status Flag Clear.\n0: No effect.\n1: Clear the NMISR.NMIST flag.\n",
+        "bit_offset": 7,
+        "bit_size": 1
+      },
+      {
+        "name": "BUSCLR",
+        "description": "0: No effect.\n1: Clear the NMISR.BUSST flag.\n",
+        "bit_offset": 12,
+        "bit_size": 1
+      },
+      {
+        "name": "CMCLR",
+        "description": "0: No effect.\n1: Clear the NMISR.CMST flag.\n",
+        "bit_offset": 13,
+        "bit_size": 1
+      },
+      {
+        "name": "LUCLR",
+        "description": "0: No effect.\n1: Clear the NMISR.LUST flag.\n",
+        "bit_offset": 15,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/NMIER": {
+    "description": "Non-Maskable Interrupt Enable Register.",
+    "bit_size": 16,
+    "fields": [
+      {
+        "name": "IWDTEN",
+        "description": "IWDT Underflow/Refresh Error Interrupt Enable.\n0: Disabled.\n1: Enabled.\n",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "WDTEN",
+        "description": "WDT Underflow/Refresh Error Interrupt Enable.\n0: Disabled.\n1: Enabled.\n",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "PVD1EN",
+        "description": "Voltage monitor 1 Interrupt Enable.\n0: Disabled.\n1: Enabled.\n",
+        "bit_offset": 2,
+        "bit_size": 1
+      },
+      {
+        "name": "PVD2EN",
+        "description": "Voltage monitor 2 Interrupt Enable.\n0: Disabled.\n1: Enabled.\n",
+        "bit_offset": 3,
+        "bit_size": 1
+      },
+      {
+        "name": "OSTEN",
+        "description": "Main Clock Oscillation Stop Detection Interrupt Enable.\n0: Disabled.\n1: Enabled.\n",
+        "bit_offset": 6,
+        "bit_size": 1
+      },
+      {
+        "name": "NMIEN",
+        "description": "NMI Pin Interrupt Enable.\n0: Disabled.\n1: Enabled.\n",
+        "bit_offset": 7,
+        "bit_size": 1
+      },
+      {
+        "name": "BUSEN",
+        "description": "0: Disabled.\n1: Enabled.\n",
+        "bit_offset": 12,
+        "bit_size": 1
+      },
+      {
+        "name": "CMEN",
+        "description": "0: Disabled.\n1: Enabled.\n",
+        "bit_offset": 13,
+        "bit_size": 1
+      },
+      {
+        "name": "LUEN",
+        "description": "0: Disabled.\n1: Enabled.\n",
+        "bit_offset": 15,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/NMISR": {
+    "description": "Non-Maskable Interrupt Status Register.",
+    "bit_size": 16,
+    "fields": [
+      {
+        "name": "IWDTST",
+        "description": "IWDT Underflow/Refresh Error Interrupt Status Flag.\n0: Interrupt not requested.\n1: Interrupt requested.\n",
+        "bit_offset": 0,
+        "bit_size": 1
+      },
+      {
+        "name": "WDTST",
+        "description": "WDT Underflow/Refresh Error Interrupt Status Flag.\n0: Interrupt not requested.\n1: Interrupt requested.\n",
+        "bit_offset": 1,
+        "bit_size": 1
+      },
+      {
+        "name": "PVD1ST",
+        "description": "Voltage Monitor 1 Interrupt Status Flag.\n0: Interrupt not requested.\n1: Interrupt requested.\n",
+        "bit_offset": 2,
+        "bit_size": 1
+      },
+      {
+        "name": "PVD2ST",
+        "description": "Voltage Monitor 2 Interrupt Status Flag.\n0: Interrupt not requested.\n1: Interrupt requested.\n",
+        "bit_offset": 3,
+        "bit_size": 1
+      },
+      {
+        "name": "OSTST",
+        "description": "Main Clock Oscillation Stop Detection Interrupt Status Flag.\n0: Interrupt not requested for main clock oscillation stop.\n1: Interrupt requested for main clock oscillation stop.\n",
+        "bit_offset": 6,
+        "bit_size": 1
+      },
+      {
+        "name": "NMIST",
+        "description": "NMI Pin Interrupt Status Flag.\n0: Interrupt not requested.\n1: Interrupt requested.\n",
+        "bit_offset": 7,
+        "bit_size": 1
+      },
+      {
+        "name": "BUSST",
+        "description": "Bus Error Interrupt Status Flag.\n0: Interrupt not requested.\n1: Interrupt requested.\n",
+        "bit_offset": 12,
+        "bit_size": 1
+      },
+      {
+        "name": "CMST",
+        "description": "0: Interrupt not requested.\n1: Interrupt requested.\n",
+        "bit_offset": 13,
+        "bit_size": 1
+      },
+      {
+        "name": "LUST",
+        "description": "0: Interrupt not requested.\n1: Interrupt requested.\n",
+        "bit_offset": 15,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/WUPEN0": {
+    "description": "Wake Up Interrupt Enable Register 0.",
+    "fields": [
+      {
+        "name": "IRQWUPEN",
+        "bit_offset": 0,
+        "bit_size": 16,
+        "enum": "IRQWUPEN"
+      },
+      {
+        "name": "IWDTWUPEN",
+        "description": "IWDT Interrupt Deep Sleep/Software Standby Mode Returns Enable.\n0: Deep Sleep/Software Standby Mode returns by IWDT interrupt is disabled.\n1: Deep Sleep/Software Standby Mode returns by IWDT interrupt is enabled.\n",
+        "bit_offset": 16,
+        "bit_size": 1
+      },
+      {
+        "name": "PVD1WUPEN",
+        "description": "PVD1 Interrupt Deep Sleep/Software Standby Mode Returns Enable.\n0: Deep Sleep/Software Standby Mode returns by PVD1 interrupt is disabled.\n1: Deep Sleep/Software Standby Mode returns by PVD1 interrupt is enabled.\n",
+        "bit_offset": 18,
+        "bit_size": 1
+      },
+      {
+        "name": "PVD2WUPEN",
+        "description": "PVD2 Interrupt Deep Sleep/Software Standby Mode Returns Enable.\n0: Deep Sleep/Software Standby Mode returns by PVD2 interrupt is disabled.\n1: Deep Sleep/Software Standby Mode returns by PVD2 interrupt is enabled.\n",
+        "bit_offset": 19,
+        "bit_size": 1
+      },
+      {
+        "name": "VBATTWUPEN",
+        "description": "VBATT Monitor Interrupt Deep Sleep/Software Standby Mode Returns Enable.\n0: Deep Sleep/Software Standby Mode returns by VBATT monitor interrupt is disabled.\n1: Deep Sleep/Software Standby Mode returns by VBATT monitor interrupt is enabled.\n",
+        "bit_offset": 20,
+        "bit_size": 1
+      },
+      {
+        "name": "RTCALMWUPEN",
+        "description": "RTC Alarm Interrupt Deep Sleep/Software Standby Mode Returns Enable.\n0: Deep Sleep/Software Standby Mode returns by RTC alarm interrupt is disabled.\n1: Deep Sleep/Software Standby Mode returns by RTC alarm interrupt is enabled.\n",
+        "bit_offset": 24,
+        "bit_size": 1
+      },
+      {
+        "name": "RTCPRDWUPEN",
+        "description": "RTC Period Interrupt Deep Sleep/Software Standby Mode Returns Enable.\n0: Deep Sleep/Software Standby Mode returns by RTC period interrupt is disabled.\n1: Deep Sleep/Software Standby Mode returns by RTC period interrupt is enabled.\n",
+        "bit_offset": 25,
+        "bit_size": 1
+      },
+      {
+        "name": "USBHSWUPEN",
+        "description": "USBHS Interrupt Deep Sleep/Software Standby Mode Returns Enable.\n0: Deep Sleep/Software Standby Mode returns by USBHS interrupt is disabled.\n1: Deep Sleep/Software Standby Mode returns by USBHS interrupt is enabled.\n",
+        "bit_offset": 26,
+        "bit_size": 1
+      },
+      {
+        "name": "USBFS0WUPEN",
+        "description": "USBFS Interrupt Deep Sleep/Software Standby Mode Returns Enable.\n0: Deep Sleep/Software Standby Mode returns by USBFS interrupt is disabled.\n1: Deep Sleep/Software Standby Mode returns by USBFS interrupt is enabled.\n",
+        "bit_offset": 27,
+        "bit_size": 1
+      },
+      {
+        "name": "AGT1UDWUPEN",
+        "description": "AGT1 Underflow Interrupt Deep Sleep/Software Standby Mode Returns Enable.\n0: Deep Sleep/Software Standby Mode returns by AGT1 underflow interrupt is disabled.\n1: Deep Sleep/Software Standby Mode returns by AGT1 underflow interrupt is enabled.\n",
+        "bit_offset": 28,
+        "bit_size": 1
+      },
+      {
+        "name": "AGT1CAWUPEN",
+        "description": "AGT1 Compare Match A Interrupt Deep Sleep/Software Standby Mode Returns Enable.\n0: Deep Sleep/Software Standby Mode returns by AGT1 compare match A interrupt is disabled.\n1: Deep Sleep/Software Standby Mode returns by AGT1 compare match A interrupt is enabled.\n",
+        "bit_offset": 29,
+        "bit_size": 1
+      },
+      {
+        "name": "AGT1CBWUPEN",
+        "description": "AGT1 Compare Match B Interrupt Deep Sleep/Software Standby Mode Returns Enable.\n0: Deep Sleep/Software Standby Mode returns by AGT1 compare match B interrupt is disabled.\n1: Deep Sleep/Software Standby Mode returns by AGT1 compare match B interrupt is enabled.\n",
+        "bit_offset": 30,
+        "bit_size": 1
+      },
+      {
+        "name": "IIC0WUPEN",
+        "description": "IIC0 Address Match Interrupt Deep Sleep/Software Standby Mode Returns Enable.\n0: Deep Sleep/Software Standby Mode returns by IIC0 address match A interrupt is disabled.\n1: Deep Sleep/Software Standby Mode returns by IIC0 address match A interrupt is enabled.\n",
+        "bit_offset": 31,
+        "bit_size": 1
+      }
+    ]
+  },
+  "fieldset/WUPEN1": {
+    "description": "Wake Up interrupt enable register 1.",
+    "fields": [
+      {
+        "name": "COMPHS0WUPEN",
+        "description": "Comparator-HS0 Interrupt Deep Sleep/Software Standby Mode returns Enable bit.\n0: Deep Sleep/Software Standby returns by Comparator-HS0 interrupt is disabled.\n1: Deep Sleep/Software Standby returns by ULPT0 Underflow interrupt is enabled.\n",
+        "bit_offset": 3,
+        "bit_size": 1
+      },
+      {
+        "name": "ULP0UWUPEN",
+        "description": "ULPT0 Underflow Interrupt Deep Sleep/Software Standby Mode returns Enable bit.\n0: Deep Sleep/Software Standby returns by ULPT0 interrupt is disabled.\n1: Deep Sleep/Software Standby returns by ULPT0 Underflow interrupt is enabled.\n",
+        "bit_offset": 8,
+        "bit_size": 1
+      },
+      {
+        "name": "ULP0AWUPEN",
+        "description": "ULPT0 Compare Match A Interrupt Deep Sleep/Software Standby Mode returns Enable bit.\n0: Deep Sleep/Software Standby returns by ULPT0 Compare match A interrupt is disabled.\n1: Deep Sleep/Software Standby returns by ULPT0 Compare match A interrupt is enabled.\n",
+        "bit_offset": 9,
+        "bit_size": 1
+      },
+      {
+        "name": "ULP0BWUPEN",
+        "description": "ULPT0 Compare Match B Interrupt Deep Sleep/Software Standby Mode returns Enable bit.\n0: Deep Sleep/Software Standby returns by ULPT0 Compare match B interrupt is disabled.\n1: Deep Sleep/Software Standby returns by ULPT0 Compare match B interrupt is enabled.\n",
+        "bit_offset": 10,
+        "bit_size": 1
+      },
+      {
+        "name": "I3CWUPEN",
+        "description": "I3C Wakeup Condition Detection Interrupt Deep Sleep/Software Standby Mode returns Enable bit.\n0: Deep Sleep/Software Standby returns by I3C wake up interrupt is disabled.\n1: Deep Sleep/Software Standby returns by I3C wake up interrupt is enabled.\n",
+        "bit_offset": 11,
+        "bit_size": 1
+      },
+      {
+        "name": "ULP1UWUPEN",
+        "description": "ULPT1 Underflow Interrupt Deep Sleep/Software Standby Mode returns Enable bit.\n0: Deep Sleep/Software Standby returns by ULPT1 Underflow interrupt is disabled.\n1: Deep Sleep/Software Standby returns by ULPT1 Underflow interrupt is enabled.\n",
+        "bit_offset": 12,
+        "bit_size": 1
+      },
+      {
+        "name": "ULP1AWUPEN",
+        "description": "ULPT1 Compare Match A Interrupt Deep Sleep/Software Standby Mode returns Enable bit.\n0: Deep Sleep/Software Standby returns by ULPT1 Compare match A interrupt is disabled.\n1: Deep Sleep/Software Standby returns by ULPT1 Compare match A interrupt is enabled.\n",
+        "bit_offset": 13,
+        "bit_size": 1
+      },
+      {
+        "name": "ULP1BWUPEN",
+        "description": "ULPT1 Compare Match B Interrupt Deep Sleep/Software Standby Mode returns Enable bit.\n0: Deep Sleep/Software Standby returns by ULPT1 Compare match B interrupt is disabled.\n1: Deep Sleep/Software Standby returns by ULPT1 Compare match B interrupt is enabled.\n",
+        "bit_offset": 14,
+        "bit_size": 1
+      }
+    ]
+  },
+  "enum/IRQWUPEN": {
+    "bit_size": 16,
+    "variants": [
+      {
+        "name": "V_0",
+        "description": "Deep Sleep/Software Standby Mode returns by IRQn interrupt is disabled.",
+        "value": 0
+      },
+      {
+        "name": "V_1",
+        "description": "Deep Sleep/Software Standby Mode returns by IRQn interrupt is enabled.",
+        "value": 1
+      }
+    ]
+  },
+  "enum/IELS": {
+    "bit_size": 9,
+    "variants": [
+      {
+        "name": "V_0x000",
+        "description": "Nothing is selected.",
+        "value": 0
+      }
+    ]
+  }
+}
