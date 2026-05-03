@@ -2564,6 +2564,632 @@
       "signal": "UNDERFLOW"
     }
   ],
-  "packages": [],
-  "pins": []
+  "packages": [
+    {
+      "chip": "R7FA6T2AD3CFP",
+      "package": "100LQFP",
+      "pins": [
+        {
+          "position": "28",
+          "signals": [
+            "avcc0"
+          ]
+        },
+        {
+          "position": "27",
+          "signals": [
+            "avss0"
+          ]
+        },
+        {
+          "position": "19",
+          "signals": [
+            "p000"
+          ]
+        },
+        {
+          "position": "22",
+          "signals": [
+            "p001"
+          ]
+        },
+        {
+          "position": "38",
+          "signals": [
+            "p002"
+          ]
+        },
+        {
+          "position": "94",
+          "signals": [
+            "p201"
+          ]
+        },
+        {
+          "position": "12",
+          "signals": [
+            "p212"
+          ]
+        },
+        {
+          "position": "13",
+          "signals": [
+            "p213"
+          ]
+        },
+        {
+          "position": "23",
+          "signals": [
+            "pa00"
+          ]
+        },
+        {
+          "position": "24",
+          "signals": [
+            "pa01"
+          ]
+        },
+        {
+          "position": "25",
+          "signals": [
+            "pa02"
+          ]
+        },
+        {
+          "position": "26",
+          "signals": [
+            "pa03"
+          ]
+        },
+        {
+          "position": "29",
+          "signals": [
+            "pa04"
+          ]
+        },
+        {
+          "position": "30",
+          "signals": [
+            "pa05"
+          ]
+        },
+        {
+          "position": "31",
+          "signals": [
+            "pa06"
+          ]
+        },
+        {
+          "position": "32",
+          "signals": [
+            "pa07"
+          ]
+        },
+        {
+          "position": "67",
+          "signals": [
+            "pa08"
+          ]
+        },
+        {
+          "position": "68",
+          "signals": [
+            "pa09"
+          ]
+        },
+        {
+          "position": "69",
+          "signals": [
+            "pa10"
+          ]
+        },
+        {
+          "position": "70",
+          "signals": [
+            "pa11"
+          ]
+        },
+        {
+          "position": "71",
+          "signals": [
+            "pa12"
+          ]
+        },
+        {
+          "position": "72",
+          "signals": [
+            "pa13"
+          ]
+        },
+        {
+          "position": "76",
+          "signals": [
+            "pa14"
+          ]
+        },
+        {
+          "position": "77",
+          "signals": [
+            "pa15"
+          ]
+        },
+        {
+          "position": "35",
+          "signals": [
+            "pb00"
+          ]
+        },
+        {
+          "position": "36",
+          "signals": [
+            "pb01"
+          ]
+        },
+        {
+          "position": "37",
+          "signals": [
+            "pb02"
+          ]
+        },
+        {
+          "position": "89",
+          "signals": [
+            "pb03"
+          ]
+        },
+        {
+          "position": "90",
+          "signals": [
+            "pb04"
+          ]
+        },
+        {
+          "position": "91",
+          "signals": [
+            "pb05"
+          ]
+        },
+        {
+          "position": "92",
+          "signals": [
+            "pb06"
+          ]
+        },
+        {
+          "position": "93",
+          "signals": [
+            "pb07"
+          ]
+        },
+        {
+          "position": "95",
+          "signals": [
+            "pb08"
+          ]
+        },
+        {
+          "position": "96",
+          "signals": [
+            "pb09"
+          ]
+        },
+        {
+          "position": "47",
+          "signals": [
+            "pb10"
+          ]
+        },
+        {
+          "position": "51",
+          "signals": [
+            "pb12"
+          ]
+        },
+        {
+          "position": "52",
+          "signals": [
+            "pb13"
+          ]
+        },
+        {
+          "position": "53",
+          "signals": [
+            "pb14"
+          ]
+        },
+        {
+          "position": "54",
+          "signals": [
+            "pb15"
+          ]
+        },
+        {
+          "position": "15",
+          "signals": [
+            "pc00"
+          ]
+        },
+        {
+          "position": "16",
+          "signals": [
+            "pc01"
+          ]
+        },
+        {
+          "position": "17",
+          "signals": [
+            "pc02"
+          ]
+        },
+        {
+          "position": "18",
+          "signals": [
+            "pc03"
+          ]
+        },
+        {
+          "position": "33",
+          "signals": [
+            "pc04"
+          ]
+        },
+        {
+          "position": "34",
+          "signals": [
+            "pc05"
+          ]
+        },
+        {
+          "position": "63",
+          "signals": [
+            "pc06"
+          ]
+        },
+        {
+          "position": "64",
+          "signals": [
+            "pc07"
+          ]
+        },
+        {
+          "position": "65",
+          "signals": [
+            "pc08"
+          ]
+        },
+        {
+          "position": "66",
+          "signals": [
+            "pc09"
+          ]
+        },
+        {
+          "position": "78",
+          "signals": [
+            "pc10"
+          ]
+        },
+        {
+          "position": "79",
+          "signals": [
+            "pc11"
+          ]
+        },
+        {
+          "position": "80",
+          "signals": [
+            "pc12"
+          ]
+        },
+        {
+          "position": "7",
+          "signals": [
+            "pc13"
+          ]
+        },
+        {
+          "position": "8",
+          "signals": [
+            "pc14"
+          ]
+        },
+        {
+          "position": "9",
+          "signals": [
+            "pc15"
+          ]
+        },
+        {
+          "position": "81",
+          "signals": [
+            "pd00"
+          ]
+        },
+        {
+          "position": "82",
+          "signals": [
+            "pd01"
+          ]
+        },
+        {
+          "position": "83",
+          "signals": [
+            "pd02"
+          ]
+        },
+        {
+          "position": "84",
+          "signals": [
+            "pd03"
+          ]
+        },
+        {
+          "position": "85",
+          "signals": [
+            "pd04"
+          ]
+        },
+        {
+          "position": "86",
+          "signals": [
+            "pd05"
+          ]
+        },
+        {
+          "position": "87",
+          "signals": [
+            "pd06"
+          ]
+        },
+        {
+          "position": "88",
+          "signals": [
+            "pd07"
+          ]
+        },
+        {
+          "position": "55",
+          "signals": [
+            "pd08"
+          ]
+        },
+        {
+          "position": "56",
+          "signals": [
+            "pd09"
+          ]
+        },
+        {
+          "position": "57",
+          "signals": [
+            "pd10"
+          ]
+        },
+        {
+          "position": "58",
+          "signals": [
+            "pd11"
+          ]
+        },
+        {
+          "position": "59",
+          "signals": [
+            "pd12"
+          ]
+        },
+        {
+          "position": "60",
+          "signals": [
+            "pd13"
+          ]
+        },
+        {
+          "position": "61",
+          "signals": [
+            "pd14"
+          ]
+        },
+        {
+          "position": "62",
+          "signals": [
+            "pd15"
+          ]
+        },
+        {
+          "position": "97",
+          "signals": [
+            "pe00"
+          ]
+        },
+        {
+          "position": "98",
+          "signals": [
+            "pe01"
+          ]
+        },
+        {
+          "position": "1",
+          "signals": [
+            "pe02"
+          ]
+        },
+        {
+          "position": "2",
+          "signals": [
+            "pe03"
+          ]
+        },
+        {
+          "position": "3",
+          "signals": [
+            "pe04"
+          ]
+        },
+        {
+          "position": "4",
+          "signals": [
+            "pe05"
+          ]
+        },
+        {
+          "position": "5",
+          "signals": [
+            "pe06"
+          ]
+        },
+        {
+          "position": "39",
+          "signals": [
+            "pe08"
+          ]
+        },
+        {
+          "position": "40",
+          "signals": [
+            "pe09"
+          ]
+        },
+        {
+          "position": "41",
+          "signals": [
+            "pe10"
+          ]
+        },
+        {
+          "position": "42",
+          "signals": [
+            "pe11"
+          ]
+        },
+        {
+          "position": "43",
+          "signals": [
+            "pe12"
+          ]
+        },
+        {
+          "position": "44",
+          "signals": [
+            "pe13"
+          ]
+        },
+        {
+          "position": "45",
+          "signals": [
+            "pe14"
+          ]
+        },
+        {
+          "position": "46",
+          "signals": [
+            "pe15"
+          ]
+        },
+        {
+          "position": "14",
+          "signals": [
+            "res"
+          ]
+        },
+        {
+          "position": "11",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "6",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "50",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "75",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "100",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "48",
+          "signals": [
+            "vcl"
+          ]
+        },
+        {
+          "position": "73",
+          "signals": [
+            "vcl"
+          ]
+        },
+        {
+          "position": "21",
+          "signals": [
+            "vrefh0"
+          ]
+        },
+        {
+          "position": "20",
+          "signals": [
+            "vrefl0"
+          ]
+        },
+        {
+          "position": "10",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "49",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "74",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "99",
+          "signals": [
+            "vss_fslash_porlvdmsk"
+          ]
+        }
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "name": "P000"
+    },
+    {
+      "name": "P001"
+    },
+    {
+      "name": "P002"
+    },
+    {
+      "name": "P201"
+    },
+    {
+      "name": "P212"
+    },
+    {
+      "name": "P213"
+    }
+  ]
 }

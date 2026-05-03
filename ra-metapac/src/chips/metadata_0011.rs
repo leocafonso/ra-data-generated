@@ -535,6 +535,146 @@ const EVENTS: &[Event] = &[
     },
 ];
 const PACKAGES: &[Package] = &[
+    Package {
+        name: "16HWQFN",
+        pins: &[
+            Pin {
+                position: "15",
+                signals: &[
+                    "p010",
+                ],
+            },
+            Pin {
+                position: "14",
+                signals: &[
+                    "p011",
+                ],
+            },
+            Pin {
+                position: "13",
+                signals: &[
+                    "p012",
+                ],
+            },
+            Pin {
+                position: "12",
+                signals: &[
+                    "p100",
+                ],
+            },
+            Pin {
+                position: "11",
+                signals: &[
+                    "p101",
+                ],
+            },
+            Pin {
+                position: "10",
+                signals: &[
+                    "p102",
+                ],
+            },
+            Pin {
+                position: "9",
+                signals: &[
+                    "p108",
+                ],
+            },
+            Pin {
+                position: "7",
+                signals: &[
+                    "p200",
+                ],
+            },
+            Pin {
+                position: "6",
+                signals: &[
+                    "p201",
+                ],
+            },
+            Pin {
+                position: "5",
+                signals: &[
+                    "p206",
+                ],
+            },
+            Pin {
+                position: "3",
+                signals: &[
+                    "p212",
+                ],
+            },
+            Pin {
+                position: "2",
+                signals: &[
+                    "p213",
+                ],
+            },
+            Pin {
+                position: "8",
+                signals: &[
+                    "p300",
+                ],
+            },
+            Pin {
+                position: "4",
+                signals: &[
+                    "vcc",
+                ],
+            },
+            Pin {
+                position: "16",
+                signals: &[
+                    "vcl",
+                ],
+            },
+            Pin {
+                position: "1",
+                signals: &[
+                    "vss",
+                ],
+            },
+        ],
+    },
 ];
 const PINS: &[ChipPin] = &[
+    ChipPin {
+        name: "P010",
+    },
+    ChipPin {
+        name: "P011",
+    },
+    ChipPin {
+        name: "P012",
+    },
+    ChipPin {
+        name: "P100",
+    },
+    ChipPin {
+        name: "P101",
+    },
+    ChipPin {
+        name: "P102",
+    },
+    ChipPin {
+        name: "P108",
+    },
+    ChipPin {
+        name: "P200",
+    },
+    ChipPin {
+        name: "P201",
+    },
+    ChipPin {
+        name: "P206",
+    },
+    ChipPin {
+        name: "P212",
+    },
+    ChipPin {
+        name: "P213",
+    },
+    ChipPin {
+        name: "P300",
+    },
 ];

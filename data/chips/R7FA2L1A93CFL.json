@@ -2820,6 +2820,413 @@
       "signal": "UNDERFLOW"
     }
   ],
-  "packages": [],
-  "pins": []
+  "packages": [
+    {
+      "chip": "R7FA2L1A93CFL",
+      "package": "48LQFP",
+      "pins": [
+        {
+          "position": "1",
+          "signals": [
+            "p400"
+          ]
+        },
+        {
+          "position": "2",
+          "signals": [
+            "p401"
+          ]
+        },
+        {
+          "position": "3",
+          "signals": [
+            "vcl"
+          ]
+        },
+        {
+          "position": "4",
+          "signals": [
+            "p215"
+          ]
+        },
+        {
+          "position": "5",
+          "signals": [
+            "p214"
+          ]
+        },
+        {
+          "position": "6",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "7",
+          "signals": [
+            "p213"
+          ]
+        },
+        {
+          "position": "8",
+          "signals": [
+            "p212"
+          ]
+        },
+        {
+          "position": "9",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "10",
+          "signals": [
+            "p409"
+          ]
+        },
+        {
+          "position": "11",
+          "signals": [
+            "p408"
+          ]
+        },
+        {
+          "position": "12",
+          "signals": [
+            "p407"
+          ]
+        },
+        {
+          "position": "13",
+          "signals": [
+            "vssdcdc"
+          ]
+        },
+        {
+          "position": "14",
+          "signals": [
+            "vlo"
+          ]
+        },
+        {
+          "position": "15",
+          "signals": [
+            "vccdcdc"
+          ]
+        },
+        {
+          "position": "16",
+          "signals": [
+            "p208"
+          ]
+        },
+        {
+          "position": "17",
+          "signals": [
+            "p207"
+          ]
+        },
+        {
+          "position": "18",
+          "signals": [
+            "p206"
+          ]
+        },
+        {
+          "position": "19",
+          "signals": [
+            "res"
+          ]
+        },
+        {
+          "position": "20",
+          "signals": [
+            "p201"
+          ]
+        },
+        {
+          "position": "21",
+          "signals": [
+            "p200"
+          ]
+        },
+        {
+          "position": "22",
+          "signals": [
+            "p302"
+          ]
+        },
+        {
+          "position": "23",
+          "signals": [
+            "p301"
+          ]
+        },
+        {
+          "position": "24",
+          "signals": [
+            "p300"
+          ]
+        },
+        {
+          "position": "25",
+          "signals": [
+            "p108"
+          ]
+        },
+        {
+          "position": "26",
+          "signals": [
+            "p109"
+          ]
+        },
+        {
+          "position": "27",
+          "signals": [
+            "p110"
+          ]
+        },
+        {
+          "position": "28",
+          "signals": [
+            "p111"
+          ]
+        },
+        {
+          "position": "29",
+          "signals": [
+            "p112"
+          ]
+        },
+        {
+          "position": "30",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "31",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "32",
+          "signals": [
+            "p104"
+          ]
+        },
+        {
+          "position": "33",
+          "signals": [
+            "p103"
+          ]
+        },
+        {
+          "position": "34",
+          "signals": [
+            "p102"
+          ]
+        },
+        {
+          "position": "35",
+          "signals": [
+            "p101"
+          ]
+        },
+        {
+          "position": "36",
+          "signals": [
+            "p100"
+          ]
+        },
+        {
+          "position": "37",
+          "signals": [
+            "p500"
+          ]
+        },
+        {
+          "position": "38",
+          "signals": [
+            "p015"
+          ]
+        },
+        {
+          "position": "39",
+          "signals": [
+            "p014"
+          ]
+        },
+        {
+          "position": "40",
+          "signals": [
+            "p013"
+          ]
+        },
+        {
+          "position": "41",
+          "signals": [
+            "p012"
+          ]
+        },
+        {
+          "position": "42",
+          "signals": [
+            "avcc0"
+          ]
+        },
+        {
+          "position": "43",
+          "signals": [
+            "avss0"
+          ]
+        },
+        {
+          "position": "44",
+          "signals": [
+            "p011"
+          ]
+        },
+        {
+          "position": "45",
+          "signals": [
+            "p010"
+          ]
+        },
+        {
+          "position": "46",
+          "signals": [
+            "p002"
+          ]
+        },
+        {
+          "position": "47",
+          "signals": [
+            "p001"
+          ]
+        },
+        {
+          "position": "48",
+          "signals": [
+            "p000"
+          ]
+        }
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "name": "P000"
+    },
+    {
+      "name": "P001"
+    },
+    {
+      "name": "P002"
+    },
+    {
+      "name": "P010"
+    },
+    {
+      "name": "P011"
+    },
+    {
+      "name": "P012"
+    },
+    {
+      "name": "P013"
+    },
+    {
+      "name": "P014"
+    },
+    {
+      "name": "P015"
+    },
+    {
+      "name": "P100"
+    },
+    {
+      "name": "P101"
+    },
+    {
+      "name": "P102"
+    },
+    {
+      "name": "P103"
+    },
+    {
+      "name": "P104"
+    },
+    {
+      "name": "P108"
+    },
+    {
+      "name": "P109"
+    },
+    {
+      "name": "P110"
+    },
+    {
+      "name": "P111"
+    },
+    {
+      "name": "P112"
+    },
+    {
+      "name": "P200"
+    },
+    {
+      "name": "P201"
+    },
+    {
+      "name": "P206"
+    },
+    {
+      "name": "P207"
+    },
+    {
+      "name": "P208"
+    },
+    {
+      "name": "P212"
+    },
+    {
+      "name": "P213"
+    },
+    {
+      "name": "P214"
+    },
+    {
+      "name": "P215"
+    },
+    {
+      "name": "P300"
+    },
+    {
+      "name": "P301"
+    },
+    {
+      "name": "P302"
+    },
+    {
+      "name": "P400"
+    },
+    {
+      "name": "P401"
+    },
+    {
+      "name": "P407"
+    },
+    {
+      "name": "P408"
+    },
+    {
+      "name": "P409"
+    },
+    {
+      "name": "P500"
+    }
+  ]
 }

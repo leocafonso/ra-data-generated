@@ -166,7 +166,20 @@ macro_rules! foreach_peripheral {
 #[macro_export]
 macro_rules! foreach_pin {
     ($m:path) => {
-        $m! {}
+        $m! {
+            (P100, 1, 0),
+            (P101, 1, 1),
+            (P102, 1, 2),
+            (P103, 1, 3),
+            (P108, 1, 8),
+            (P109, 1, 9),
+            (P110, 1, 10),
+            (P200, 2, 0),
+            (P201, 2, 1),
+            (P300, 3, 0),
+            (P400, 4, 0),
+            (P401, 4, 1),
+        }
     };
 }
 #[derive(Copy, Clone, Debug, PartialEq, Eq)]

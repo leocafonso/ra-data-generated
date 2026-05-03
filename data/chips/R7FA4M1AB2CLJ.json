@@ -1768,6 +1768,866 @@
       "signal": "UNDERFLOW"
     }
   ],
-  "packages": [],
-  "pins": []
+  "packages": [
+    {
+      "chip": "R7FA4M1AB2CLJ",
+      "package": "100LGA",
+      "pins": [
+        {
+          "position": "J10",
+          "signals": [
+            "p400"
+          ]
+        },
+        {
+          "position": "J9",
+          "signals": [
+            "p401"
+          ]
+        },
+        {
+          "position": "F6",
+          "signals": [
+            "p402"
+          ]
+        },
+        {
+          "position": "H10",
+          "signals": [
+            "p403"
+          ]
+        },
+        {
+          "position": "G8",
+          "signals": [
+            "p404"
+          ]
+        },
+        {
+          "position": "H9",
+          "signals": [
+            "p405"
+          ]
+        },
+        {
+          "position": "F7",
+          "signals": [
+            "p406"
+          ]
+        },
+        {
+          "position": "G9",
+          "signals": [
+            "vbat"
+          ]
+        },
+        {
+          "position": "G10",
+          "signals": [
+            "vcl"
+          ]
+        },
+        {
+          "position": "F10",
+          "signals": [
+            "p215"
+          ]
+        },
+        {
+          "position": "F9",
+          "signals": [
+            "p214"
+          ]
+        },
+        {
+          "position": "D9",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "E9",
+          "signals": [
+            "p213"
+          ]
+        },
+        {
+          "position": "E10",
+          "signals": [
+            "p212"
+          ]
+        },
+        {
+          "position": "D10",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "F8",
+          "signals": [
+            "p708"
+          ]
+        },
+        {
+          "position": "E8",
+          "signals": [
+            "p415"
+          ]
+        },
+        {
+          "position": "E7",
+          "signals": [
+            "p414"
+          ]
+        },
+        {
+          "position": "C9",
+          "signals": [
+            "p413"
+          ]
+        },
+        {
+          "position": "C10",
+          "signals": [
+            "p412"
+          ]
+        },
+        {
+          "position": "D8",
+          "signals": [
+            "p411"
+          ]
+        },
+        {
+          "position": "E6",
+          "signals": [
+            "p410"
+          ]
+        },
+        {
+          "position": "B10",
+          "signals": [
+            "p409"
+          ]
+        },
+        {
+          "position": "D7",
+          "signals": [
+            "p408"
+          ]
+        },
+        {
+          "position": "A10",
+          "signals": [
+            "p407"
+          ]
+        },
+        {
+          "position": "B8",
+          "signals": [
+            "vssusb"
+          ]
+        },
+        {
+          "position": "A9",
+          "signals": [
+            "p915"
+          ]
+        },
+        {
+          "position": "B9",
+          "signals": [
+            "p914"
+          ]
+        },
+        {
+          "position": "A8",
+          "signals": [
+            "vccusb"
+          ]
+        },
+        {
+          "position": "C8",
+          "signals": [
+            "vccusbldo"
+          ]
+        },
+        {
+          "position": "C7",
+          "signals": [
+            "p206"
+          ]
+        },
+        {
+          "position": "A7",
+          "signals": [
+            "p205"
+          ]
+        },
+        {
+          "position": "B7",
+          "signals": [
+            "p204"
+          ]
+        },
+        {
+          "position": "D6",
+          "signals": [
+            "p203"
+          ]
+        },
+        {
+          "position": "C6",
+          "signals": [
+            "p202"
+          ]
+        },
+        {
+          "position": "A6",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "B6",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "D5",
+          "signals": [
+            "res"
+          ]
+        },
+        {
+          "position": "B5",
+          "signals": [
+            "p201"
+          ]
+        },
+        {
+          "position": "A5",
+          "signals": [
+            "p200"
+          ]
+        },
+        {
+          "position": "C5",
+          "signals": [
+            "p307"
+          ]
+        },
+        {
+          "position": "D4",
+          "signals": [
+            "p306"
+          ]
+        },
+        {
+          "position": "A4",
+          "signals": [
+            "p305"
+          ]
+        },
+        {
+          "position": "B4",
+          "signals": [
+            "p304"
+          ]
+        },
+        {
+          "position": "C4",
+          "signals": [
+            "p808"
+          ]
+        },
+        {
+          "position": "A3",
+          "signals": [
+            "p809"
+          ]
+        },
+        {
+          "position": "B3",
+          "signals": [
+            "p303"
+          ]
+        },
+        {
+          "position": "B2",
+          "signals": [
+            "p302"
+          ]
+        },
+        {
+          "position": "C2",
+          "signals": [
+            "p301"
+          ]
+        },
+        {
+          "position": "A2",
+          "signals": [
+            "p300"
+          ]
+        },
+        {
+          "position": "A1",
+          "signals": [
+            "p108"
+          ]
+        },
+        {
+          "position": "B1",
+          "signals": [
+            "p109"
+          ]
+        },
+        {
+          "position": "C3",
+          "signals": [
+            "p110"
+          ]
+        },
+        {
+          "position": "D3",
+          "signals": [
+            "p111"
+          ]
+        },
+        {
+          "position": "C1",
+          "signals": [
+            "p112"
+          ]
+        },
+        {
+          "position": "E5",
+          "signals": [
+            "p113"
+          ]
+        },
+        {
+          "position": "D2",
+          "signals": [
+            "p114"
+          ]
+        },
+        {
+          "position": "E4",
+          "signals": [
+            "p115"
+          ]
+        },
+        {
+          "position": "D1",
+          "signals": [
+            "p608"
+          ]
+        },
+        {
+          "position": "E3",
+          "signals": [
+            "p609"
+          ]
+        },
+        {
+          "position": "E2",
+          "signals": [
+            "p610"
+          ]
+        },
+        {
+          "position": "E1",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "F1",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "F2",
+          "signals": [
+            "p603"
+          ]
+        },
+        {
+          "position": "F3",
+          "signals": [
+            "p602"
+          ]
+        },
+        {
+          "position": "F4",
+          "signals": [
+            "p601"
+          ]
+        },
+        {
+          "position": "F5",
+          "signals": [
+            "p600"
+          ]
+        },
+        {
+          "position": "G3",
+          "signals": [
+            "p107"
+          ]
+        },
+        {
+          "position": "G2",
+          "signals": [
+            "p106"
+          ]
+        },
+        {
+          "position": "G1",
+          "signals": [
+            "p105"
+          ]
+        },
+        {
+          "position": "H1",
+          "signals": [
+            "p104"
+          ]
+        },
+        {
+          "position": "H3",
+          "signals": [
+            "p103"
+          ]
+        },
+        {
+          "position": "J1",
+          "signals": [
+            "p102"
+          ]
+        },
+        {
+          "position": "H2",
+          "signals": [
+            "p101"
+          ]
+        },
+        {
+          "position": "H4",
+          "signals": [
+            "p100"
+          ]
+        },
+        {
+          "position": "K1",
+          "signals": [
+            "p500"
+          ]
+        },
+        {
+          "position": "J2",
+          "signals": [
+            "p501"
+          ]
+        },
+        {
+          "position": "K2",
+          "signals": [
+            "p502"
+          ]
+        },
+        {
+          "position": "G4",
+          "signals": [
+            "p503"
+          ]
+        },
+        {
+          "position": "G5",
+          "signals": [
+            "p504"
+          ]
+        },
+        {
+          "position": "G6",
+          "signals": [
+            "p505"
+          ]
+        },
+        {
+          "position": "K3",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "J3",
+          "signals": [
+            "vss"
+          ]
+        },
+        {
+          "position": "J4",
+          "signals": [
+            "p015"
+          ]
+        },
+        {
+          "position": "K4",
+          "signals": [
+            "p014"
+          ]
+        },
+        {
+          "position": "J5",
+          "signals": [
+            "p013"
+          ]
+        },
+        {
+          "position": "K5",
+          "signals": [
+            "p012"
+          ]
+        },
+        {
+          "position": "H5",
+          "signals": [
+            "avcc0"
+          ]
+        },
+        {
+          "position": "H6",
+          "signals": [
+            "avss0"
+          ]
+        },
+        {
+          "position": "J6",
+          "signals": [
+            "p011"
+          ]
+        },
+        {
+          "position": "K6",
+          "signals": [
+            "p010"
+          ]
+        },
+        {
+          "position": "J7",
+          "signals": [
+            "p008"
+          ]
+        },
+        {
+          "position": "H7",
+          "signals": [
+            "p007"
+          ]
+        },
+        {
+          "position": "G7",
+          "signals": [
+            "p006"
+          ]
+        },
+        {
+          "position": "K7",
+          "signals": [
+            "p005"
+          ]
+        },
+        {
+          "position": "J8",
+          "signals": [
+            "p004"
+          ]
+        },
+        {
+          "position": "H8",
+          "signals": [
+            "p003"
+          ]
+        },
+        {
+          "position": "K8",
+          "signals": [
+            "p002"
+          ]
+        },
+        {
+          "position": "K9",
+          "signals": [
+            "p001"
+          ]
+        },
+        {
+          "position": "K10",
+          "signals": [
+            "p000"
+          ]
+        }
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "name": "P000"
+    },
+    {
+      "name": "P001"
+    },
+    {
+      "name": "P002"
+    },
+    {
+      "name": "P003"
+    },
+    {
+      "name": "P004"
+    },
+    {
+      "name": "P005"
+    },
+    {
+      "name": "P006"
+    },
+    {
+      "name": "P007"
+    },
+    {
+      "name": "P008"
+    },
+    {
+      "name": "P010"
+    },
+    {
+      "name": "P011"
+    },
+    {
+      "name": "P012"
+    },
+    {
+      "name": "P013"
+    },
+    {
+      "name": "P014"
+    },
+    {
+      "name": "P015"
+    },
+    {
+      "name": "P100"
+    },
+    {
+      "name": "P101"
+    },
+    {
+      "name": "P102"
+    },
+    {
+      "name": "P103"
+    },
+    {
+      "name": "P104"
+    },
+    {
+      "name": "P105"
+    },
+    {
+      "name": "P106"
+    },
+    {
+      "name": "P107"
+    },
+    {
+      "name": "P108"
+    },
+    {
+      "name": "P109"
+    },
+    {
+      "name": "P110"
+    },
+    {
+      "name": "P111"
+    },
+    {
+      "name": "P112"
+    },
+    {
+      "name": "P113"
+    },
+    {
+      "name": "P114"
+    },
+    {
+      "name": "P115"
+    },
+    {
+      "name": "P200"
+    },
+    {
+      "name": "P201"
+    },
+    {
+      "name": "P202"
+    },
+    {
+      "name": "P203"
+    },
+    {
+      "name": "P204"
+    },
+    {
+      "name": "P205"
+    },
+    {
+      "name": "P206"
+    },
+    {
+      "name": "P212"
+    },
+    {
+      "name": "P213"
+    },
+    {
+      "name": "P214"
+    },
+    {
+      "name": "P215"
+    },
+    {
+      "name": "P300"
+    },
+    {
+      "name": "P301"
+    },
+    {
+      "name": "P302"
+    },
+    {
+      "name": "P303"
+    },
+    {
+      "name": "P304"
+    },
+    {
+      "name": "P305"
+    },
+    {
+      "name": "P306"
+    },
+    {
+      "name": "P307"
+    },
+    {
+      "name": "P400"
+    },
+    {
+      "name": "P401"
+    },
+    {
+      "name": "P402"
+    },
+    {
+      "name": "P403"
+    },
+    {
+      "name": "P404"
+    },
+    {
+      "name": "P405"
+    },
+    {
+      "name": "P406"
+    },
+    {
+      "name": "P407"
+    },
+    {
+      "name": "P408"
+    },
+    {
+      "name": "P409"
+    },
+    {
+      "name": "P410"
+    },
+    {
+      "name": "P411"
+    },
+    {
+      "name": "P412"
+    },
+    {
+      "name": "P413"
+    },
+    {
+      "name": "P414"
+    },
+    {
+      "name": "P415"
+    },
+    {
+      "name": "P500"
+    },
+    {
+      "name": "P501"
+    },
+    {
+      "name": "P502"
+    },
+    {
+      "name": "P503"
+    },
+    {
+      "name": "P504"
+    },
+    {
+      "name": "P505"
+    },
+    {
+      "name": "P600"
+    },
+    {
+      "name": "P601"
+    },
+    {
+      "name": "P602"
+    },
+    {
+      "name": "P603"
+    },
+    {
+      "name": "P608"
+    },
+    {
+      "name": "P609"
+    },
+    {
+      "name": "P610"
+    },
+    {
+      "name": "P708"
+    },
+    {
+      "name": "P808"
+    },
+    {
+      "name": "P809"
+    },
+    {
+      "name": "P914"
+    },
+    {
+      "name": "P915"
+    }
+  ]
 }

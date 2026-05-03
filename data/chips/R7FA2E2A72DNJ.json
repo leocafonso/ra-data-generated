@@ -1841,6 +1841,182 @@
       "signal": "UNDERFLOW"
     }
   ],
-  "packages": [],
-  "pins": []
+  "packages": [
+    {
+      "chip": "R7FA2E2A72DNJ",
+      "package": "20QFP",
+      "pins": [
+        {
+          "position": "20",
+          "signals": [
+            "p010"
+          ]
+        },
+        {
+          "position": "19",
+          "signals": [
+            "p011"
+          ]
+        },
+        {
+          "position": "18",
+          "signals": [
+            "p014"
+          ]
+        },
+        {
+          "position": "17",
+          "signals": [
+            "p100"
+          ]
+        },
+        {
+          "position": "16",
+          "signals": [
+            "p101"
+          ]
+        },
+        {
+          "position": "15",
+          "signals": [
+            "p102"
+          ]
+        },
+        {
+          "position": "14",
+          "signals": [
+            "p103"
+          ]
+        },
+        {
+          "position": "10",
+          "signals": [
+            "p108"
+          ]
+        },
+        {
+          "position": "11",
+          "signals": [
+            "p109"
+          ]
+        },
+        {
+          "position": "12",
+          "signals": [
+            "p110"
+          ]
+        },
+        {
+          "position": "13",
+          "signals": [
+            "p111"
+          ]
+        },
+        {
+          "position": "8",
+          "signals": [
+            "p200"
+          ]
+        },
+        {
+          "position": "7",
+          "signals": [
+            "p201"
+          ]
+        },
+        {
+          "position": "9",
+          "signals": [
+            "p300"
+          ]
+        },
+        {
+          "position": "1",
+          "signals": [
+            "p400"
+          ]
+        },
+        {
+          "position": "2",
+          "signals": [
+            "p401"
+          ]
+        },
+        {
+          "position": "6",
+          "signals": [
+            "res_hash"
+          ]
+        },
+        {
+          "position": "5",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "3",
+          "signals": [
+            "vcl"
+          ]
+        },
+        {
+          "position": "4",
+          "signals": [
+            "vss"
+          ]
+        }
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "name": "P010"
+    },
+    {
+      "name": "P011"
+    },
+    {
+      "name": "P014"
+    },
+    {
+      "name": "P100"
+    },
+    {
+      "name": "P101"
+    },
+    {
+      "name": "P102"
+    },
+    {
+      "name": "P103"
+    },
+    {
+      "name": "P108"
+    },
+    {
+      "name": "P109"
+    },
+    {
+      "name": "P110"
+    },
+    {
+      "name": "P111"
+    },
+    {
+      "name": "P200"
+    },
+    {
+      "name": "P201"
+    },
+    {
+      "name": "P300"
+    },
+    {
+      "name": "P400"
+    },
+    {
+      "name": "P401"
+    }
+  ]
 }

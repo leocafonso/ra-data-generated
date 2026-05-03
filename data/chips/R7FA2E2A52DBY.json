@@ -1834,6 +1834,146 @@
       "signal": "UNDERFLOW"
     }
   ],
-  "packages": [],
-  "pins": []
+  "packages": [
+    {
+      "chip": "R7FA2E2A52DBY",
+      "package": "16BGA",
+      "pins": [
+        {
+          "position": "C4",
+          "signals": [
+            "p100"
+          ]
+        },
+        {
+          "position": "B4",
+          "signals": [
+            "p101"
+          ]
+        },
+        {
+          "position": "B3",
+          "signals": [
+            "p102"
+          ]
+        },
+        {
+          "position": "A4",
+          "signals": [
+            "p103"
+          ]
+        },
+        {
+          "position": "A1",
+          "signals": [
+            "p108"
+          ]
+        },
+        {
+          "position": "A2",
+          "signals": [
+            "p109"
+          ]
+        },
+        {
+          "position": "A3",
+          "signals": [
+            "p110"
+          ]
+        },
+        {
+          "position": "B2",
+          "signals": [
+            "p200"
+          ]
+        },
+        {
+          "position": "C1",
+          "signals": [
+            "p201"
+          ]
+        },
+        {
+          "position": "B1",
+          "signals": [
+            "p300"
+          ]
+        },
+        {
+          "position": "D4",
+          "signals": [
+            "p400"
+          ]
+        },
+        {
+          "position": "D3",
+          "signals": [
+            "p401"
+          ]
+        },
+        {
+          "position": "D1",
+          "signals": [
+            "res_hash"
+          ]
+        },
+        {
+          "position": "C2",
+          "signals": [
+            "vcc"
+          ]
+        },
+        {
+          "position": "C3",
+          "signals": [
+            "vcl"
+          ]
+        },
+        {
+          "position": "D2",
+          "signals": [
+            "vss"
+          ]
+        }
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "name": "P100"
+    },
+    {
+      "name": "P101"
+    },
+    {
+      "name": "P102"
+    },
+    {
+      "name": "P103"
+    },
+    {
+      "name": "P108"
+    },
+    {
+      "name": "P109"
+    },
+    {
+      "name": "P110"
+    },
+    {
+      "name": "P200"
+    },
+    {
+      "name": "P201"
+    },
+    {
+      "name": "P300"
+    },
+    {
+      "name": "P400"
+    },
+    {
+      "name": "P401"
+    }
+  ]
 }

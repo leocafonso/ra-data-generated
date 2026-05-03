@@ -2680,6 +2680,1205 @@ const EVENTS: &[Event] = &[
     },
 ];
 const PACKAGES: &[Package] = &[
+    Package {
+        name: "144BGA",
+        pins: &[
+            Pin {
+                position: "A1",
+                signals: &[
+                    "p302",
+                ],
+            },
+            Pin {
+                position: "A10",
+                signals: &[
+                    "p206",
+                ],
+            },
+            Pin {
+                position: "A11",
+                signals: &[
+                    "usbdp",
+                ],
+            },
+            Pin {
+                position: "A12",
+                signals: &[
+                    "usbdm",
+                ],
+            },
+            Pin {
+                position: "A13",
+                signals: &[
+                    "p408",
+                ],
+            },
+            Pin {
+                position: "A2",
+                signals: &[
+                    "p303",
+                ],
+            },
+            Pin {
+                position: "A3",
+                signals: &[
+                    "p304",
+                ],
+            },
+            Pin {
+                position: "A4",
+                signals: &[
+                    "p305",
+                ],
+            },
+            Pin {
+                position: "A5",
+                signals: &[
+                    "p309",
+                ],
+            },
+            Pin {
+                position: "A6",
+                signals: &[
+                    "p200",
+                ],
+            },
+            Pin {
+                position: "A7",
+                signals: &[
+                    "p208",
+                ],
+            },
+            Pin {
+                position: "A8",
+                signals: &[
+                    "p211",
+                ],
+            },
+            Pin {
+                position: "A9",
+                signals: &[
+                    "p202",
+                ],
+            },
+            Pin {
+                position: "B1",
+                signals: &[
+                    "p300",
+                ],
+            },
+            Pin {
+                position: "B10",
+                signals: &[
+                    "p207",
+                ],
+            },
+            Pin {
+                position: "B11",
+                signals: &[
+                    "p409",
+                ],
+            },
+            Pin {
+                position: "B12",
+                signals: &[
+                    "p407",
+                ],
+            },
+            Pin {
+                position: "B13",
+                signals: &[
+                    "p410",
+                ],
+            },
+            Pin {
+                position: "B2",
+                signals: &[
+                    "p301",
+                ],
+            },
+            Pin {
+                position: "B3",
+                signals: &[
+                    "p307",
+                ],
+            },
+            Pin {
+                position: "B4",
+                signals: &[
+                    "p306",
+                ],
+            },
+            Pin {
+                position: "B5",
+                signals: &[
+                    "p311",
+                ],
+            },
+            Pin {
+                position: "B6",
+                signals: &[
+                    "p201",
+                ],
+            },
+            Pin {
+                position: "B7",
+                signals: &[
+                    "p210",
+                ],
+            },
+            Pin {
+                position: "B8",
+                signals: &[
+                    "p214",
+                ],
+            },
+            Pin {
+                position: "B9",
+                signals: &[
+                    "p204",
+                ],
+            },
+            Pin {
+                position: "C1",
+                signals: &[
+                    "p111",
+                ],
+            },
+            Pin {
+                position: "C10",
+                signals: &[
+                    "p205",
+                ],
+            },
+            Pin {
+                position: "C11",
+                signals: &[
+                    "p411",
+                ],
+            },
+            Pin {
+                position: "C12",
+                signals: &[
+                    "p413",
+                ],
+            },
+            Pin {
+                position: "C13",
+                signals: &[
+                    "p412",
+                ],
+            },
+            Pin {
+                position: "C2",
+                signals: &[
+                    "p108",
+                ],
+            },
+            Pin {
+                position: "C3",
+                signals: &[
+                    "p308",
+                ],
+            },
+            Pin {
+                position: "C4",
+                signals: &[
+                    "p312",
+                ],
+            },
+            Pin {
+                position: "C5",
+                signals: &[
+                    "p310",
+                ],
+            },
+            Pin {
+                position: "C6",
+                signals: &[
+                    "res",
+                ],
+            },
+            Pin {
+                position: "C7",
+                signals: &[
+                    "p209",
+                ],
+            },
+            Pin {
+                position: "C8",
+                signals: &[
+                    "p313",
+                ],
+            },
+            Pin {
+                position: "C9",
+                signals: &[
+                    "p203",
+                ],
+            },
+            Pin {
+                position: "D1",
+                signals: &[
+                    "p113",
+                ],
+            },
+            Pin {
+                position: "D10",
+                signals: &[
+                    "vccusb",
+                ],
+            },
+            Pin {
+                position: "D11",
+                signals: &[
+                    "p415",
+                ],
+            },
+            Pin {
+                position: "D12",
+                signals: &[
+                    "p414",
+                ],
+            },
+            Pin {
+                position: "D13",
+                signals: &[
+                    "p212",
+                ],
+            },
+            Pin {
+                position: "D2",
+                signals: &[
+                    "p109",
+                ],
+            },
+            Pin {
+                position: "D3",
+                signals: &[
+                    "p110",
+                ],
+            },
+            Pin {
+                position: "D4",
+                signals: &[
+                    "vss",
+                ],
+            },
+            Pin {
+                position: "D5",
+                signals: &[
+                    "vss",
+                ],
+            },
+            Pin {
+                position: "D6",
+                signals: &[
+                    "vcc",
+                ],
+            },
+            Pin {
+                position: "D7",
+                signals: &[
+                    "vss",
+                ],
+            },
+            Pin {
+                position: "D8",
+                signals: &[
+                    "vcc",
+                ],
+            },
+            Pin {
+                position: "D9",
+                signals: &[
+                    "vss",
+                ],
+            },
+            Pin {
+                position: "E1",
+                signals: &[
+                    "p115",
+                ],
+            },
+            Pin {
+                position: "E10",
+                signals: &[
+                    "vssusb",
+                ],
+            },
+            Pin {
+                position: "E11",
+                signals: &[
+                    "p710",
+                ],
+            },
+            Pin {
+                position: "E12",
+                signals: &[
+                    "p708",
+                ],
+            },
+            Pin {
+                position: "E13",
+                signals: &[
+                    "p213",
+                ],
+            },
+            Pin {
+                position: "E2",
+                signals: &[
+                    "p112",
+                ],
+            },
+            Pin {
+                position: "E3",
+                signals: &[
+                    "p114",
+                ],
+            },
+            Pin {
+                position: "E4",
+                signals: &[
+                    "vcc",
+                ],
+            },
+            Pin {
+                position: "F1",
+                signals: &[
+                    "p609",
+                ],
+            },
+            Pin {
+                position: "F10",
+                signals: &[
+                    "vcc",
+                ],
+            },
+            Pin {
+                position: "F11",
+                signals: &[
+                    "p712",
+                ],
+            },
+            Pin {
+                position: "F12",
+                signals: &[
+                    "p711",
+                ],
+            },
+            Pin {
+                position: "F13",
+                signals: &[
+                    "xcout",
+                ],
+            },
+            Pin {
+                position: "F2",
+                signals: &[
+                    "p612",
+                ],
+            },
+            Pin {
+                position: "F3",
+                signals: &[
+                    "p608",
+                ],
+            },
+            Pin {
+                position: "F4",
+                signals: &[
+                    "vcc",
+                ],
+            },
+            Pin {
+                position: "G1",
+                signals: &[
+                    "p611",
+                ],
+            },
+            Pin {
+                position: "G10",
+                signals: &[
+                    "vss",
+                ],
+            },
+            Pin {
+                position: "G11",
+                signals: &[
+                    "p709",
+                ],
+            },
+            Pin {
+                position: "G12",
+                signals: &[
+                    "p713",
+                ],
+            },
+            Pin {
+                position: "G13",
+                signals: &[
+                    "xcin",
+                ],
+            },
+            Pin {
+                position: "G2",
+                signals: &[
+                    "p614",
+                ],
+            },
+            Pin {
+                position: "G3",
+                signals: &[
+                    "p610",
+                ],
+            },
+            Pin {
+                position: "G4",
+                signals: &[
+                    "vss",
+                ],
+            },
+            Pin {
+                position: "H1",
+                signals: &[
+                    "p613",
+                ],
+            },
+            Pin {
+                position: "H10",
+                signals: &[
+                    "vcl0",
+                ],
+            },
+            Pin {
+                position: "H11",
+                signals: &[
+                    "p704",
+                ],
+            },
+            Pin {
+                position: "H12",
+                signals: &[
+                    "p703",
+                ],
+            },
+            Pin {
+                position: "H13",
+                signals: &[
+                    "p705",
+                ],
+            },
+            Pin {
+                position: "H2",
+                signals: &[
+                    "p604",
+                ],
+            },
+            Pin {
+                position: "H3",
+                signals: &[
+                    "p605",
+                ],
+            },
+            Pin {
+                position: "H4",
+                signals: &[
+                    "vcl",
+                ],
+            },
+            Pin {
+                position: "J1",
+                signals: &[
+                    "p602",
+                ],
+            },
+            Pin {
+                position: "J10",
+                signals: &[
+                    "vbatt",
+                ],
+            },
+            Pin {
+                position: "J11",
+                signals: &[
+                    "p701",
+                ],
+            },
+            Pin {
+                position: "J12",
+                signals: &[
+                    "p702",
+                ],
+            },
+            Pin {
+                position: "J13",
+                signals: &[
+                    "p700",
+                ],
+            },
+            Pin {
+                position: "J2",
+                signals: &[
+                    "p601",
+                ],
+            },
+            Pin {
+                position: "J3",
+                signals: &[
+                    "p603",
+                ],
+            },
+            Pin {
+                position: "J4",
+                signals: &[
+                    "vcc",
+                ],
+            },
+            Pin {
+                position: "K1",
+                signals: &[
+                    "p600",
+                ],
+            },
+            Pin {
+                position: "K10",
+                signals: &[
+                    "vcc",
+                ],
+            },
+            Pin {
+                position: "K11",
+                signals: &[
+                    "p406",
+                ],
+            },
+            Pin {
+                position: "K12",
+                signals: &[
+                    "p404",
+                ],
+            },
+            Pin {
+                position: "K13",
+                signals: &[
+                    "p405",
+                ],
+            },
+            Pin {
+                position: "K2",
+                signals: &[
+                    "p107",
+                ],
+            },
+            Pin {
+                position: "K3",
+                signals: &[
+                    "p105",
+                ],
+            },
+            Pin {
+                position: "K4",
+                signals: &[
+                    "vcc",
+                ],
+            },
+            Pin {
+                position: "K5",
+                signals: &[
+                    "vss",
+                ],
+            },
+            Pin {
+                position: "K6",
+                signals: &[
+                    "vcc",
+                ],
+            },
+            Pin {
+                position: "K7",
+                signals: &[
+                    "vss",
+                ],
+            },
+            Pin {
+                position: "K8",
+                signals: &[
+                    "p008",
+                ],
+            },
+            Pin {
+                position: "K9",
+                signals: &[
+                    "vss",
+                ],
+            },
+            Pin {
+                position: "L1",
+                signals: &[
+                    "p106",
+                ],
+            },
+            Pin {
+                position: "L10",
+                signals: &[
+                    "p005",
+                ],
+            },
+            Pin {
+                position: "L11",
+                signals: &[
+                    "p001",
+                ],
+            },
+            Pin {
+                position: "L12",
+                signals: &[
+                    "p402",
+                ],
+            },
+            Pin {
+                position: "L13",
+                signals: &[
+                    "p403",
+                ],
+            },
+            Pin {
+                position: "L2",
+                signals: &[
+                    "p104",
+                ],
+            },
+            Pin {
+                position: "L3",
+                signals: &[
+                    "p102",
+                ],
+            },
+            Pin {
+                position: "L4",
+                signals: &[
+                    "p502",
+                ],
+            },
+            Pin {
+                position: "L5",
+                signals: &[
+                    "p505",
+                ],
+            },
+            Pin {
+                position: "L6",
+                signals: &[
+                    "p503",
+                ],
+            },
+            Pin {
+                position: "L7",
+                signals: &[
+                    "avcc0",
+                ],
+            },
+            Pin {
+                position: "L8",
+                signals: &[
+                    "avss0",
+                ],
+            },
+            Pin {
+                position: "L9",
+                signals: &[
+                    "p007",
+                ],
+            },
+            Pin {
+                position: "M1",
+                signals: &[
+                    "p103",
+                ],
+            },
+            Pin {
+                position: "M10",
+                signals: &[
+                    "p004",
+                ],
+            },
+            Pin {
+                position: "M11",
+                signals: &[
+                    "p002",
+                ],
+            },
+            Pin {
+                position: "M12",
+                signals: &[
+                    "p511",
+                ],
+            },
+            Pin {
+                position: "M13",
+                signals: &[
+                    "p400",
+                ],
+            },
+            Pin {
+                position: "M2",
+                signals: &[
+                    "p101",
+                ],
+            },
+            Pin {
+                position: "M3",
+                signals: &[
+                    "p500",
+                ],
+            },
+            Pin {
+                position: "M4",
+                signals: &[
+                    "p501",
+                ],
+            },
+            Pin {
+                position: "M5",
+                signals: &[
+                    "p507",
+                ],
+            },
+            Pin {
+                position: "M6",
+                signals: &[
+                    "p014",
+                ],
+            },
+            Pin {
+                position: "M7",
+                signals: &[
+                    "vrefl",
+                ],
+            },
+            Pin {
+                position: "M8",
+                signals: &[
+                    "vrefl0",
+                ],
+            },
+            Pin {
+                position: "M9",
+                signals: &[
+                    "p009",
+                ],
+            },
+            Pin {
+                position: "N1",
+                signals: &[
+                    "p100",
+                ],
+            },
+            Pin {
+                position: "N10",
+                signals: &[
+                    "p003",
+                ],
+            },
+            Pin {
+                position: "N11",
+                signals: &[
+                    "p000",
+                ],
+            },
+            Pin {
+                position: "N12",
+                signals: &[
+                    "p512",
+                ],
+            },
+            Pin {
+                position: "N13",
+                signals: &[
+                    "p401",
+                ],
+            },
+            Pin {
+                position: "N2",
+                signals: &[
+                    "p800",
+                ],
+            },
+            Pin {
+                position: "N3",
+                signals: &[
+                    "p801",
+                ],
+            },
+            Pin {
+                position: "N4",
+                signals: &[
+                    "p504",
+                ],
+            },
+            Pin {
+                position: "N5",
+                signals: &[
+                    "p506",
+                ],
+            },
+            Pin {
+                position: "N6",
+                signals: &[
+                    "p015",
+                ],
+            },
+            Pin {
+                position: "N7",
+                signals: &[
+                    "vrefh",
+                ],
+            },
+            Pin {
+                position: "N8",
+                signals: &[
+                    "vrefh0",
+                ],
+            },
+            Pin {
+                position: "N9",
+                signals: &[
+                    "p006",
+                ],
+            },
+        ],
+    },
 ];
 const PINS: &[ChipPin] = &[
+    ChipPin {
+        name: "P000",
+    },
+    ChipPin {
+        name: "P001",
+    },
+    ChipPin {
+        name: "P002",
+    },
+    ChipPin {
+        name: "P003",
+    },
+    ChipPin {
+        name: "P004",
+    },
+    ChipPin {
+        name: "P005",
+    },
+    ChipPin {
+        name: "P006",
+    },
+    ChipPin {
+        name: "P007",
+    },
+    ChipPin {
+        name: "P008",
+    },
+    ChipPin {
+        name: "P009",
+    },
+    ChipPin {
+        name: "P014",
+    },
+    ChipPin {
+        name: "P015",
+    },
+    ChipPin {
+        name: "P100",
+    },
+    ChipPin {
+        name: "P101",
+    },
+    ChipPin {
+        name: "P102",
+    },
+    ChipPin {
+        name: "P103",
+    },
+    ChipPin {
+        name: "P104",
+    },
+    ChipPin {
+        name: "P105",
+    },
+    ChipPin {
+        name: "P106",
+    },
+    ChipPin {
+        name: "P107",
+    },
+    ChipPin {
+        name: "P108",
+    },
+    ChipPin {
+        name: "P109",
+    },
+    ChipPin {
+        name: "P110",
+    },
+    ChipPin {
+        name: "P111",
+    },
+    ChipPin {
+        name: "P112",
+    },
+    ChipPin {
+        name: "P113",
+    },
+    ChipPin {
+        name: "P114",
+    },
+    ChipPin {
+        name: "P115",
+    },
+    ChipPin {
+        name: "P200",
+    },
+    ChipPin {
+        name: "P201",
+    },
+    ChipPin {
+        name: "P202",
+    },
+    ChipPin {
+        name: "P203",
+    },
+    ChipPin {
+        name: "P204",
+    },
+    ChipPin {
+        name: "P205",
+    },
+    ChipPin {
+        name: "P206",
+    },
+    ChipPin {
+        name: "P207",
+    },
+    ChipPin {
+        name: "P208",
+    },
+    ChipPin {
+        name: "P209",
+    },
+    ChipPin {
+        name: "P210",
+    },
+    ChipPin {
+        name: "P211",
+    },
+    ChipPin {
+        name: "P212",
+    },
+    ChipPin {
+        name: "P213",
+    },
+    ChipPin {
+        name: "P214",
+    },
+    ChipPin {
+        name: "P300",
+    },
+    ChipPin {
+        name: "P301",
+    },
+    ChipPin {
+        name: "P302",
+    },
+    ChipPin {
+        name: "P303",
+    },
+    ChipPin {
+        name: "P304",
+    },
+    ChipPin {
+        name: "P305",
+    },
+    ChipPin {
+        name: "P306",
+    },
+    ChipPin {
+        name: "P307",
+    },
+    ChipPin {
+        name: "P308",
+    },
+    ChipPin {
+        name: "P309",
+    },
+    ChipPin {
+        name: "P310",
+    },
+    ChipPin {
+        name: "P311",
+    },
+    ChipPin {
+        name: "P312",
+    },
+    ChipPin {
+        name: "P313",
+    },
+    ChipPin {
+        name: "P400",
+    },
+    ChipPin {
+        name: "P401",
+    },
+    ChipPin {
+        name: "P402",
+    },
+    ChipPin {
+        name: "P403",
+    },
+    ChipPin {
+        name: "P404",
+    },
+    ChipPin {
+        name: "P405",
+    },
+    ChipPin {
+        name: "P406",
+    },
+    ChipPin {
+        name: "P407",
+    },
+    ChipPin {
+        name: "P408",
+    },
+    ChipPin {
+        name: "P409",
+    },
+    ChipPin {
+        name: "P410",
+    },
+    ChipPin {
+        name: "P411",
+    },
+    ChipPin {
+        name: "P412",
+    },
+    ChipPin {
+        name: "P413",
+    },
+    ChipPin {
+        name: "P414",
+    },
+    ChipPin {
+        name: "P415",
+    },
+    ChipPin {
+        name: "P500",
+    },
+    ChipPin {
+        name: "P501",
+    },
+    ChipPin {
+        name: "P502",
+    },
+    ChipPin {
+        name: "P503",
+    },
+    ChipPin {
+        name: "P504",
+    },
+    ChipPin {
+        name: "P505",
+    },
+    ChipPin {
+        name: "P506",
+    },
+    ChipPin {
+        name: "P507",
+    },
+    ChipPin {
+        name: "P511",
+    },
+    ChipPin {
+        name: "P512",
+    },
+    ChipPin {
+        name: "P600",
+    },
+    ChipPin {
+        name: "P601",
+    },
+    ChipPin {
+        name: "P602",
+    },
+    ChipPin {
+        name: "P603",
+    },
+    ChipPin {
+        name: "P604",
+    },
+    ChipPin {
+        name: "P605",
+    },
+    ChipPin {
+        name: "P608",
+    },
+    ChipPin {
+        name: "P609",
+    },
+    ChipPin {
+        name: "P610",
+    },
+    ChipPin {
+        name: "P611",
+    },
+    ChipPin {
+        name: "P612",
+    },
+    ChipPin {
+        name: "P613",
+    },
+    ChipPin {
+        name: "P614",
+    },
+    ChipPin {
+        name: "P700",
+    },
+    ChipPin {
+        name: "P701",
+    },
+    ChipPin {
+        name: "P702",
+    },
+    ChipPin {
+        name: "P703",
+    },
+    ChipPin {
+        name: "P704",
+    },
+    ChipPin {
+        name: "P705",
+    },
+    ChipPin {
+        name: "P708",
+    },
+    ChipPin {
+        name: "P709",
+    },
+    ChipPin {
+        name: "P710",
+    },
+    ChipPin {
+        name: "P711",
+    },
+    ChipPin {
+        name: "P712",
+    },
+    ChipPin {
+        name: "P713",
+    },
+    ChipPin {
+        name: "P800",
+    },
+    ChipPin {
+        name: "P801",
+    },
 ];

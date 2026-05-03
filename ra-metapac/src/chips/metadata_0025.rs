@@ -640,6 +640,290 @@ const EVENTS: &[Event] = &[
     },
 ];
 const PACKAGES: &[Package] = &[
+    Package {
+        name: "32LQFP",
+        pins: &[
+            Pin {
+                position: "30",
+                signals: &[
+                    "p008",
+                ],
+            },
+            Pin {
+                position: "29",
+                signals: &[
+                    "p009",
+                ],
+            },
+            Pin {
+                position: "32",
+                signals: &[
+                    "p010",
+                ],
+            },
+            Pin {
+                position: "31",
+                signals: &[
+                    "p011",
+                ],
+            },
+            Pin {
+                position: "28",
+                signals: &[
+                    "p012",
+                ],
+            },
+            Pin {
+                position: "27",
+                signals: &[
+                    "p013",
+                ],
+            },
+            Pin {
+                position: "26",
+                signals: &[
+                    "p014",
+                ],
+            },
+            Pin {
+                position: "25",
+                signals: &[
+                    "p015",
+                ],
+            },
+            Pin {
+                position: "24",
+                signals: &[
+                    "p100",
+                ],
+            },
+            Pin {
+                position: "23",
+                signals: &[
+                    "p101",
+                ],
+            },
+            Pin {
+                position: "22",
+                signals: &[
+                    "p102",
+                ],
+            },
+            Pin {
+                position: "21",
+                signals: &[
+                    "p103",
+                ],
+            },
+            Pin {
+                position: "17",
+                signals: &[
+                    "p108",
+                ],
+            },
+            Pin {
+                position: "18",
+                signals: &[
+                    "p109",
+                ],
+            },
+            Pin {
+                position: "19",
+                signals: &[
+                    "p110",
+                ],
+            },
+            Pin {
+                position: "20",
+                signals: &[
+                    "p112",
+                ],
+            },
+            Pin {
+                position: "15",
+                signals: &[
+                    "p200",
+                ],
+            },
+            Pin {
+                position: "14",
+                signals: &[
+                    "p201",
+                ],
+            },
+            Pin {
+                position: "13",
+                signals: &[
+                    "p206",
+                ],
+            },
+            Pin {
+                position: "12",
+                signals: &[
+                    "p207",
+                ],
+            },
+            Pin {
+                position: "11",
+                signals: &[
+                    "p208",
+                ],
+            },
+            Pin {
+                position: "6",
+                signals: &[
+                    "p212",
+                ],
+            },
+            Pin {
+                position: "5",
+                signals: &[
+                    "p213",
+                ],
+            },
+            Pin {
+                position: "3",
+                signals: &[
+                    "p214",
+                ],
+            },
+            Pin {
+                position: "2",
+                signals: &[
+                    "p215",
+                ],
+            },
+            Pin {
+                position: "16",
+                signals: &[
+                    "p300",
+                ],
+            },
+            Pin {
+                position: "8",
+                signals: &[
+                    "p407",
+                ],
+            },
+            Pin {
+                position: "10",
+                signals: &[
+                    "p913",
+                ],
+            },
+            Pin {
+                position: "9",
+                signals: &[
+                    "p914",
+                ],
+            },
+            Pin {
+                position: "7",
+                signals: &[
+                    "vcc",
+                ],
+            },
+            Pin {
+                position: "1",
+                signals: &[
+                    "vcl",
+                ],
+            },
+            Pin {
+                position: "4",
+                signals: &[
+                    "vss",
+                ],
+            },
+        ],
+    },
 ];
 const PINS: &[ChipPin] = &[
+    ChipPin {
+        name: "P008",
+    },
+    ChipPin {
+        name: "P009",
+    },
+    ChipPin {
+        name: "P010",
+    },
+    ChipPin {
+        name: "P011",
+    },
+    ChipPin {
+        name: "P012",
+    },
+    ChipPin {
+        name: "P013",
+    },
+    ChipPin {
+        name: "P014",
+    },
+    ChipPin {
+        name: "P015",
+    },
+    ChipPin {
+        name: "P100",
+    },
+    ChipPin {
+        name: "P101",
+    },
+    ChipPin {
+        name: "P102",
+    },
+    ChipPin {
+        name: "P103",
+    },
+    ChipPin {
+        name: "P108",
+    },
+    ChipPin {
+        name: "P109",
+    },
+    ChipPin {
+        name: "P110",
+    },
+    ChipPin {
+        name: "P112",
+    },
+    ChipPin {
+        name: "P200",
+    },
+    ChipPin {
+        name: "P201",
+    },
+    ChipPin {
+        name: "P206",
+    },
+    ChipPin {
+        name: "P207",
+    },
+    ChipPin {
+        name: "P208",
+    },
+    ChipPin {
+        name: "P212",
+    },
+    ChipPin {
+        name: "P213",
+    },
+    ChipPin {
+        name: "P214",
+    },
+    ChipPin {
+        name: "P215",
+    },
+    ChipPin {
+        name: "P300",
+    },
+    ChipPin {
+        name: "P407",
+    },
+    ChipPin {
+        name: "P913",
+    },
+    ChipPin {
+        name: "P914",
+    },
 ];
